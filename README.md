@@ -1,12 +1,9 @@
 ## Overview
-- This implementatin provides an LLM app that leverages [Langroid](https://github.com/langroid/langroid/tree/main) to build the LLM agent and its corresponding tool.
+- This repo provides a repair pipline for Alloy models using pre-trained LLMs. This pipeline comprises 2-agents and leverages [Langroid](https://github.com/langroid/langroid/tree/main).
 
 - The tool implemented as a python class and is called `AlloyAnalzerAgent`. It does several tasks like running the proposed Alloy specification, send back the feedback to `GPT`, recording bug/fix pairs, etc...
 
-- The main system message that provides the instruction to `GPT` is assigned to the variable `sys_instructions`. Therefore, the main thing that we need to keep tune is **sys_instructions**. This message will be updated later on by inserting bug/fix pairs that `GPT` shouldn't repeat. See the variable `repair_history_msg`.
-
-- If there any modifications to be made, they in general should be under the implemntation of the tool `AlloyAnalzerAgent`, specifically, the function `run_alloy_analyzer`, which orchestrates all the logic.
-
+- This repo provides the artifacts of our empirical study using the implemented pipeline. 
 
 ## Set up poetry env
 
