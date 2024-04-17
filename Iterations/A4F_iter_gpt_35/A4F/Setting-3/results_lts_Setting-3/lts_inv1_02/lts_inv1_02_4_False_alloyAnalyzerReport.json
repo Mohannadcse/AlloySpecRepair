@@ -1,0 +1,5 @@
+{
+  "counterexamples": [],
+  "instances": [],
+  "error": "Warning Line 1 column 88 in /Users/admin0513-27/Downloads/automated_spec_repair-main-7/the specification:\nThis variable is unused."
+}

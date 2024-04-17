@@ -1,0 +1,5 @@
+{
+  "counterexamples": [],
+  "instances": [],
+  "error": "Warning Line 29 column 12 in /Users/admin0513-27/Downloads/automated_spec_repair-main-7/the specification:\n& is irrelevant because the two subexpressions are always disjoint.\nLeft type = {this/Student}\nRight type = {this/Teacher} Warning Line 41 column 17 in /Users/admin0513-27/Downloads/automated_spec_repair-main-7/the specification:\n== is redundant, because the left and right expressions are always disjoint.\nLeft type = {this/Class}\nRight type = {this/Teacher}"
+}

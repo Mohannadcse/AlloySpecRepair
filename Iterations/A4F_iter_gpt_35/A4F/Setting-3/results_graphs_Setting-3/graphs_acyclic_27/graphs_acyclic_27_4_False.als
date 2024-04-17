@@ -1,0 +1,1 @@
+sig Node { adj : set Node } pred undirected { adj = ~adj } pred oriented { no adj & ~adj }

@@ -1,0 +1,11 @@
+{
+  "counterexamples": [
+    {
+      "cntr_cmd": "Check completeRepaired expect 0",
+      "counterexample": "Yes",
+      "counterexample_msg": "Counterexample found which means that Check completeRepaired expect 0 assertion is invalid\nthis/Node={Node$0}\nthis/Node.adj={Node$0->Node$0}\n"
+    }
+  ],
+  "instances": [],
+  "error": ""
+}

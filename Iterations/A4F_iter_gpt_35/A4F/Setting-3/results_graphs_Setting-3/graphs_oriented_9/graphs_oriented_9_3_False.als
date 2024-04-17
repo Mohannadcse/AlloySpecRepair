@@ -1,0 +1,1 @@
+sig Node { adj : set Node } pred oriented { all x, y : Node | (x in ^adj.y) and (y in ^adj.x) } pred repair_pred_1 { oriented[] iff oriented[] }

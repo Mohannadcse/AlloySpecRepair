@@ -1,0 +1,1 @@
+pred inv11_fixed { all c : Class | (some c.Groups) implies some t : Teacher | t in Teaches.c }

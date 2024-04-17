@@ -1,0 +1,1 @@
+sig Node { adj: set Node } pred oriented { adj = ~adj } pred acyclic { all a:Node | a not in a.^adj }

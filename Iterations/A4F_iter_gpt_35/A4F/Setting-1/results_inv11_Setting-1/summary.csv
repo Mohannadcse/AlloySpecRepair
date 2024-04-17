@@ -1,0 +1,388 @@
+fileName,iterations,fixed,repeated_fixes,repeated_init_spec,fst_iter_repeated_init_spec,wrong_format_msg,analyzer_agent_tokens,analyzer_agent_cost,prompt_agent_tokens,prompt_agent_cost,running_time,Error_msg
+classroom_inv11_93,6,reached_max_iter,0,0,False,4,17793,0.0228,0,0.0,51.9
+classroom_inv11_87,6,reached_max_iter,0,0,False,6,29762,0.0352,0,0.0,65.53
+classroom_inv11_215,6,reached_max_iter,0,0,False,6,30150,0.0358,0,0.0,62.71
+classroom_inv11_78,6,reached_max_iter,0,0,False,6,29994,0.0355,0,0.0,59.95
+classroom_inv11_201,6,reached_max_iter,0,0,False,6,25041,0.0292,0,0.0,44.5
+classroom_inv11_229,6,reached_max_iter,0,0,False,6,29816,0.0353,0,0.0,61.78
+classroom_inv11_50,6,reached_max_iter,0,0,False,5,25028,0.0305,0,0.0,63.68
+classroom_inv11_44,6,reached_max_iter,0,0,False,6,29960,0.0355,0,0.0,78.65
+classroom_inv11_188,6,reached_max_iter,0,0,False,5,22114,0.0265,0,0.0,48.2
+classroom_inv11_163,6,reached_max_iter,0,0,False,6,29960,0.0355,0,0.0,58.76
+classroom_inv11_177,6,reached_max_iter,0,0,False,6,30258,0.0359,0,0.0,64.13
+classroom_inv11_176,6,reached_max_iter,0,0,False,0,12592,0.0153,0,0.0,28.52
+classroom_inv11_162,6,reached_max_iter,0,0,False,6,29920,0.0354,0,0.0,61.51
+classroom_inv11_189,6,reached_max_iter,0,0,False,3,15261,0.0198,0,0.0,46.9
+classroom_inv11_45,6,reached_max_iter,0,0,False,0,15281,0.0206,0,0.0,56.21
+classroom_inv11_228,6,reached_max_iter,0,0,False,3,18727,0.0246,0,0.0,67.5
+classroom_inv11_51,6,reached_max_iter,0,0,False,4,19092,0.0237,0,0.0,52.62
+classroom_inv11_79,6,reached_max_iter,0,0,False,6,30144,0.0357,0,0.0,65.31
+classroom_inv11_200,6,reached_max_iter,0,0,False,5,20424,0.0252,0,0.0,50.55
+classroom_inv11_214,6,reached_max_iter,0,0,False,5,24949,0.0303,0,0.0,64.51
+classroom_inv11_86,6,reached_max_iter,0,0,False,2,16036,0.0213,0,0.0,50.67
+classroom_inv11_92,6,reached_max_iter,0,0,False,5,25425,0.0314,0,0.0,61.42
+classroom_inv11_84,6,reached_max_iter,0,0,False,6,29810,0.0353,0,0.0,57.51
+classroom_inv11_90,6,reached_max_iter,0,0,False,5,19733,0.0237,0,0.0,41.14
+classroom_inv11_202,6,reached_max_iter,0,0,False,6,29906,0.0354,0,0.0,58.22
+classroom_inv11_216,6,reached_max_iter,0,0,False,6,29834,0.0353,0,0.0,56.86
+classroom_inv11_47,6,reached_max_iter,0,0,False,0,17844,0.0258,0,0.0,76.84
+classroom_inv11_53,6,reached_max_iter,0,0,False,5,25944,0.0321,0,0.0,64.04
+classroom_inv11_174,6,reached_max_iter,0,0,False,6,25023,0.0292,0,0.0,53.19
+classroom_inv11_160,6,reached_max_iter,0,0,False,6,30086,0.0356,0,0.0,62.39
+classroom_inv11_148,6,reached_max_iter,0,0,False,0,17847,0.0258,0,0.0,89.31
+classroom_inv11_149,6,reached_max_iter,0,0,False,6,29649,0.0351,0,0.0,71.0
+classroom_inv11_161,6,reached_max_iter,0,0,False,6,29918,0.0354,0,0.0,76.78
+classroom_inv11_175,6,reached_max_iter,0,0,False,6,27980,0.0325,0,0.0,60.82
+classroom_inv11_52,6,reached_max_iter,0,0,False,6,29866,0.0354,0,0.0,71.29
+classroom_inv11_46,6,reached_max_iter,0,0,False,6,29956,0.0355,0,0.0,70.49
+classroom_inv11_217,6,reached_max_iter,0,0,False,1,15059,0.0202,0,0.0,65.78
+classroom_inv11_203,6,reached_max_iter,0,0,False,0,16605,0.0233,0,0.0,77.33
+classroom_inv11_91,6,reached_max_iter,0,0,False,5,20594,0.0242,0,0.0,41.31
+classroom_inv11_85,6,reached_max_iter,0,0,False,5,24427,0.0293,0,0.0,56.57
+classroom_inv11_81,6,reached_max_iter,0,0,False,4,18642,0.0244,0,0.0,61.54
+classroom_inv11_95,6,reached_max_iter,0,0,False,5,25159,0.0307,0,0.0,69.14
+classroom_inv11_42,6,reached_max_iter,0,0,False,6,29960,0.0355,0,0.0,67.86
+classroom_inv11_56,6,reached_max_iter,0,0,False,6,17916,0.02,0,0.0,30.47
+classroom_inv11_207,6,reached_max_iter,0,0,False,0,15338,0.0209,0,0.0,62.91
+classroom_inv11_213,6,reached_max_iter,0,0,False,5,20902,0.0261,0,0.0,61.21
+classroom_inv11_159,6,reached_max_iter,0,0,False,6,29834,0.0353,0,0.0,68.01
+classroom_inv11_171,6,reached_max_iter,0,0,False,4,22278,0.0289,0,0.0,72.87
+classroom_inv11_165,6,reached_max_iter,0,0,False,5,25462,0.0314,0,0.0,89.69
+classroom_inv11_164,6,reached_max_iter,0,0,False,4,18757,0.0233,0,0.0,48.61
+classroom_inv11_170,6,reached_max_iter,0,0,False,6,29543,0.0349,0,0.0,65.41
+classroom_inv11_158,6,reached_max_iter,0,0,False,2,14986,0.0194,0,0.0,42.01
+classroom_inv11_212,6,reached_max_iter,0,0,False,5,25691,0.0317,0,0.0,62.46
+classroom_inv11_206,6,reached_max_iter,0,0,False,3,16637,0.0224,0,0.0,52.27
+classroom_inv11_57,6,reached_max_iter,0,0,False,6,26070,0.03,0,0.0,40.1
+classroom_inv11_43,6,reached_max_iter,0,0,False,3,22027,0.0283,0,0.0,63.69
+classroom_inv11_94,6,reached_max_iter,0,0,False,3,14743,0.0187,0,0.0,44.03
+classroom_inv11_80,6,reached_max_iter,0,0,False,6,27704,0.0321,0,0.0,52.81
+classroom_inv11_96,6,reached_max_iter,0,0,False,5,24872,0.0301,0,0.0,69.28
+classroom_inv11_82,6,reached_max_iter,0,0,False,6,30252,0.0359,0,0.0,73.46
+classroom_inv11_55,6,reached_max_iter,0,0,False,5,24302,0.0291,0,0.0,75.83
+classroom_inv11_238,6,reached_max_iter,0,0,False,4,19628,0.0245,0,0.0,59.16
+classroom_inv11_41,6,reached_max_iter,0,0,False,3,20080,0.0289,0,0.0,104.87
+classroom_inv11_41.als,6,Error_finally_section,0,0,False,3,20080,0.0289,0,0.0,NA,"Error in OpenAIGPT.chat: 
+Original error: peer closed connection without sending complete message body (incomplete chunked read)
+Traceback:
+Traceback (most recent call last):
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/httpx/_transports/default.py"", line 69, in map_httpcore_exceptions
+    yield
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/httpx/_transports/default.py"", line 113, in __iter__
+    for part in self._httpcore_stream:
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/httpcore/_sync/connection_pool.py"", line 367, in __iter__
+    raise exc from None
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/httpcore/_sync/connection_pool.py"", line 363, in __iter__
+    for part in self._stream:
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/httpcore/_sync/http11.py"", line 349, in __iter__
+    raise exc
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/httpcore/_sync/http11.py"", line 341, in __iter__
+    for chunk in self._connection._receive_response_body(**kwargs):
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/httpcore/_sync/http11.py"", line 210, in _receive_response_body
+    event = self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/httpcore/_sync/http11.py"", line 220, in _receive_event
+    with map_exceptions({h11.RemoteProtocolError: RemoteProtocolError}):
+  File ""/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/contextlib.py"", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/httpcore/_exceptions.py"", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.RemoteProtocolError: peer closed connection without sending complete message body (incomplete chunked read)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/langroid/language_models/openai_gpt.py"", line 1020, in chat
+    return self._chat(messages, max_tokens, functions, function_call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/langroid/language_models/openai_gpt.py"", line 1264, in _chat
+    llm_response, openai_response = self._stream_response(response, chat=True)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/langroid/language_models/utils.py"", line 79, in wrapper
+    raise e
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/langroid/language_models/utils.py"", line 44, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/langroid/language_models/openai_gpt.py"", line 656, in _stream_response
+    for event in response:
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/openai/_streaming.py"", line 46, in __iter__
+    for item in self._iterator:
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/openai/_streaming.py"", line 61, in __stream__
+    for sse in iterator:
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/openai/_streaming.py"", line 53, in _iter_events
+    yield from self._decoder.iter(self.response.iter_lines())
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/openai/_streaming.py"", line 287, in iter
+    for line in iterator:
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/httpx/_models.py"", line 861, in iter_lines
+    for text in self.iter_text():
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/httpx/_models.py"", line 848, in iter_text
+    for byte_content in self.iter_bytes():
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/httpx/_models.py"", line 829, in iter_bytes
+    for raw_bytes in self.iter_raw():
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/httpx/_models.py"", line 883, in iter_raw
+    for raw_stream_bytes in self.stream:
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/httpx/_client.py"", line 126, in __iter__
+    for chunk in self._stream:
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/httpx/_transports/default.py"", line 112, in __iter__
+    with map_httpcore_exceptions():
+  File ""/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/contextlib.py"", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/httpx/_transports/default.py"", line 86, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.RemoteProtocolError: peer closed connection without sending complete message body (incomplete chunked read)
+"
+classroom_inv11_69,6,reached_max_iter,0,0,False,6,29549,0.0349,0,0.0,61.38
+classroom_inv11_210,6,reached_max_iter,0,0,False,2,17600,0.0244,0,0.0,102.82
+classroom_inv11_204,6,reached_max_iter,0,0,False,4,24076,0.0302,0,0.0,76.0
+classroom_inv11_199,6,reached_max_iter,0,0,False,1,16055,0.0222,0,0.0,67.29
+classroom_inv11_8,6,reached_max_iter,0,0,False,0,16635,0.0233,0,0.0,86.11
+classroom_inv11_166,6,reached_max_iter,0,0,False,6,29944,0.0355,0,0.0,65.99
+classroom_inv11_172,6,reached_max_iter,0,0,False,5,20851,0.026,0,0.0,62.32
+classroom_inv11_172.als,6,Error_finally_section,0,0,False,5,20851,0.026,0,0.0,NA,"Error in OpenAIGPT.chat: 
+Original error: peer closed connection without sending complete message body (incomplete chunked read)
+Traceback:
+Traceback (most recent call last):
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/httpx/_transports/default.py"", line 69, in map_httpcore_exceptions
+    yield
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/httpx/_transports/default.py"", line 113, in __iter__
+    for part in self._httpcore_stream:
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/httpcore/_sync/connection_pool.py"", line 367, in __iter__
+    raise exc from None
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/httpcore/_sync/connection_pool.py"", line 363, in __iter__
+    for part in self._stream:
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/httpcore/_sync/http11.py"", line 349, in __iter__
+    raise exc
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/httpcore/_sync/http11.py"", line 341, in __iter__
+    for chunk in self._connection._receive_response_body(**kwargs):
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/httpcore/_sync/http11.py"", line 210, in _receive_response_body
+    event = self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/httpcore/_sync/http11.py"", line 220, in _receive_event
+    with map_exceptions({h11.RemoteProtocolError: RemoteProtocolError}):
+  File ""/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/contextlib.py"", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/httpcore/_exceptions.py"", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.RemoteProtocolError: peer closed connection without sending complete message body (incomplete chunked read)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/langroid/language_models/openai_gpt.py"", line 1020, in chat
+    return self._chat(messages, max_tokens, functions, function_call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/langroid/language_models/openai_gpt.py"", line 1264, in _chat
+    llm_response, openai_response = self._stream_response(response, chat=True)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/langroid/language_models/utils.py"", line 79, in wrapper
+    raise e
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/langroid/language_models/utils.py"", line 44, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/langroid/language_models/openai_gpt.py"", line 656, in _stream_response
+    for event in response:
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/openai/_streaming.py"", line 46, in __iter__
+    for item in self._iterator:
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/openai/_streaming.py"", line 61, in __stream__
+    for sse in iterator:
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/openai/_streaming.py"", line 53, in _iter_events
+    yield from self._decoder.iter(self.response.iter_lines())
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/openai/_streaming.py"", line 287, in iter
+    for line in iterator:
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/httpx/_models.py"", line 861, in iter_lines
+    for text in self.iter_text():
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/httpx/_models.py"", line 848, in iter_text
+    for byte_content in self.iter_bytes():
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/httpx/_models.py"", line 829, in iter_bytes
+    for raw_bytes in self.iter_raw():
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/httpx/_models.py"", line 883, in iter_raw
+    for raw_stream_bytes in self.stream:
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/httpx/_client.py"", line 126, in __iter__
+    for chunk in self._stream:
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/httpx/_transports/default.py"", line 112, in __iter__
+    with map_httpcore_exceptions():
+  File ""/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/contextlib.py"", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/httpx/_transports/default.py"", line 86, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.RemoteProtocolError: peer closed connection without sending complete message body (incomplete chunked read)
+"
+classroom_inv11_173,6,reached_max_iter,0,0,False,6,29936,0.0354,0,0.0,77.3
+classroom_inv11_167,6,reached_max_iter,0,0,False,6,30332,0.036,0,0.0,66.04
+classroom_inv11_9,6,reached_max_iter,0,0,False,1,16654,0.0233,0,0.0,78.03
+classroom_inv11_198,6,reached_max_iter,0,0,False,6,36291,0.0436,0,0.0,99.83
+classroom_inv11_205,6,reached_max_iter,0,0,False,5,24570,0.0297,0,0.0,64.98
+classroom_inv11_68,6,reached_max_iter,0,0,False,6,29846,0.0353,0,0.0,67.88
+classroom_inv11_211,6,reached_max_iter,0,0,False,0,15081,0.0203,0,0.0,52.97
+classroom_inv11_239,6,reached_max_iter,0,0,False,6,25137,0.0293,0,0.0,47.31
+classroom_inv11_40,6,reached_max_iter,0,0,False,6,29847,0.0353,0,0.0,63.31
+classroom_inv11_54,6,reached_max_iter,0,0,False,5,22481,0.0271,0,0.0,49.53
+classroom_inv11_83,6,reached_max_iter,0,0,False,6,29882,0.0354,0,0.0,67.62
+classroom_inv11_97,6,reached_max_iter,0,0,False,6,25007,0.0291,0,0.0,51.58
+classroom_inv11_33,6,reached_max_iter,0,0,False,2,16169,0.0205,0,0.0,57.09
+classroom_inv11_27,6,reached_max_iter,0,0,False,5,24695,0.0298,0,0.0,66.97
+classroom_inv11_100,6,reached_max_iter,0,0,False,5,21943,0.0262,0,0.0,46.58
+classroom_inv11_114,6,reached_max_iter,0,0,False,3,18964,0.0257,0,0.0,68.97
+classroom_inv11_128,6,reached_max_iter,0,0,False,4,20354,0.0261,0,0.0,60.88
+classroom_inv11_129,6,reached_max_iter,0,0,False,4,21537,0.0273,0,0.0,58.69
+classroom_inv11_115,6,reached_max_iter,0,0,False,0,15776,0.0217,0,0.0,57.55
+classroom_inv11_101,6,reached_max_iter,0,0,False,4,22226,0.0288,0,0.0,70.04
+classroom_inv11_26,6,reached_max_iter,0,0,False,1,17307,0.0239,0,0.0,67.12
+classroom_inv11_32,6,reached_max_iter,0,0,False,0,15675,0.0215,0,0.0,59.03
+classroom_inv11_18,6,reached_max_iter,0,0,False,6,29899,0.0354,0,0.0,62.81
+classroom_inv11_24,6,reached_max_iter,0,0,False,3,17616,0.0231,0,0.0,58.65
+classroom_inv11_249,6,reached_max_iter,0,0,False,6,29417,0.0348,0,0.0,60.07
+classroom_inv11_30,6,reached_max_iter,0,0,False,6,29673,0.0351,0,0.0,54.46
+classroom_inv11_117,6,reached_max_iter,0,0,False,2,17423,0.024,0,0.0,62.21
+classroom_inv11_103,6,reached_max_iter,0,0,False,6,27872,0.0324,0,0.0,42.87
+classroom_inv11_102,6,reached_max_iter,0,0,False,5,24366,0.0292,0,0.0,50.39
+classroom_inv11_116,6,reached_max_iter,0,0,False,5,25169,0.0307,0,0.0,55.2
+classroom_inv11_248,6,reached_max_iter,0,0,False,6,29846,0.0353,0,0.0,56.39
+classroom_inv11_31,6,reached_max_iter,0,0,False,6,30028,0.0356,0,0.0,60.65
+classroom_inv11_25,6,reached_max_iter,0,0,False,6,29780,0.0353,0,0.0,62.06
+classroom_inv11_19,6,reached_max_iter,0,0,False,4,21160,0.0266,0,0.0,58.53
+classroom_inv11_21,6,reached_max_iter,0,0,False,6,26750,0.0307,0,0.0,47.62
+classroom_inv11_35,6,reached_max_iter,0,0,False,6,30008,0.0355,0,0.0,60.65
+classroom_inv11_112,6,reached_max_iter,0,0,False,5,25649,0.0317,0,0.0,71.36
+classroom_inv11_106,6,reached_max_iter,0,0,False,3,16109,0.02,0,0.0,42.03
+classroom_inv11_107,6,reached_max_iter,0,0,False,5,25315,0.0309,0,0.0,62.59
+classroom_inv11_113,6,reached_max_iter,0,0,False,5,24510,0.0295,0,0.0,58.9
+classroom_inv11_34,6,reached_max_iter,0,0,False,6,30058,0.0356,0,0.0,67.31
+classroom_inv11_20,6,reached_max_iter,0,0,False,5,20325,0.025,0,0.0,49.53
+classroom_inv11_36,6,reached_max_iter,0,0,False,5,25674,0.0317,0,0.0,66.01
+classroom_inv11_22,6,reached_max_iter,0,0,False,6,29815,0.0353,0,0.0,65.4
+classroom_inv11_139,6,reached_max_iter,0,0,False,5,24546,0.0294,0,0.0,55.56
+classroom_inv11_105,6,reached_max_iter,0,0,False,1,15351,0.0199,0,0.0,56.66
+classroom_inv11_111,6,reached_max_iter,0,0,False,6,29848,0.0354,0,0.0,60.35
+classroom_inv11_110,6,reached_max_iter,0,0,False,4,20390,0.0262,0,0.0,58.14
+classroom_inv11_104,6,reached_max_iter,0,0,False,5,21090,0.0263,0,0.0,61.33
+classroom_inv11_138,6,reached_max_iter,0,0,False,0,17020,0.0242,0,0.0,82.75
+classroom_inv11_23,6,reached_max_iter,0,0,False,6,29876,0.0354,0,0.0,64.5
+classroom_inv11_37,6,reached_max_iter,0,0,False,6,28022,0.0325,0,0.0,46.3
+classroom_inv11_243,6,reached_max_iter,0,0,False,5,25586,0.0316,0,0.0,63.1
+classroom_inv11_12,6,reached_max_iter,0,0,False,1,14262,0.0186,0,0.0,43.06
+classroom_inv11_121,6,reached_max_iter,0,0,False,4,18088,0.0233,0,0.0,63.56
+classroom_inv11_135,6,reached_max_iter,0,0,False,5,22072,0.0276,0,0.0,67.69
+classroom_inv11_109,6,reached_max_iter,0,0,False,6,30036,0.0356,0,0.0,65.85
+classroom_inv11_108,6,reached_max_iter,0,0,False,3,17728,0.0226,0,0.0,57.2
+classroom_inv11_134,6,reached_max_iter,0,0,False,4,22410,0.0291,0,0.0,78.05
+classroom_inv11_120,6,reached_max_iter,0,0,False,3,19773,0.0268,0,0.0,70.0
+classroom_inv11_13,6,reached_max_iter,0,0,False,6,29804,0.0353,0,0.0,57.86
+classroom_inv11_242,6,reached_max_iter,0,0,False,2,15796,0.0207,0,0.0,47.01
+classroom_inv11_39,6,reached_max_iter,0,0,False,4,21037,0.0264,0,0.0,56.01
+classroom_inv11_240,6,reached_max_iter,0,0,False,6,30088,0.0356,0,0.0,71.73
+classroom_inv11_11,6,reached_max_iter,0,0,False,4,21145,0.0266,0,0.0,69.02
+classroom_inv11_136,6,reached_max_iter,0,0,False,4,18508,0.0242,0,0.0,58.47
+classroom_inv11_122,6,reached_max_iter,0,0,False,5,24430,0.0293,0,0.0,56.82
+classroom_inv11_123,6,reached_max_iter,0,0,False,4,21462,0.0272,0,0.0,69.71
+classroom_inv11_137,6,reached_max_iter,0,0,False,3,15644,0.0205,0,0.0,56.11
+classroom_inv11_10,6,reached_max_iter,0,0,False,6,30489,0.0362,0,0.0,72.7
+classroom_inv11_38,6,reached_max_iter,0,0,False,5,22300,0.0279,0,0.0,63.91
+classroom_inv11_241,6,reached_max_iter,0,0,False,6,36345,0.0437,0,0.0,91.74
+classroom_inv11_14,6,reached_max_iter,0,0,False,6,29816,0.0353,0,0.0,63.9
+classroom_inv11_245,6,reached_max_iter,0,0,False,4,17519,0.0227,0,0.0,61.68
+classroom_inv11_28,6,reached_max_iter,0,0,False,6,30402,0.0361,0,0.0,67.86
+classroom_inv11_133,6,reached_max_iter,0,0,False,6,29866,0.0354,0,0.0,66.43
+classroom_inv11_127,6,reached_max_iter,0,0,False,6,29924,0.0354,0,0.0,68.65
+classroom_inv11_126,6,reached_max_iter,0,0,False,0,16554,0.0233,0,0.0,85.21
+classroom_inv11_132,6,reached_max_iter,0,0,False,6,29948,0.0354,0,0.0,66.97
+classroom_inv11_29,6,reached_max_iter,0,0,False,6,28004,0.0325,0,0.0,56.02
+classroom_inv11_244,6,reached_max_iter,0,0,False,6,29351,0.0347,0,0.0,64.91
+classroom_inv11_15,6,reached_max_iter,0,0,False,6,29738,0.0352,0,0.0,66.25
+classroom_inv11_17,6,reached_max_iter,0,0,False,5,21737,0.0258,0,0.0,49.57
+classroom_inv11_246,6,reached_max_iter,0,0,False,6,29768,0.0353,0,0.0,64.39
+classroom_inv11_118,6,reached_max_iter,0,0,False,2,17919,0.0251,0,0.0,73.66
+classroom_inv11_124,6,reached_max_iter,0,0,False,1,16440,0.023,0,0.0,67.17
+classroom_inv11_130,6,reached_max_iter,0,0,False,6,27878,0.0324,0,0.0,53.83
+classroom_inv11_131,6,reached_max_iter,0,0,False,6,29970,0.0355,0,0.0,67.41
+classroom_inv11_125,6,reached_max_iter,0,0,False,6,29483,0.0349,0,0.0,61.41
+classroom_inv11_119,6,reached_max_iter,0,0,False,6,29852,0.0353,0,0.0,63.72
+classroom_inv11_247,6,reached_max_iter,0,0,False,4,19728,0.0248,0,0.0,61.38
+classroom_inv11_16,6,reached_max_iter,0,0,False,6,29756,0.0352,0,0.0,64.17
+classroom_inv11_234,6,reached_max_iter,0,0,False,5,25616,0.0317,0,0.0,74.79
+classroom_inv11_59,6,reached_max_iter,0,0,False,5,22144,0.0276,0,0.0,72.64
+classroom_inv11_220,6,reached_max_iter,0,0,False,6,29902,0.0354,0,0.0,75.17
+classroom_inv11_208,6,reached_max_iter,0,0,False,5,20882,0.0247,0,0.0,44.13
+classroom_inv11_71,6,reached_max_iter,0,0,False,6,30016,0.0355,0,0.0,58.19
+classroom_inv11_65,6,reached_max_iter,0,0,False,3,16672,0.0212,0,0.0,49.77
+classroom_inv11_181,6,reached_max_iter,0,0,False,0,16401,0.0229,0,0.0,62.05
+classroom_inv11_195,6,reached_max_iter,0,0,False,6,29864,0.0353,0,0.0,57.54
+classroom_inv11_142,6,reached_max_iter,0,0,False,0,15607,0.0213,0,0.0,54.7
+classroom_inv11_156,6,reached_max_iter,0,0,False,1,16014,0.0221,0,0.0,59.77
+classroom_inv11_4,6,reached_max_iter,0,0,False,5,20850,0.0259,0,0.0,51.32
+classroom_inv11_5,6,reached_max_iter,0,0,False,6,29685,0.0351,0,0.0,57.43
+classroom_inv11_157,6,reached_max_iter,0,0,False,6,29950,0.0355,0,0.0,57.36
+classroom_inv11_143,6,reached_max_iter,0,0,False,5,22187,0.0271,0,0.0,51.66
+classroom_inv11_194,6,reached_max_iter,0,0,False,6,29822,0.0353,0,0.0,57.7
+classroom_inv11_180,6,reached_max_iter,0,0,False,4,19172,0.0245,0,0.0,54.72
+classroom_inv11_64,6,reached_max_iter,0,0,False,6,29942,0.0354,0,0.0,57.85
+classroom_inv11_209,6,reached_max_iter,0,0,False,6,29822,0.0353,0,0.0,55.94
+classroom_inv11_70,6,reached_max_iter,0,0,False,6,29884,0.0354,0,0.0,57.25
+classroom_inv11_58,6,reached_max_iter,0,0,False,0,16974,0.024,0,0.0,66.4
+classroom_inv11_221,6,reached_max_iter,0,0,False,0,16707,0.0235,0,0.0,163.31
+classroom_inv11_235,6,reached_max_iter,0,0,False,6,29948,0.0354,0,0.0,59.03
+classroom_inv11_99,6,reached_max_iter,0,0,False,5,22154,0.0277,0,0.0,52.38
+classroom_inv11_223,6,reached_max_iter,0,0,False,4,18789,0.0233,0,0.0,45.52
+classroom_inv11_237,6,reached_max_iter,0,0,False,6,29984,0.0355,0,0.0,57.12
+classroom_inv11_66,6,reached_max_iter,0,0,False,6,29800,0.0353,0,0.0,56.8
+classroom_inv11_72,6,reached_max_iter,0,0,False,6,25442,0.0291,0,0.0,38.06
+classroom_inv11_196,6,reached_max_iter,0,0,False,4,20315,0.0249,0,0.0,45.4
+classroom_inv11_182,6,reached_max_iter,0,0,False,1,17682,0.0255,0,0.0,80.4
+classroom_inv11_155,6,reached_max_iter,0,0,False,6,29986,0.0355,0,0.0,73.26
+classroom_inv11_7,6,reached_max_iter,0,0,False,5,24495,0.0294,0,0.0,64.74
+classroom_inv11_141,6,reached_max_iter,0,0,False,0,17569,0.0252,0,0.0,99.46
+classroom_inv11_169,6,reached_max_iter,0,0,False,4,19418,0.0246,0,0.0,66.8
+classroom_inv11_168,6,reached_max_iter,0,0,False,2,17741,0.0246,0,0.0,86.28
+classroom_inv11_140,6,reached_max_iter,0,0,False,5,21858,0.0259,0,0.0,54.5
+classroom_inv11_6,6,reached_max_iter,0,0,False,6,29924,0.0354,0,0.0,72.88
+classroom_inv11_154,6,reached_max_iter,0,0,False,6,24981,0.0291,0,0.0,53.04
+classroom_inv11_183,6,reached_max_iter,0,0,False,6,30384,0.036,0,0.0,72.02
+classroom_inv11_197,6,reached_max_iter,0,0,False,6,30306,0.0359,0,0.0,75.23
+classroom_inv11_73,6,reached_max_iter,0,0,False,5,25507,0.0314,0,0.0,80.63
+classroom_inv11_67,6,reached_max_iter,0,0,False,0,18031,0.0263,0,0.0,105.52
+classroom_inv11_236,6,reached_max_iter,0,0,False,5,20794,0.0259,0,0.0,67.63
+classroom_inv11_222,6,reached_max_iter,0,0,False,6,29840,0.0353,0,0.0,72.47
+classroom_inv11_98,6,reached_max_iter,0,0,False,6,29786,0.0353,0,0.0,71.82
+classroom_inv11_88,6,reached_max_iter,0,0,False,4,19810,0.0255,0,0.0,70.67
+classroom_inv11_63,6,reached_max_iter,0,0,False,4,20627,0.0255,0,0.0,62.6
+classroom_inv11_77,6,reached_max_iter,0,0,False,4,21948,0.0281,0,0.0,77.57
+classroom_inv11_226,6,reached_max_iter,0,0,False,0,16304,0.0228,0,0.0,78.48
+classroom_inv11_232,6,reached_max_iter,0,0,False,3,18025,0.0233,0,0.0,67.79
+classroom_inv11_193,6,reached_max_iter,0,0,False,5,24520,0.0296,0,0.0,63.69
+classroom_inv11_187,6,reached_max_iter,0,0,False,6,29974,0.0355,0,0.0,71.63
+classroom_inv11_178,6,reached_max_iter,0,0,False,6,27680,0.0321,0,0.0,54.2
+classroom_inv11_2,6,reached_max_iter,0,0,False,6,26256,0.0303,0,0.0,56.64
+classroom_inv11_150,6,reached_max_iter,0,0,False,2,16620,0.0233,0,0.0,90.19
+classroom_inv11_144,6,reached_max_iter,0,0,False,2,18638,0.0264,0,0.0,97.51
+classroom_inv11_145,6,reached_max_iter,0,0,False,6,29864,0.0353,0,0.0,75.76
+classroom_inv11_151,6,reached_max_iter,0,0,False,1,16335,0.0228,0,0.0,84.93
+classroom_inv11_3,6,reached_max_iter,0,0,False,0,18040,0.0262,0,0.0,111.28
+classroom_inv11_179,6,reached_max_iter,0,0,False,1,18547,0.0263,0,0.0,105.49
+classroom_inv11_186,6,reached_max_iter,0,0,False,6,29507,0.0349,0,0.0,73.03
+classroom_inv11_192,6,reached_max_iter,0,0,False,4,17606,0.0223,0,0.0,61.63
+classroom_inv11_233,6,reached_max_iter,0,0,False,6,24741,0.0288,0,0.0,54.24
+classroom_inv11_227,6,reached_max_iter,0,0,False,1,16726,0.0236,0,0.0,77.52
+classroom_inv11_76,6,reached_max_iter,0,0,False,6,29948,0.0354,0,0.0,59.4
+classroom_inv11_62,6,reached_max_iter,0,0,False,5,24784,0.03,0,0.0,69.95
+classroom_inv11_89,6,reached_max_iter,0,0,False,4,20336,0.025,0,0.0,61.34
+classroom_inv11_74,6,reached_max_iter,0,0,False,4,19432,0.0242,0,0.0,64.42
+classroom_inv11_219,6,reached_max_iter,0,0,False,6,29996,0.0355,0,0.0,64.15
+classroom_inv11_60,6,reached_max_iter,0,0,False,6,25107,0.0293,0,0.0,43.12
+classroom_inv11_48,6,reached_max_iter,0,0,False,2,16773,0.0228,0,0.0,58.48
+classroom_inv11_231,6,reached_max_iter,0,0,False,5,24541,0.0294,0,0.0,50.86
+classroom_inv11_225,6,reached_max_iter,0,0,False,5,25602,0.0316,0,0.0,62.82
+classroom_inv11_184,6,reached_max_iter,0,0,False,4,20578,0.0265,0,0.0,60.2
+classroom_inv11_190,6,reached_max_iter,0,0,False,6,29864,0.0353,0,0.0,55.16
+classroom_inv11_147,6,reached_max_iter,0,0,False,6,27920,0.0324,0,0.0,48.1
+classroom_inv11_1,6,reached_max_iter,0,0,False,5,25802,0.0319,0,0.0,80.66
+classroom_inv11_153,6,reached_max_iter,0,0,False,6,24618,0.0286,0,0.0,55.88
+classroom_inv11_152,6,reached_max_iter,0,0,False,6,29850,0.0353,0,0.0,72.24
+classroom_inv11_146,6,reached_max_iter,0,0,False,6,27920,0.0324,0,0.0,60.95
+classroom_inv11_191,6,reached_max_iter,0,0,False,6,29780,0.0352,0,0.0,73.08
+classroom_inv11_185,6,reached_max_iter,0,0,False,1,14732,0.0196,0,0.0,68.4
+classroom_inv11_224,6,reached_max_iter,0,0,False,6,29906,0.0354,0,0.0,75.12
+classroom_inv11_49,6,reached_max_iter,0,0,False,0,15557,0.0214,0,0.0,76.29
+classroom_inv11_230,6,reached_max_iter,0,0,False,6,30360,0.036,0,0.0,79.44
+classroom_inv11_218,6,reached_max_iter,0,0,False,5,24975,0.0301,0,0.0,66.95
+classroom_inv11_61,6,reached_max_iter,0,0,False,6,25107,0.0293,0,0.0,56.96
+classroom_inv11_75,6,reached_max_iter,0,0,False,6,29978,0.0355,0,0.0,74.27

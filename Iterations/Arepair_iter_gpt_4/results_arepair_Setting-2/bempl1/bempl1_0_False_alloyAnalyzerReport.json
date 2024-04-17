@@ -1,0 +1,17 @@
+{
+  "counterexamples": [
+    {
+      "cntr_cmd": "Check repair_assert_1",
+      "counterexample": "Yes",
+      "counterexample_msg": "Counterexample found which means that Check repair_assert_1 assertion is invalid\nthis/secure_lab={secure_lab$0}\nthis/Room={secure_lab$0, Room$0}\nthis/Employee={Employee$0}\nthis/Researcher={Researcher$0, Researcher$1}\nthis/Person={Researcher$0, Researcher$1, Employee$0}\nthis/Person.owns={Researcher$0->Key$1, Researcher$1->Key$0, Researcher$1->Key$2, Employee$0->Key$1, Employee$0->Key$2}\nthis/Key={Key$0, Key$1, Key$2}\nthis/Key.authorized={Key$0->Employee$0, Key$1->Employee$0, Key$2->Employee$0}\nthis/Key.opened_by={Key$0->Room$0, Key$1->Room$0, Key$2->secure_lab$0}\n"
+    }
+  ],
+  "instances": [
+    {
+      "instance_cmd": "Run repair_pred_1",
+      "instances": "Yes",
+      "instance_msg": "Instance found which means that the specification is consistent"
+    }
+  ],
+  "error": ""
+}

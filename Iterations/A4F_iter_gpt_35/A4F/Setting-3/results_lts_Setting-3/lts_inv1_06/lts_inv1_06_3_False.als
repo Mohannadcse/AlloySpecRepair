@@ -1,0 +1,1 @@
+pred inv1 {} pred inv1_OK { all s: State | some s.trans } pred repair_pred_1 { inv1[] iff inv1_OK[] } run repair_pred_1

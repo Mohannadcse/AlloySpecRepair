@@ -1,0 +1,1 @@
+sig State { trans : Event -> State } sig Init in State {} sig Event {} pred inv5_OK { all s:State, s1:State | s.trans = s1.trans }

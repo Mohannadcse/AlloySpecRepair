@@ -1,0 +1,1 @@
+sig Node { adj: set Node } pred undirected { no adj & ~adj } pred undirectedOK { all n: Node | all m: Node | (n in m.adj) <=> (m in n.adj) }

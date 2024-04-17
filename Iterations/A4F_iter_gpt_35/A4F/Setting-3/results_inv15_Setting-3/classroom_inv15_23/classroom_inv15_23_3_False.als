@@ -1,0 +1,1 @@
+pred inv15_OK { all p:Person | p.Tutors in Teacher } assert repair_assert_1 { inv15[] iff inv15_OK[] }

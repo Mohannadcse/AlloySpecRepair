@@ -1,0 +1,1 @@
+sig Node { adj : set Node } pred weaklyConnected { all n1,n2:Node | n1!=n2 implies n1->n2 in adj } pred repair_pred_1 { weaklyConnected[] iff weaklyConnectedOK[] }

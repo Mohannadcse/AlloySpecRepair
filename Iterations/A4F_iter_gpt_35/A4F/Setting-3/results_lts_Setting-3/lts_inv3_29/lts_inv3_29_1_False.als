@@ -1,0 +1,1 @@
+sig State { trans : Event -> State } sig Init in State {} sig Event {} pred inv4 { let tr = { s1, s2 : State, e : Event | s1->e->s2 in trans } | State in Init.^tr } pred inv7 { let tr = { s1, s2 : State, e : Event | s1->e->s2 in trans } | all s : Init.^tr | some i : Init | i in s.^tr }

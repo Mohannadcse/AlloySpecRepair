@@ -1,0 +1,1 @@
+sig State { trans : Event -> State } sig Init in State {} sig Event {} pred inv7_OK { let tr = { s1, s2 : State, e : Event | some s1.trans[e] = s2 } | all s : Init.^tr | some i : Init | i in s.^tr } assert repair_assert_1 { inv7[] iff inv7_OK[] }

@@ -1,0 +1,1 @@
+sig Node { adj : set Node } pred noLoops { no ~adj.adj }

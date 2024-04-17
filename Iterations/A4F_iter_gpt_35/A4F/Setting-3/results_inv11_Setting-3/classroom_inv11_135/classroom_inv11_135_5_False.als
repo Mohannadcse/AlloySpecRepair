@@ -1,0 +1,1 @@
+pred inv11 { all c:Class | some t:Teacher | t in c.Groups.Group }

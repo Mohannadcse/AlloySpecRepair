@@ -1,0 +1,1 @@
+sig Teacher extends Person {} sig Student extends Person {} sig Class { Groups: Person -> Group } pred inv7 { Teacher in Teaches.Class } pred repair_pred_1 { inv7[] iff inv7_OK[] }

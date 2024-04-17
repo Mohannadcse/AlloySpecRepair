@@ -1,0 +1,1 @@
+sig Node { adj: set Node } pred acyclic { no n: Node | Node in n.adj } pred acyclicOK { all a: Node | a not in a.^adj } assert acyclicRepaired { acyclic[] iff acyclicOK[] } check acyclicRepaired for 5

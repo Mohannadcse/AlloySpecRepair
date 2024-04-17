@@ -1,0 +1,1 @@
+pred inv15_fixed { some p,q,r : Person | p->q in Tutors and q->r in Tutors implies (p in Teacher or q in Teacher or r in Teacher) }

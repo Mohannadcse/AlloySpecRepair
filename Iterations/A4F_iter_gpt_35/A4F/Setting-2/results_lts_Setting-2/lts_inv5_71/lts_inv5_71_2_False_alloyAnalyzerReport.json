@@ -1,0 +1,5 @@
+{
+  "counterexamples": [],
+  "instances": [],
+  "error": "Warning Line 8 column 34 in /Users/admin0513-27/Downloads/automated_spec_repair-main-7/the specification:\nThe join operation here always yields an empty set.\nLeft type = {this/State->this/Event->this/State}\nRight type = {this/Event} Warning Line 8 column 27 in /Users/admin0513-27/Downloads/automated_spec_repair-main-7/the specification:\nThe join operation here always yields an empty set.\nLeft type = {this/State}\nRight type = {none->none} Warning Line 8 column 19 in /Users/admin0513-27/Downloads/automated_spec_repair-main-7/the specification:\nSubset operator is redundant, because the right subexpression is always empty.\nLeft type = {this/State}\nRight type = {none}"
+}

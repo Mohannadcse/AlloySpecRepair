@@ -1,0 +1,17 @@
+{
+  "counterexamples": [
+    {
+      "cntr_cmd": "Check repair_assert_1",
+      "counterexample": "Yes",
+      "counterexample_msg": "Counterexample found which means that Check repair_assert_1 assertion is invalid\nthis/Trash={}\nthis/Protected={Protected$0, Protected$1}\nthis/File={Protected$0, Protected$1, File$0}\nthis/File.link={Protected$0->Protected$1, Protected$1->Protected$1, Protected$1->File$0, File$0->Protected$0}\n"
+    }
+  ],
+  "instances": [
+    {
+      "instance_cmd": "Run repair_pred_1",
+      "instances": "Yes",
+      "instance_msg": "Instance found which means that the specification is consistent"
+    }
+  ],
+  "error": "Warning Line 1 column 186 in /Users/admin0513-27/Downloads/automated_spec_repair-main-7/the specification:\n& is irrelevant because the two subexpressions are always disjoint.\nLeft type = {this/Protected}\nRight type = {this/Trash} Warning Line 1 column 632 in /Users/admin0513-27/Downloads/automated_spec_repair-main-7/the specification:\n& is irrelevant because the two subexpressions are always disjoint.\nLeft type = {this/Protected}\nRight type = {this/Trash}"
+}

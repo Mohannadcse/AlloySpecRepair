@@ -1,0 +1,1 @@
+pred inv8_OK { all t:Teacher | lone t.Teaches }

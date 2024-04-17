@@ -1,0 +1,5 @@
+{
+  "counterexamples": [],
+  "instances": [],
+  "error": "Syntax error in /Users/admin0513-27/Downloads/automated_spec_repair-main-7/results_inv1to4_Setting-3/classroom_inv3_5/classroom_inv3_5_3_False.als at line 1 column 21:\nThe sig \"Person\" cannot be found.\n\tat edu.mit.csail.sdg.alloy4compiler.parser.CompModule.resolveSig(CompModule.java:1028)\n\tat edu.mit.csail.sdg.alloy4compiler.parser.CompModule.resolveAll(CompModule.java:1463)\n\tat edu.mit.csail.sdg.alloy4compiler.parser.CompUtil.parseEverything_fromFile(CompUtil.java:225)\n\tat alloyrepair.App.callAlloyEngine(App.java:133)\n\tat alloyrepair.App.main(App.java:102)\n"
+}

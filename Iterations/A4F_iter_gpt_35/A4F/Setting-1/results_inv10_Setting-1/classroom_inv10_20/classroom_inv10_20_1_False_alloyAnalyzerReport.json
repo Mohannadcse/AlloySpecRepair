@@ -1,0 +1,11 @@
+{
+  "counterexamples": [
+    {
+      "cntr_cmd": "Check inv10_Repaired expect 0",
+      "counterexample": "no",
+      "counterexample_msg": "Counterexample not found which means that Check inv10_Repaired expect 0 is valid"
+    }
+  ],
+  "instances": [],
+  "error": "Warning Line 36 column 16 in /Users/admin0513-27/Downloads/automated_spec_repair-main-7/the specification:\n& is irrelevant because the two subexpressions are always disjoint.\nLeft type = {this/Student}\nRight type = {this/Teacher}"
+}

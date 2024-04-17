@@ -1,0 +1,1 @@
+sig Node { adj: set Node } pred undirected { all n: Node | n.adj = Node - n.~adj }

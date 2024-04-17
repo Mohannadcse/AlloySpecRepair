@@ -1,0 +1,11 @@
+{
+  "counterexamples": [
+    {
+      "cntr_cmd": "Check inv15_Repaired expect 0",
+      "counterexample": "Yes",
+      "counterexample_msg": "Counterexample found which means that Check inv15_Repaired expect 0 assertion is invalid\nthis/Teacher={Teacher$0}\nthis/Student={Student$0, Student$1}\nthis/Person={Student$0, Student$1, Teacher$0}\nthis/Person.Tutors={Student$0->Teacher$0, Student$1->Student$0, Student$1->Student$1, Teacher$0->Student$1}\nthis/Person.Teaches={Student$0->Class$2, Student$1->Class$0, Student$1->Class$1, Student$1->Class$2}\nthis/Group={Group$0, Group$1, Group$2}\nthis/Class={Class$0, Class$1, Class$2}\nthis/Class.Groups={Class$0->Student$0->Group$2, Class$0->Student$1->Group$0, Class$0->Student$1->Group$1, Class$0->Teacher$0->Group$2, Class$1->Student$0->Group$1, Class$1->Student$1->Group$0, Class$1->Student$1->Group$2, Class$1->Teacher$0->Group$1, Class$2->Student$0->Group$2, Class$2->Student$1->Group$0, Class$2->Student$1->Group$1}\n"
+    }
+  ],
+  "instances": [],
+  "error": "Warning Line 36 column 16 in /Users/admin0513-27/Downloads/automated_spec_repair-main-7/the specification:\n& is irrelevant because the two subexpressions are always disjoint.\nLeft type = {this/Student}\nRight type = {this/Teacher}"
+}

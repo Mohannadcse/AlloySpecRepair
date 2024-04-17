@@ -1,0 +1,1 @@
+sig Person { Tutors: set Person, Teaches: set Class } sig Group {} sig Class { Groups: Person -> Group } sig Teacher extends Person {} sig Student extends Person {} pred inv1 { Student in Person } pred inv1_OK { Person in Student } assert inv1_Repaired { inv1[] iff inv1_OK[] } check inv1_Repaired expect 0

@@ -1,0 +1,1 @@
+sig Person {} sig Teacher extends Person {} sig Student extends Person {} pred inv8 { all t:Teacher | lone t.Teaches } pred inv8_OK { all t:Teacher | lone t.Teaches } pred repair_pred_1{ all t:Teacher | lone t.Teaches }

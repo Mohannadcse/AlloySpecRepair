@@ -1,0 +1,46 @@
+{
+  "counterexamples": [
+    {
+      "cntr_cmd": "Check undirectedRepaired for 5",
+      "counterexample": "no",
+      "counterexample_msg": "Counterexample not found which means that Check undirectedRepaired for 5 is valid"
+    },
+    {
+      "cntr_cmd": "Check orientedRepaired for 5",
+      "counterexample": "no",
+      "counterexample_msg": "Counterexample not found which means that Check orientedRepaired for 5 is valid"
+    },
+    {
+      "cntr_cmd": "Check acyclicRepaired for 5",
+      "counterexample": "no",
+      "counterexample_msg": "Counterexample not found which means that Check acyclicRepaired for 5 is valid"
+    },
+    {
+      "cntr_cmd": "Check completeRepaired for 5",
+      "counterexample": "no",
+      "counterexample_msg": "Counterexample not found which means that Check completeRepaired for 5 is valid"
+    },
+    {
+      "cntr_cmd": "Check noLoopsRepaired for 5",
+      "counterexample": "no",
+      "counterexample_msg": "Counterexample not found which means that Check noLoopsRepaired for 5 is valid"
+    },
+    {
+      "cntr_cmd": "Check weaklyConnectedRepaired for 5",
+      "counterexample": "no",
+      "counterexample_msg": "Counterexample not found which means that Check weaklyConnectedRepaired for 5 is valid"
+    },
+    {
+      "cntr_cmd": "Check stronglyConnectedRepaired for 5",
+      "counterexample": "no",
+      "counterexample_msg": "Counterexample not found which means that Check stronglyConnectedRepaired for 5 is valid"
+    },
+    {
+      "cntr_cmd": "Check transitiveRepaired for 5",
+      "counterexample": "no",
+      "counterexample_msg": "Counterexample not found which means that Check transitiveRepaired for 5 is valid"
+    }
+  ],
+  "instances": [],
+  "error": ""
+}

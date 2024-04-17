@@ -1,0 +1,1 @@
+pred repair_pred_1{inv6[] iff inv6_OK[] }

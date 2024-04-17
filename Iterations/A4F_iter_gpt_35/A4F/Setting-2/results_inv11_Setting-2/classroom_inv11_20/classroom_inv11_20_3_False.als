@@ -1,0 +1,1 @@
+sig Class  { Groups : Person -> Group } sig Teacher extends Person {} sig Student extends Person {} pred inv11 { all c : Class | (some c.Groups) implies some Teacher & Teaches.c }

@@ -1,0 +1,1 @@
+sig Node { adj : set Node } pred stonglyConnectedOK { all n:Node | Node in n.(*adj + *~adj) } assert stonglyConnectedRepaired { stonglyConnected[] iff stonglyConnectedOK[] }

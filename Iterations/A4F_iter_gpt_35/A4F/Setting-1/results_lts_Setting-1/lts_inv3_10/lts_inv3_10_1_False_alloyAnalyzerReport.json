@@ -1,0 +1,5 @@
+{
+  "counterexamples": [],
+  "instances": [],
+  "error": "Syntax error in /Users/admin0513-27/Downloads/automated_spec_repair-main-7/results_lts_Setting-1/lts_inv3_10/lts_inv3_10_1_False.als at line 1 column 1328:\nThe assertion \"inv6\" cannot be found.\n\tat edu.mit.csail.sdg.alloy4compiler.parser.CompModule.resolveCommand(CompModule.java:1295)\n\tat edu.mit.csail.sdg.alloy4compiler.parser.CompModule.resolveCommands(CompModule.java:1322)\n\tat edu.mit.csail.sdg.alloy4compiler.parser.CompModule.resolveAll(CompModule.java:1485)\n\tat edu.mit.csail.sdg.alloy4compiler.parser.CompUtil.parseEverything_fromFile(CompUtil.java:225)\n\tat alloyrepair.App.callAlloyEngine(App.java:133)\n\tat alloyrepair.App.main(App.java:102)\n"
+}

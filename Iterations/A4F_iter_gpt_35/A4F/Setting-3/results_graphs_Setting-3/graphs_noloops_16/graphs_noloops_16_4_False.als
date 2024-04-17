@@ -1,0 +1,1 @@
+sig Node { adj : set Node } pred completeOK { all n:Node | n in n.adj + n } pred stonglyConnectedOK { all n:Node | n in n.^adj }

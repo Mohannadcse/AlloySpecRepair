@@ -1,0 +1,1 @@
+sig Student extends Person {}

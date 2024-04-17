@@ -1,0 +1,17 @@
+{
+  "counterexamples": [
+    {
+      "cntr_cmd": "Check repair_assert_1",
+      "counterexample": "Yes",
+      "counterexample_msg": "Counterexample found which means that Check repair_assert_1 assertion is invalid\nthis/Object={Object$0}\nthis/Class={Object$0, Class$0}\nthis/Class.ext={Object$0->Class$0, Class$0->Object$0}\n"
+    }
+  ],
+  "instances": [
+    {
+      "instance_cmd": "Run repair_pred_1",
+      "instances": "Yes",
+      "instance_msg": "Instance found which means that the specification is consistent"
+    }
+  ],
+  "error": ""
+}

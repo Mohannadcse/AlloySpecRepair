@@ -1,0 +1,1 @@
+sig Class { ext: lone Class } one sig Object extends Class {} pred ObjectNoExt() { no Object.ext } pred Acyclic() { no c: Class | c = c.ext } pred AllExtObject() { all c: Class - Object | Object in c.^ext } pred ClassHierarchy() { ObjectNoExt Acyclic AllExtObject }

@@ -1,0 +1,1 @@
+sig Person {} sig Group {} sig Class {} pred inv1 {} pred inv2 {} pred inv3 {} pred inv4 {} pred inv5 {} pred inv6 {} pred inv7 {} pred inv8 {} pred inv9 {} pred inv10 {} pred inv11 {} pred inv12 {} pred inv13 {} pred inv14 {} pred inv15 {}

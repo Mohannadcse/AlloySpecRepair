@@ -1,0 +1,5 @@
+{
+  "counterexamples": [],
+  "instances": [],
+  "error": "Warning Line 29 column 16 in /Users/admin0513-27/Downloads/automated_spec_repair-main-7/the specification:\n& is irrelevant because the two subexpressions are always disjoint.\nLeft type = {this/Student}\nRight type = {this/Teacher} Warning Line 74 column 40 in /Users/admin0513-27/Downloads/automated_spec_repair-main-7/the specification:\nThis variable is unused. Warning Line 74 column 27 in /Users/admin0513-27/Downloads/automated_spec_repair-main-7/the specification:\nThis variable is unused."
+}

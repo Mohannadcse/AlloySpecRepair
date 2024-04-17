@@ -1,0 +1,5 @@
+{
+  "counterexamples": [],
+  "instances": [],
+  "error": "Warning Line 1 column 239 in /Users/admin0513-27/Downloads/automated_spec_repair-main-7/the specification:\nThe join operation here always yields an empty set.\nLeft type = {this/Event}\nRight type = {this/State->this/Event->this/State} Warning Line 1 column 232 in /Users/admin0513-27/Downloads/automated_spec_repair-main-7/the specification:\n^ this/Event . (this/State <: trans) is redundant since its domain and range are disjoint: {none->none} Warning Line 1 column 231 in /Users/admin0513-27/Downloads/automated_spec_repair-main-7/the specification:\nThe join operation here always yields an empty set.\nLeft type = {this/State}\nRight type = {none->none} Warning Line 1 column 224 in /Users/admin0513-27/Downloads/automated_spec_repair-main-7/the specification:\nSubset operator is redundant, because the right subexpression is always empty.\nLeft type = {this/State}\nRight type = {none}"
+}

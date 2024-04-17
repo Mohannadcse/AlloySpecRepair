@@ -1,0 +1,1 @@
+pred inv9_OK { all c:Class | lone Teacher & Teaches.c }

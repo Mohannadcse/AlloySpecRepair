@@ -1,0 +1,11 @@
+{
+  "counterexamples": [
+    {
+      "cntr_cmd": "Check inv1_Repaired expect 0",
+      "counterexample": "no",
+      "counterexample_msg": "Counterexample not found which means that Check inv1_Repaired expect 0 is valid"
+    }
+  ],
+  "instances": [],
+  "error": ""
+}

@@ -1,0 +1,1 @@
+sig State {} sig Init in State {} sig Event {} pred repair_pred_1{inv5[] iff inv5_OK[] }

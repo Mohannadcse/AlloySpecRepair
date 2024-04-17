@@ -1,0 +1,1 @@
+pred inv6 {all t:Teacher | some t.Teaches}

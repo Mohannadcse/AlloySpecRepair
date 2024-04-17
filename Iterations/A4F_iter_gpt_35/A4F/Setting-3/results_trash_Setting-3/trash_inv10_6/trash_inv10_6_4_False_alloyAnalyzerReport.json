@@ -1,0 +1,5 @@
+{
+  "counterexamples": [],
+  "instances": [],
+  "error": "Syntax error in /Users/admin0513-27/Downloads/automated_spec_repair-main-7/results_trash_Setting-3/trash_inv10_6/trash_inv10_6_4_False.als at line 73 column 24:\nThere are 22 possible tokens that can appear here:\n# ( * @ Int NAME NUMBER STRING String ^ disj fun iden int none pred seq sum this univ { ~ \n\tat edu.mit.csail.sdg.alloy4compiler.parser.CompParser.syntax_error(CompParser.java:2218)\n\tat edu.mit.csail.sdg.alloy4compiler.parser.CompParser.parse(CompParser.java:2079)\n\tat edu.mit.csail.sdg.alloy4compiler.parser.CompParser.alloy_parseStream(CompParser.java:2258)\n\tat edu.mit.csail.sdg.alloy4compiler.parser.CompUtil.parseRecursively(CompUtil.java:121)\n\tat edu.mit.csail.sdg.alloy4compiler.parser.CompUtil.parseEverything_fromFile(CompUtil.java:223)\n\tat alloyrepair.App.callAlloyEngine(App.java:133)\n\tat alloyrepair.App.main(App.java:102)\n"
+}

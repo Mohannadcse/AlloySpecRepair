@@ -1,0 +1,1 @@
+pred inv14_OK { all s : Person, c : Class, t : Person | (c in Teacher.Teaches) implies (s in c.Groups implies t in s.Tutors) }

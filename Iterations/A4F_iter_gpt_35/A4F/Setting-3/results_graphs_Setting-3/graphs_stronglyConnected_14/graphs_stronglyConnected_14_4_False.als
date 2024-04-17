@@ -1,0 +1,1 @@
+sig Node { adj : set Node } pred oriented { all n:Node | no n & n.adj } pred stonglyConnected { all n:Node | n in n.^adj }

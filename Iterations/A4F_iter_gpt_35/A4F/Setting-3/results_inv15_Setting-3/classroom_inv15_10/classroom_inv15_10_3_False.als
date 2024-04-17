@@ -1,0 +1,1 @@
+pred inv15_OK { all s : Person | some Teacher & ^Tutors.s }

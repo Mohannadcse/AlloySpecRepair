@@ -1,0 +1,1 @@
+sig Node extends Int {} pred noLoops { all a:Node | a.next not in a } pred noLoopsOK { no (iden & adj) } assert repair_assert_1 { noLoops[] iff noLoopsOK[] } check repair_assert_1

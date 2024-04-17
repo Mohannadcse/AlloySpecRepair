@@ -1,0 +1,11 @@
+{
+  "counterexamples": [
+    {
+      "cntr_cmd": "Check noLoopsRepaired expect 0",
+      "counterexample": "Yes",
+      "counterexample_msg": "Counterexample found which means that Check noLoopsRepaired expect 0 assertion is invalid\nthis/Node={Node$0, Node$1}\nthis/Node.adj={Node$1->Node$0}\n"
+    }
+  ],
+  "instances": [],
+  "error": ""
+}

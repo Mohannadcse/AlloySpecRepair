@@ -1,0 +1,1 @@
+pred inv5_OK { all t:Teacher | some t.Teaches }

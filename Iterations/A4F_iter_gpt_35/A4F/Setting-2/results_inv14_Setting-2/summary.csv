@@ -1,0 +1,255 @@
+fileName,iterations,fixed,repeated_fixes,repeated_init_spec,fst_iter_repeated_init_spec,wrong_format_msg,analyzer_agent_tokens,analyzer_agent_cost,prompt_agent_tokens,prompt_agent_cost,running_time,Error_msg
+classroom_inv14_146,6,reached_max_iter,0,0,FALSE,5,24796,0.03,0,0,78.99,
+classroom_inv14_152,6,reached_max_iter,0,0,FALSE,2,16232,0.0213,0,0,74.95,
+classroom_inv14_60,6,reached_max_iter,0,0,FALSE,4,21825,0.0272,0,0,68.06,
+classroom_inv14_74,6,reached_max_iter,0,0,FALSE,6,29541,0.035,0,0,70.83,
+classroom_inv14_48,6,reached_max_iter,0,0,FALSE,6,35913,0.0432,0,0,103.16,
+classroom_inv14_49,6,reached_max_iter,0,1,FALSE,2,16661,0.0226,0,0,94.45,
+classroom_inv14_75,6,reached_max_iter,0,0,FALSE,5,24487,0.0293,0,0,81.74,
+classroom_inv14_61,6,reached_max_iter,0,0,FALSE,6,23558,0.0273,0,0,55.79,
+classroom_inv14_153,6,reached_max_iter,0,0,FALSE,6,18336,0.0206,0,0,30.46,
+classroom_inv14_147,6,reached_max_iter,0,1,FALSE,1,18435,0.024,0,0,85.66,
+classroom_inv14_151,6,reached_max_iter,0,0,FALSE,6,18345,0.0206,0,0,32.43,
+classroom_inv14_145,6,reached_max_iter,0,0,FALSE,5,25038,0.0301,0,0,77.35,
+classroom_inv14_88,6,reached_max_iter,0,0,FALSE,3,15289,0.0197,0,0,55.91,
+classroom_inv14_77,6,reached_max_iter,0,0,FALSE,6,29166,0.0345,0,0,64.54,
+classroom_inv14_63,6,reached_max_iter,0,0,FALSE,6,28760,0.0339,0,0,76.52,
+classroom_inv14_62,6,reached_max_iter,0,0,FALSE,6,30129,0.0358,0,0,71.04,
+classroom_inv14_76,6,reached_max_iter,0,0,FALSE,6,25203,0.0292,0,0,64.31,
+classroom_inv14_89,6,reached_max_iter,0,0,FALSE,6,17760,0.0199,0,0,34.26,
+classroom_inv14_144,6,reached_max_iter,0,0,FALSE,2,15860,0.0197,0,0,60.12,
+classroom_inv14_150,6,reached_max_iter,0,0,FALSE,6,30210,0.0359,0,0,83.24,
+classroom_inv14_168,6,reached_max_iter,0,1,FALSE,2,17950,0.0232,0,0,77.7,
+classroom_inv14_154,6,reached_max_iter,0,0,FALSE,6,29870,0.0354,0,0,90.7,
+classroom_inv14_140,6,reached_max_iter,0,1,FALSE,0,17376,0.0226,0,0,75.82,
+classroom_inv14_99,6,reached_max_iter,0,1,FALSE,1,16094,0.0204,0,0,72.77,
+classroom_inv14_72,6,reached_max_iter,0,1,FALSE,2,17880,0.023,0,0,72.05,
+classroom_inv14_66,6,reached_max_iter,0,0,FALSE,0,16100,0.0206,0,0,55.88,
+classroom_inv14_67,6,reached_max_iter,0,0,FALSE,6,30078,0.0357,0,0,81.85,
+classroom_inv14_73,6,reached_max_iter,0,0,FALSE,3,11889,0.0136,0,0,26.97,
+classroom_inv14_98,6,reached_max_iter,0,1,FALSE,1,16672,0.0219,0,0,83.26,
+classroom_inv14_141,6,reached_max_iter,0,1,FALSE,1,18675,0.0248,0,0,81.35,
+classroom_inv14_155,6,reached_max_iter,0,0,FALSE,4,22054,0.0278,0,0,79.2,
+classroom_inv14_169,6,reached_max_iter,0,1,FALSE,2,18361,0.0233,0,0,63.35,
+classroom_inv14_143,6,reached_max_iter,0,0,FALSE,1,14641,0.0181,0,0,44.3,
+classroom_inv14_157,6,reached_max_iter,0,0,FALSE,6,26214,0.0307,0,0,60.42,
+classroom_inv14_59,6,reached_max_iter,0,0,FALSE,6,30250,0.0359,0,0,78.41,
+classroom_inv14_65,6,reached_max_iter,0,0,FALSE,1,16013,0.0203,0,0,56.8,
+classroom_inv14_71,6,reached_max_iter,0,0,FALSE,2,13699,0.0167,0,0,39.33,
+classroom_inv14_70,6,reached_max_iter,0,0,FALSE,5,25199,0.0302,0,0,68.14,
+classroom_inv14_64,6,reached_max_iter,0,1,FALSE,0,17492,0.0224,0,0,64.14,
+classroom_inv14_58,6,reached_max_iter,0,0,FALSE,6,29918,0.0354,0,0,86.69,
+classroom_inv14_156,6,reached_max_iter,0,0,FALSE,5,25438,0.0305,0,0,78.56,
+classroom_inv14_142,6,reached_max_iter,0,0,FALSE,4,20520,0.0249,0,0,55.36,
+classroom_inv14_125,6,reached_max_iter,0,0,FALSE,5,26535,0.0316,0,0,64.53,
+classroom_inv14_131,6,reached_max_iter,0,0,FALSE,6,28662,0.0338,0,0,64.24,
+classroom_inv14_119,6,reached_max_iter,0,0,FALSE,2,15121,0.02,0,0,62.18,
+classroom_inv14_17,6,reached_max_iter,0,0,FALSE,3,13180,0.0158,0,0,32.77,
+classroom_inv14_16,6,reached_max_iter,0,0,FALSE,6,24470,0.0284,0,0,51.99,
+classroom_inv14_118,6,reached_max_iter,0,1,FALSE,2,18326,0.0237,0,0,67,
+classroom_inv14_130,6,reached_max_iter,0,0,FALSE,6,30138,0.0358,0,0,68.89,
+classroom_inv14_124,6,reached_max_iter,0,0,FALSE,1,15486,0.0179,0,0,29.77,
+classroom_inv14_132,6,reached_max_iter,0,1,FALSE,1,17526,0.0225,0,0,55.38,
+classroom_inv14_126,6,reached_max_iter,0,0,FALSE,6,18202,0.0204,0,0,30.04,
+classroom_inv14_14,6,reached_max_iter,0,0,FALSE,3,15222,0.0196,0,0,61.11,
+classroom_inv14_28,6,reached_max_iter,0,0,FALSE,6,25992,0.0305,0,0,63.82,
+classroom_inv14_9,6,reached_max_iter,0,0,FALSE,2,14546,0.0174,0,0,43.18,
+classroom_inv14_8,6,reached_max_iter,0,0,FALSE,3,15491,0.0192,0,0,91.69,
+classroom_inv14_29,6,reached_max_iter,0,0,FALSE,6,18042,0.0202,0,0,27.71,
+classroom_inv14_15,6,reached_max_iter,0,0,FALSE,3,14665,0.0177,0,0,38.07,
+classroom_inv14_127,6,reached_max_iter,0,1,FALSE,1,16103,0.0217,0,0,64.26,
+classroom_inv14_133,6,reached_max_iter,0,0,FALSE,5,24947,0.0299,0,0,61.5,
+classroom_inv14_137,6,reached_max_iter,0,1,FALSE,1,15943,0.0214,0,0,61.22,
+classroom_inv14_123,6,reached_max_iter,0,0,FALSE,5,25132,0.0301,0,0,66.01,
+classroom_inv14_39,6,reached_max_iter,0,0,FALSE,6,30252,0.0359,0,0,72.11,
+classroom_inv14_11,6,reached_max_iter,0,0,FALSE,2,15572,0.0196,0,0,45.44,
+classroom_inv14_10,6,reached_max_iter,0,0,FALSE,1,15350,0.0184,0,0,39.05,
+classroom_inv14_38,6,reached_max_iter,0,1,FALSE,2,15366,0.0199,0,0,56.68,
+classroom_inv14_122,6,reached_max_iter,0,0,FALSE,6,30231,0.0359,0,0,84.04,
+classroom_inv14_136,6,reached_max_iter,0,0,FALSE,6,17952,0.0201,0,0,27.91,
+classroom_inv14_108,6,reached_max_iter,0,0,FALSE,6,29834,0.0353,0,0,118.01,
+classroom_inv14_120,6,reached_max_iter,0,1,FALSE,0,16272,0.0207,0,0,53.58,
+classroom_inv14_134,6,reached_max_iter,0,1,FALSE,2,15687,0.0209,0,0,59.65,
+classroom_inv14_12,6,reached_max_iter,0,0,FALSE,3,14738,0.0188,0,0,50.74,
+classroom_inv14_13,6,reached_max_iter,0,0,FALSE,2,16179,0.0211,0,0,93.8,
+classroom_inv14_135,6,reached_max_iter,0,0,FALSE,6,29732,0.0352,0,0,70.46,
+classroom_inv14_121,6,reached_max_iter,0,1,FALSE,1,17391,0.0227,0,0,64.38,
+classroom_inv14_109,6,reached_max_iter,0,0,FALSE,6,30150,0.0358,0,0,73.48,
+classroom_inv14_104,6,reached_max_iter,0,0,FALSE,6,29876,0.0354,0,0,83.05,
+classroom_inv14_110,6,reached_max_iter,0,0,FALSE,5,25190,0.0305,0,0,77.22,
+classroom_inv14_138,6,reached_max_iter,0,0,FALSE,2,11162,0.0118,0,0,13.34,
+classroom_inv14_22,6,reached_max_iter,0,0,FALSE,3,13430,0.0164,0,0,42.25,
+classroom_inv14_3,6,reached_max_iter,0,0,FALSE,3,17217,0.0228,0,0,654.81,
+classroom_inv14_3.als,6,Error_finally_section,0,0,FALSE,3,17217,0.0228,0,0,NA,"Error in OpenAIGPT.chat: 
+Original error: The read operation timed out
+Traceback:
+Traceback (most recent call last):
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/httpx/_transports/default.py"", line 69, in map_httpcore_exceptions
+    yield
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/httpx/_transports/default.py"", line 113, in __iter__
+    for part in self._httpcore_stream:
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/httpcore/_sync/connection_pool.py"", line 367, in __iter__
+    raise exc from None
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/httpcore/_sync/connection_pool.py"", line 363, in __iter__
+    for part in self._stream:
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/httpcore/_sync/http11.py"", line 349, in __iter__
+    raise exc
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/httpcore/_sync/http11.py"", line 341, in __iter__
+    for chunk in self._connection._receive_response_body(**kwargs):
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/httpcore/_sync/http11.py"", line 210, in _receive_response_body
+    event = self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/httpcore/_sync/http11.py"", line 224, in _receive_event
+    data = self._network_stream.read(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/httpcore/_backends/sync.py"", line 124, in read
+    with map_exceptions(exc_map):
+  File ""/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/contextlib.py"", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/httpcore/_exceptions.py"", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadTimeout: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/langroid/language_models/openai_gpt.py"", line 1020, in chat
+    return self._chat(messages, max_tokens, functions, function_call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/langroid/language_models/openai_gpt.py"", line 1264, in _chat
+    llm_response, openai_response = self._stream_response(response, chat=True)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/langroid/language_models/utils.py"", line 79, in wrapper
+    raise e
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/langroid/language_models/utils.py"", line 44, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/langroid/language_models/openai_gpt.py"", line 656, in _stream_response
+    for event in response:
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/openai/_streaming.py"", line 46, in __iter__
+    for item in self._iterator:
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/openai/_streaming.py"", line 61, in __stream__
+    for sse in iterator:
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/openai/_streaming.py"", line 53, in _iter_events
+    yield from self._decoder.iter(self.response.iter_lines())
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/openai/_streaming.py"", line 287, in iter
+    for line in iterator:
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/httpx/_models.py"", line 861, in iter_lines
+    for text in self.iter_text():
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/httpx/_models.py"", line 848, in iter_text
+    for byte_content in self.iter_bytes():
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/httpx/_models.py"", line 829, in iter_bytes
+    for raw_bytes in self.iter_raw():
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/httpx/_models.py"", line 883, in iter_raw
+    for raw_stream_bytes in self.stream:
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/httpx/_client.py"", line 126, in __iter__
+    for chunk in self._stream:
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/httpx/_transports/default.py"", line 112, in __iter__
+    with map_httpcore_exceptions():
+  File ""/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/contextlib.py"", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File ""/Users/admin0513-27/Downloads/automated_spec_repair-main-7/.venv/lib/python3.11/site-packages/httpx/_transports/default.py"", line 86, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout: The read operation timed out
+"
+classroom_inv14_36,6,reached_max_iter,0,0,FALSE,3,11707,0.013,0,0,21.2,
+classroom_inv14_37,6,reached_max_iter,0,0,FALSE,6,18351,0.0206,0,0,28.29,
+classroom_inv14_2,6,reached_max_iter,0,0,FALSE,6,27572,0.032,0,0,53.41,
+classroom_inv14_23,6,reached_max_iter,0,0,FALSE,3,17899,0.0235,0,0,59.83,
+classroom_inv14_139,6,reached_max_iter,0,1,FALSE,1,15024,0.0197,0,0,48.77,
+classroom_inv14_111,6,reached_max_iter,0,0,FALSE,6,29870,0.0354,0,0,65.87,
+classroom_inv14_105,6,reached_max_iter,0,0,FALSE,2,17266,0.0218,0,0,50.34,
+classroom_inv14_113,6,reached_max_iter,0,0,FALSE,2,14140,0.0175,0,0,36.64,
+classroom_inv14_107,6,reached_max_iter,0,0,FALSE,4,16630,0.02,0,0,40.55,
+classroom_inv14_35,6,reached_max_iter,0,0,FALSE,4,17273,0.0214,0,0,48.22,
+classroom_inv14_21,6,reached_max_iter,0,0,FALSE,6,26682,0.031,0,0,51.19,
+classroom_inv14_20,6,reached_max_iter,0,0,FALSE,6,26850,0.0312,0,0,48.92,
+classroom_inv14_34,6,reached_max_iter,0,2,FALSE,0,18216,0.0255,0,0,85.75,
+classroom_inv14_1,6,reached_max_iter,0,0,FALSE,3,12524,0.0148,0,0,29.08,
+classroom_inv14_106,6,reached_max_iter,0,0,FALSE,6,29822,0.0353,0,0,77.86,
+classroom_inv14_112,6,reached_max_iter,0,0,FALSE,6,29238,0.0346,0,0,72.18,
+classroom_inv14_116,6,reached_max_iter,0,1,FALSE,1,19070,0.0254,0,0,78.13,
+classroom_inv14_102,6,reached_max_iter,0,0,FALSE,3,15425,0.0199,0,0,56.01,
+classroom_inv14_18,6,reached_max_iter,0,0,FALSE,6,26112,0.0306,0,0,66.44,
+classroom_inv14_5,6,reached_max_iter,0,0,FALSE,3,17422,0.0226,0,0,67.74,
+classroom_inv14_30,6,reached_max_iter,0,0,FALSE,5,24833,0.03,0,0,66.72,
+classroom_inv14_24,6,reached_max_iter,0,0,FALSE,2,13625,0.0154,0,0,26.86,
+classroom_inv14_25,6,reached_max_iter,0,0,FALSE,6,29997,0.0355,0,0,77.17,
+classroom_inv14_31,6,reached_max_iter,0,0,FALSE,5,24816,0.0296,0,0,65.24,
+classroom_inv14_4,6,reached_max_iter,0,0,FALSE,5,31860,0.0386,0,0,90.83,
+classroom_inv14_19,6,reached_max_iter,0,0,FALSE,3,13539,0.0157,0,0,25.62,
+classroom_inv14_103,6,reached_max_iter,0,0,FALSE,1,17205,0.0221,0,0,54.04,
+classroom_inv14_117,6,reached_max_iter,0,1,FALSE,0,17175,0.0226,0,0,59.83,
+classroom_inv14_129,6,reached_max_iter,0,0,FALSE,4,16717,0.0211,0,0,52.71,
+classroom_inv14_101,6,reached_max_iter,0,0,FALSE,5,23134,0.0283,0,0,66.62,
+classroom_inv14_115,6,reached_max_iter,0,0,FALSE,6,18351,0.0206,0,0,29.59,
+classroom_inv14_27,6,reached_max_iter,0,0,FALSE,2,14443,0.0182,0,0,48.31,
+classroom_inv14_6,6,reached_max_iter,0,0,FALSE,6,26700,0.031,0,0,49.25,
+classroom_inv14_33,6,reached_max_iter,0,0,FALSE,0,15819,0.0184,0,0,32.12,
+classroom_inv14_32,6,reached_max_iter,0,0,FALSE,4,17023,0.0206,0,0,46.15,
+classroom_inv14_7,6,reached_max_iter,0,0,FALSE,5,22702,0.027,0,0,52.56,
+classroom_inv14_26,6,reached_max_iter,0,0,FALSE,2,15285,0.02,0,0,48.37,
+classroom_inv14_114,6,reached_max_iter,0,0,FALSE,6,30194,0.0358,0,0,67.07,
+classroom_inv14_100,6,reached_max_iter,0,0,FALSE,6,30051,0.0356,0,0,65.97,
+classroom_inv14_128,6,reached_max_iter,0,0,FALSE,2,15312,0.02,0,0,53.49,
+classroom_inv14_167,6,reached_max_iter,0,0,FALSE,6,30276,0.0359,0,0,69.13,
+classroom_inv14_173,6,reached_max_iter,0,0,FALSE,6,26642,0.031,0,0,55.26,
+classroom_inv14_82,6,reached_max_iter,0,0,FALSE,1,14068,0.0164,0,0,31.86,
+classroom_inv14_96,6,reached_max_iter,0,0,FALSE,6,29751,0.0353,0,0,70.62,
+classroom_inv14_41,6,reached_max_iter,0,0,FALSE,6,29798,0.0353,0,0,68,
+classroom_inv14_55,6,reached_max_iter,0,1,FALSE,2,18310,0.023,0,0,60.03,
+classroom_inv14_69,6,reached_max_iter,0,0,FALSE,6,30018,0.0356,0,0,70.19,
+classroom_inv14_68,6,reached_max_iter,0,1,FALSE,1,15835,0.0199,0,0,50.28,
+classroom_inv14_54,6,reached_max_iter,0,0,FALSE,1,16193,0.0214,0,0,55.4,
+classroom_inv14_40,6,reached_max_iter,0,0,FALSE,6,30120,0.0357,0,0,68.5,
+classroom_inv14_97,6,reached_max_iter,0,0,FALSE,2,14801,0.019,0,0,45.79,
+classroom_inv14_83,6,reached_max_iter,0,1,FALSE,0,20121,0.0277,0,0,83.96,
+classroom_inv14_172,6,reached_max_iter,0,0,FALSE,5,21847,0.0257,0,0,47.08,
+classroom_inv14_166,6,reached_max_iter,0,1,FALSE,1,16674,0.0219,0,0,60.76,
+classroom_inv14_170,6,reached_max_iter,0,0,FALSE,6,30228,0.0359,0,0,68.17,
+classroom_inv14_164,6,reached_max_iter,0,0,FALSE,2,16486,0.0222,0,0,65.79,
+classroom_inv14_158,6,reached_max_iter,0,1,FALSE,1,15666,0.0202,0,0,51.92,
+classroom_inv14_95,6,reached_max_iter,0,0,FALSE,6,18300,0.0206,0,0,27.73,
+classroom_inv14_81,6,reached_max_iter,0,0,FALSE,5,25022,0.0303,0,0,66.21,
+classroom_inv14_56,6,reached_max_iter,0,0,FALSE,3,13958,0.0168,0,0,38.82,
+classroom_inv14_42,6,reached_max_iter,0,0,FALSE,6,30054,0.0356,0,0,68.84,
+classroom_inv14_43,6,reached_max_iter,0,0,FALSE,1,18008,0.0233,0,0,59.55,
+classroom_inv14_57,6,reached_max_iter,0,0,FALSE,3,17555,0.0232,0,0,59.8,
+classroom_inv14_80,6,reached_max_iter,0,0,FALSE,6,29696,0.0352,0,0,61.8,
+classroom_inv14_94,6,reached_max_iter,0,1,FALSE,4,18929,0.0236,0,0,51.17,
+classroom_inv14_159,6,reached_max_iter,0,1,FALSE,1,14559,0.0187,0,0,47.9,
+classroom_inv14_165,6,reached_max_iter,0,0,FALSE,6,30276,0.0359,0,0,67.2,
+classroom_inv14_171,6,reached_max_iter,0,0,FALSE,6,29631,0.035,0,0,64.33,
+classroom_inv14_149,6,reached_max_iter,0,0,FALSE,6,30063,0.0357,0,0,65.63,
+classroom_inv14_175,6,reached_max_iter,0,0,FALSE,6,35616,0.0428,0,0,84.37,
+classroom_inv14_161,6,reached_max_iter,0,0,FALSE,4,15930,0.0203,0,0,49.67,
+classroom_inv14_90,6,reached_max_iter,0,0,FALSE,6,29157,0.0344,0,0,62.16,
+classroom_inv14_84,6,reached_max_iter,0,0,FALSE,3,15269,0.0197,0,0,46.45,
+classroom_inv14_53,6,reached_max_iter,0,0,FALSE,3,17183,0.0223,0,0,54.32,
+classroom_inv14_47,6,reached_max_iter,0,0,FALSE,6,30222,0.0359,0,0,65.99,
+classroom_inv14_46,6,reached_max_iter,0,1,FALSE,2,17937,0.0239,0,0,67.75,
+classroom_inv14_52,6,reached_max_iter,0,0,FALSE,5,25433,0.0308,0,0,59.21,
+classroom_inv14_85,6,reached_max_iter,0,0,FALSE,2,19175,0.0242,0,0,57.31,
+classroom_inv14_91,6,reached_max_iter,0,0,FALSE,5,26235,0.0322,0,0,69.43,
+classroom_inv14_160,6,reached_max_iter,0,1,FALSE,2,17942,0.0243,0,0,66.14,
+classroom_inv14_174,6,reached_max_iter,0,0,FALSE,2,13483,0.0163,0,0,33.79,
+classroom_inv14_148,6,reached_max_iter,0,0,FALSE,5,25076,0.03,0,0,58.85,
+classroom_inv14_162,6,reached_max_iter,0,0,FALSE,2,14124,0.0166,0,0,29.84,
+classroom_inv14_176,6,reached_max_iter,0,0,FALSE,3,14478,0.0173,0,0,35.16,
+classroom_inv14_87,6,reached_max_iter,0,0,FALSE,1,15391,0.0182,0,0,36.21,
+classroom_inv14_93,6,reached_max_iter,0,0,FALSE,6,30180,0.0358,0,0,70.14,
+classroom_inv14_78,6,reached_max_iter,0,0,FALSE,6,25167,0.0292,0,0,69.32,
+classroom_inv14_78.als,6,Error_finally_section,0,0,FALSE,6,25167,0.0292,0,0,NA,"OpenAI API request failed with error: 
+                    Connection error.. 
+                    Retrying in 3.1677007447641548 seconds...&OpenAI API request failed with error: 
+                    Connection error.. 
+                    Retrying in 10.963297118586317 seconds..."
+classroom_inv14_44,6,reached_max_iter,0,1,FALSE,4,21791,0.0277,0,0,67.51,
+classroom_inv14_50,6,reached_max_iter,0,1,FALSE,1,18183,0.0245,0,0,66.31,
+classroom_inv14_51,6,reached_max_iter,0,0,FALSE,6,29658,0.0351,0,0,63.7,
+classroom_inv14_45,6,reached_max_iter,0,0,FALSE,6,25815,0.0302,0,0,49.01,
+classroom_inv14_79,6,reached_max_iter,0,0,FALSE,6,29024,0.0343,0,0,64.3,
+classroom_inv14_92,6,reached_max_iter,0,0,FALSE,3,18355,0.0235,0,0,53.06,
+classroom_inv14_86,6,reached_max_iter,0,0,FALSE,3,15197,0.0197,0,0,46.46,
+classroom_inv14_177,6,reached_max_iter,0,0,FALSE,6,35610,0.0428,0,0,82.17,
+classroom_inv14_163,6,reached_max_iter,0,0,FALSE,6,18333,0.0206,0,0,26.29,

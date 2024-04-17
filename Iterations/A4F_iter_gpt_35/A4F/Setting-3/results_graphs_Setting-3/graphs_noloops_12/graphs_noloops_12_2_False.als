@@ -1,0 +1,1 @@
+sig Node { adj: set Node } pred noLoopsOK { all x, y: Node | x->y in adj implies not y->x in adj }

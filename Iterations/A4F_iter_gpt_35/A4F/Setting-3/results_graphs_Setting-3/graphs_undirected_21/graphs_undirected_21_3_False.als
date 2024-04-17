@@ -1,0 +1,1 @@
+sig undirected {} repair_pred_1{undirected[] iff undirectedOK[] }

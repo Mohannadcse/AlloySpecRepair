@@ -1,0 +1,1 @@
+sig File { link: set File } sig Trash extends File {} pred inv2 { Trash in File } pred inv3 { some Trash }

@@ -1,0 +1,1 @@
+sig Node { adj : set Node } pred weaklyConnectedOK { all x, y : Node | x->y in adj implies y->x in adj or y->x not in adj and Node in x.^adj + x + ^adj.x }

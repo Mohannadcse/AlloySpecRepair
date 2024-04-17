@@ -1,0 +1,1 @@
+sig Node { adj : set Node } pred transitive { adj.adj in adj^+ }

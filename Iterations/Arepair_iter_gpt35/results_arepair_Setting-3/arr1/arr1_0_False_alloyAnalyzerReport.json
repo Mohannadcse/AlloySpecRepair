@@ -1,0 +1,11 @@
+{
+  "counterexamples": [],
+  "instances": [
+    {
+      "instance_cmd": "Run NoConflict",
+      "instances": "No",
+      "instance_msg": "Instance not found which means that the specification is not consistent."
+    }
+  ],
+  "error": ""
+}

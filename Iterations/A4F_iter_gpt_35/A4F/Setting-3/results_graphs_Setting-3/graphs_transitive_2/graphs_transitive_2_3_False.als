@@ -1,0 +1,1 @@
+sig Node { adj : set Node } pred transitiveOK { all n:Node | all m:Node | all o:Node | (m in n.adj and o in m.adj) => o in n.adj } pred repair_pred_1 { transitive[] iff transitiveOK[] }

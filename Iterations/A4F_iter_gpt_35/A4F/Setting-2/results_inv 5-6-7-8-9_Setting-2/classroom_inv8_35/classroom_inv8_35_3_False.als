@@ -1,0 +1,1 @@
+pred repair_pred_1{all t:Teacher | lone t.Teaches}

@@ -1,0 +1,1 @@
+sig State { trans : Event -> State } sig Init in State {} sig Event {} pred inv5_OK { all s:State, e:Event | lone s.trans[e] } pred repair_pred_1 { inv5[] iff inv5_OK[] }

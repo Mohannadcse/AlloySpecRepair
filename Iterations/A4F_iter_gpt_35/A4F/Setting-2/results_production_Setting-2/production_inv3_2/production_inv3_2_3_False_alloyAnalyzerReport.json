@@ -1,0 +1,11 @@
+{
+  "counterexamples": [
+    {
+      "cntr_cmd": "Check inv3_Repaired expect 0",
+      "counterexample": "Yes",
+      "counterexample_msg": "Counterexample found which means that Check inv3_Repaired expect 0 assertion is invalid\nthis/Position={Position$0, Position$1, Position$2}\nthis/Component={Component$0, Component$1}\nthis/Component.parts={Component$1->Resource$0, Component$1->Component$1}\nthis/Component.cposition={Component$0->Position$1, Component$1->Position$2}\nthis/Resource={Resource$0}\nthis/Product={Resource$0, Component$0, Component$1}\nthis/Robot={Robot$0, Robot$1, Robot$2}\nthis/Robot.rposition={Robot$0->Position$2, Robot$1->Position$0, Robot$2->Position$0}\nordering/Ord={ordering/Ord$0}\nordering/Ord.First={ordering/Ord$0->Position$0}\nordering/Ord.Next={ordering/Ord$0->Position$0->Position$1, ordering/Ord$0->Position$1->Position$2}\n"
+    }
+  ],
+  "instances": [],
+  "error": ""
+}

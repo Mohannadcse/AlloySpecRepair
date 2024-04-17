@@ -1,0 +1,5 @@
+{
+  "counterexamples": [],
+  "instances": [],
+  "error": "Syntax error in /Users/moh/Downloads/repos/repair-sw-spec/results_arepair_Setting-3/arr2/arr2_3_False.als at line 22 column 1:\nThe predicate/function \"NoConflict\" cannot be found.\n\tat edu.mit.csail.sdg.alloy4compiler.parser.CompModule.resolveCommand(CompModule.java:1301)\n\tat edu.mit.csail.sdg.alloy4compiler.parser.CompModule.resolveCommands(CompModule.java:1322)\n\tat edu.mit.csail.sdg.alloy4compiler.parser.CompModule.resolveAll(CompModule.java:1485)\n\tat edu.mit.csail.sdg.alloy4compiler.parser.CompUtil.parseEverything_fromFile(CompUtil.java:225)\n\tat alloyrepair.App.callAlloyEngine(App.java:133)\n\tat alloyrepair.App.main(App.java:102)\n"
+}

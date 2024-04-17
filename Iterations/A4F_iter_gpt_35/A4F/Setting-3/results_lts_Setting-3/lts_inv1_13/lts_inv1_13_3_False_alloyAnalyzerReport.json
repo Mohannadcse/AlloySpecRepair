@@ -1,0 +1,17 @@
+{
+  "counterexamples": [
+    {
+      "cntr_cmd": "Check inv1_Repaired expect 0",
+      "counterexample": "Yes",
+      "counterexample_msg": "Counterexample found which means that Check inv1_Repaired expect 0 assertion is invalid\nthis/State={}\nthis/State.trans={}\nthis/Event={Event$0, Event$1}\nthis/Init={}\n"
+    }
+  ],
+  "instances": [
+    {
+      "instance_cmd": "Run repair_pred_1",
+      "instances": "Yes",
+      "instance_msg": "Instance found which means that the specification is consistent"
+    }
+  ],
+  "error": ""
+}

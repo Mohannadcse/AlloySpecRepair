@@ -1,0 +1,1 @@
+pred repair_pred_1{all c : Class | (some c.Groups) implies some Teacher & Teaches.c}

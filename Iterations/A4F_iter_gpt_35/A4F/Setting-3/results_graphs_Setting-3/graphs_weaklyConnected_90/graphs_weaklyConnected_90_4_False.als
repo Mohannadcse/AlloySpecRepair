@@ -1,0 +1,1 @@
+sig Node { adj : set Node } pred weaklyConnected {} sig weaklyConnected {} assert repair_assert_1{weaklyConnected[] iff weaklyConnectedOK[]}

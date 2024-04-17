@@ -1,0 +1,92 @@
+{
+  "counterexamples": [
+    {
+      "cntr_cmd": "Check inv1_Repaired expect 0",
+      "counterexample": "no",
+      "counterexample_msg": "Counterexample not found which means that Check inv1_Repaired expect 0 is valid"
+    },
+    {
+      "cntr_cmd": "Check inv2_Repaired expect 0",
+      "counterexample": "no",
+      "counterexample_msg": "Counterexample not found which means that Check inv2_Repaired expect 0 is valid"
+    },
+    {
+      "cntr_cmd": "Check inv3_Repaired expect 0",
+      "counterexample": "no",
+      "counterexample_msg": "Counterexample not found which means that Check inv3_Repaired expect 0 is valid"
+    },
+    {
+      "cntr_cmd": "Check inv4_Repaired expect 0",
+      "counterexample": "no",
+      "counterexample_msg": "Counterexample not found which means that Check inv4_Repaired expect 0 is valid"
+    },
+    {
+      "cntr_cmd": "Check inv5_Repaired expect 0",
+      "counterexample": "no",
+      "counterexample_msg": "Counterexample not found which means that Check inv5_Repaired expect 0 is valid"
+    },
+    {
+      "cntr_cmd": "Check inv6_Repaired expect 0",
+      "counterexample": "no",
+      "counterexample_msg": "Counterexample not found which means that Check inv6_Repaired expect 0 is valid"
+    },
+    {
+      "cntr_cmd": "Check inv7_Repaired expect 0",
+      "counterexample": "no",
+      "counterexample_msg": "Counterexample not found which means that Check inv7_Repaired expect 0 is valid"
+    },
+    {
+      "cntr_cmd": "Check inv8_Repaired expect 0",
+      "counterexample": "no",
+      "counterexample_msg": "Counterexample not found which means that Check inv8_Repaired expect 0 is valid"
+    },
+    {
+      "cntr_cmd": "Check inv9_Repaired expect 0",
+      "counterexample": "Yes",
+      "counterexample_msg": "Counterexample found which means that Check inv9_Repaired expect 0 assertion is invalid\nthis/Teacher={Teacher$0}\nthis/Student={Student$0, Student$1}\nthis/Person={Student$0, Student$1, Teacher$0}\nthis/Person.Tutors={Student$0->Student$1, Teacher$0->Student$0, Teacher$0->Student$1, Teacher$0->Teacher$0}\nthis/Person.Teaches={Student$0->Class$2, Student$1->Class$0, Student$1->Class$1, Teacher$0->Class$2}\nthis/Group={Group$0, Group$1, Group$2}\nthis/Class={Class$0, Class$1, Class$2}\nthis/Class.Groups={Class$0->Student$0->Group$1, Class$0->Student$0->Group$2, Class$0->Student$1->Group$0, Class$0->Teacher$0->Group$1, Class$0->Teacher$0->Group$2, Class$1->Student$0->Group$0, Class$1->Student$0->Group$2, Class$1->Student$1->Group$1, Class$1->Teacher$0->Group$0, Class$1->Teacher$0->Group$2, Class$2->Student$0->Group$2, Class$2->Student$1->Group$0, Class$2->Student$1->Group$1}\n"
+    },
+    {
+      "cntr_cmd": "Check inv10_Repaired expect 0",
+      "counterexample": "no",
+      "counterexample_msg": "Counterexample not found which means that Check inv10_Repaired expect 0 is valid"
+    },
+    {
+      "cntr_cmd": "Check inv11_Repaired expect 0",
+      "counterexample": "no",
+      "counterexample_msg": "Counterexample not found which means that Check inv11_Repaired expect 0 is valid"
+    },
+    {
+      "cntr_cmd": "Check inv12_Repaired expect 0",
+      "counterexample": "no",
+      "counterexample_msg": "Counterexample not found which means that Check inv12_Repaired expect 0 is valid"
+    },
+    {
+      "cntr_cmd": "Check inv13_Repaired expect 0",
+      "counterexample": "no",
+      "counterexample_msg": "Counterexample not found which means that Check inv13_Repaired expect 0 is valid"
+    },
+    {
+      "cntr_cmd": "Check inv14_Repaired expect 0",
+      "counterexample": "no",
+      "counterexample_msg": "Counterexample not found which means that Check inv14_Repaired expect 0 is valid"
+    },
+    {
+      "cntr_cmd": "Check inv15_Repaired expect 0",
+      "counterexample": "no",
+      "counterexample_msg": "Counterexample not found which means that Check inv15_Repaired expect 0 is valid"
+    },
+    {
+      "cntr_cmd": "Check repair_assert_1",
+      "counterexample": "Yes",
+      "counterexample_msg": "Counterexample found which means that Check repair_assert_1 assertion is invalid\nthis/Teacher={Teacher$0}\nthis/Student={Student$0, Student$1}\nthis/Person={Student$0, Student$1, Teacher$0}\nthis/Person.Tutors={Student$0->Student$1, Teacher$0->Student$0, Teacher$0->Student$1, Teacher$0->Teacher$0}\nthis/Person.Teaches={Student$0->Class$2, Student$1->Class$0, Student$1->Class$1, Teacher$0->Class$2}\nthis/Group={Group$0, Group$1, Group$2}\nthis/Class={Class$0, Class$1, Class$2}\nthis/Class.Groups={Class$0->Student$0->Group$1, Class$0->Student$0->Group$2, Class$0->Student$1->Group$0, Class$0->Teacher$0->Group$1, Class$0->Teacher$0->Group$2, Class$1->Student$0->Group$0, Class$1->Student$0->Group$2, Class$1->Student$1->Group$1, Class$1->Teacher$0->Group$0, Class$1->Teacher$0->Group$2, Class$2->Student$0->Group$2, Class$2->Student$1->Group$0, Class$2->Student$1->Group$1}\n"
+    }
+  ],
+  "instances": [
+    {
+      "instance_cmd": "Run repair_pred_1",
+      "instances": "Yes",
+      "instance_msg": "Instance found which means that the specification is consistent"
+    }
+  ],
+  "error": "Warning Line 29 column 12 in /Users/admin0513-27/Downloads/automated_spec_repair-main-7/the specification:\n& is irrelevant because the two subexpressions are always disjoint.\nLeft type = {this/Student}\nRight type = {this/Teacher} Warning Line 95 column 12 in /Users/admin0513-27/Downloads/automated_spec_repair-main-7/the specification:\n& is irrelevant because the two subexpressions are always disjoint.\nLeft type = {this/Student}\nRight type = {this/Teacher}"
+}

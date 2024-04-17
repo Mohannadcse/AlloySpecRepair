@@ -1,0 +1,11 @@
+{
+  "counterexamples": [],
+  "instances": [
+    {
+      "instance_cmd": "Run inv1 for 3",
+      "instances": "Yes",
+      "instance_msg": "Instance found which means that the specification is consistent"
+    }
+  ],
+  "error": ""
+}

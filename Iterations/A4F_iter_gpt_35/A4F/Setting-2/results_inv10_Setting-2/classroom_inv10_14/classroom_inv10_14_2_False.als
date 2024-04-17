@@ -1,0 +1,1 @@
+pred repair_assert_1{inv10[] iff inv10_OK[] }

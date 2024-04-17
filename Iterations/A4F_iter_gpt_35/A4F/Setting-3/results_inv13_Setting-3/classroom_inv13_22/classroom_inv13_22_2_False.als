@@ -1,0 +1,1 @@
+pred inv13_fixed { all t: Teacher, s: Student, c: Class | (t->c in Teaches) and (t->s in Tutors) and not (s->c in Teaches) }

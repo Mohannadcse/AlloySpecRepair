@@ -1,0 +1,1 @@
+sig State {} sig Init in State {} sig Event {} sig State {trans : Event -> State}

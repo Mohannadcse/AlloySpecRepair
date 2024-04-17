@@ -1,0 +1,5 @@
+{
+  "counterexamples": [],
+  "instances": [],
+  "error": "java.lang.NullPointerException: Cannot invoke \"edu.mit.csail.sdg.alloy4compiler.translator.A4Solution.getAllAtoms()\" because \"this.ans\" is null\n\tat alloyrepair.App.callAlloyEngine(App.java:157)\n\tat alloyrepair.App.main(App.java:102)\n"
+}

@@ -1,0 +1,1 @@
+sig Node { adj: set Node } pred repair_pred_1 { undirected[] iff adj = ~adj } run repair_pred_1

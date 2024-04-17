@@ -1,0 +1,1 @@
+pred repair_pred_1{all e:Event | some s:State | e->s in trans } }

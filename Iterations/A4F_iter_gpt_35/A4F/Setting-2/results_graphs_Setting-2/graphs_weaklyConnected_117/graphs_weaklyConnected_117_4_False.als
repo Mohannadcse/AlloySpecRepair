@@ -1,0 +1,1 @@
+sig Node { adj: set Node } pred repair_pred_1{weaklyConnected[] iff weaklyConnectedOK[] } run repair_pred_1 for 5 but exactly 1 Node

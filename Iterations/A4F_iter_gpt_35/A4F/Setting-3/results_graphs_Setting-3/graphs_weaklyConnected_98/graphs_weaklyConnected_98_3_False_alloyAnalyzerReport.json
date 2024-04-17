@@ -1,0 +1,11 @@
+{
+  "counterexamples": [
+    {
+      "cntr_cmd": "Check weaklyConnectedRepaired expect 0",
+      "counterexample": "no",
+      "counterexample_msg": "Counterexample not found which means that Check weaklyConnectedRepaired expect 0 is valid"
+    }
+  ],
+  "instances": [],
+  "error": ""
+}

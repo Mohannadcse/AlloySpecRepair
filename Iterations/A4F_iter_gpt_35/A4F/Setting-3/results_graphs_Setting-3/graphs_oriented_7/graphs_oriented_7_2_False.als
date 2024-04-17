@@ -1,0 +1,1 @@
+sig Node { adj: set Node } pred stonglyConnected { all n: Node | n in n.*adj }

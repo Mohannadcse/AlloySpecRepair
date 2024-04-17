@@ -1,0 +1,1 @@
+sig Node { adj : set Node } pred acyclic { all n : Node | n not in n.^adj }

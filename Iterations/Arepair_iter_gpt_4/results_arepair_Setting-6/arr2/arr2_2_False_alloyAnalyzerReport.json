@@ -1,0 +1,22 @@
+{
+  "counterexamples": [
+    {
+      "cntr_cmd": "Check repair_assert_1 for 3",
+      "counterexample": "Yes",
+      "counterexample_msg": "Counterexample found which means that Check repair_assert_1 for 3 assertion is invalid\nthis/Element={Element$0}\nthis/Array={Array$0}\nthis/Array.i2e={Array$0->-8->Element$0, Array$0->-7->Element$0, Array$0->-6->Element$0, Array$0->-5->Element$0, Array$0->-4->Element$0, Array$0->-3->Element$0, Array$0->-2->Element$0, Array$0->-1->Element$0, Array$0->0->Element$0, Array$0->1->Element$0, Array$0->2->Element$0, Array$0->3->Element$0, Array$0->4->Element$0, Array$0->5->Element$0, Array$0->6->Element$0}\nthis/Array.length={Array$0->7}\n"
+    }
+  ],
+  "instances": [
+    {
+      "instance_cmd": "Run InBound for 3",
+      "instances": "Yes",
+      "instance_msg": "Instance found which means that the specification is consistent"
+    },
+    {
+      "instance_cmd": "Run repair_pred_1 for 3",
+      "instances": "Yes",
+      "instance_msg": "Instance found which means that the specification is consistent"
+    }
+  ],
+  "error": "Warning Line 19 column 32 in /Users/moh/Downloads/repos/repair-sw-spec/the specification:\nThe join operation here always yields an empty set.\nLeft type = {Int->this/Element}\nRight type = {Int} Warning Line 19 column 20 in /Users/moh/Downloads/repos/repair-sw-spec/the specification:\nSubset operator is redundant, because the right subexpression is always empty.\nLeft type = {Int}\nRight type = {none} Warning Line 25 column 30 in /Users/moh/Downloads/repos/repair-sw-spec/the specification:\nThe join operation here always yields an empty set.\nLeft type = {Int->this/Element}\nRight type = {Int} Warning Line 45 column 36 in /Users/moh/Downloads/repos/repair-sw-spec/the specification:\nThe join operation here always yields an empty set.\nLeft type = {Int->this/Element}\nRight type = {Int} Warning Line 45 column 24 in /Users/moh/Downloads/repos/repair-sw-spec/the specification:\nSubset operator is redundant, because the right subexpression is always empty.\nLeft type = {Int}\nRight type = {none} Warning Line 37 column 36 in /Users/moh/Downloads/repos/repair-sw-spec/the specification:\nThe join operation here always yields an empty set.\nLeft type = {Int->this/Element}\nRight type = {Int} Warning Line 37 column 24 in /Users/moh/Downloads/repos/repair-sw-spec/the specification:\nSubset operator is redundant, because the right subexpression is always empty.\nLeft type = {Int}\nRight type = {none} Warning Line 30 column 32 in /Users/moh/Downloads/repos/repair-sw-spec/the specification:\nThe join operation here always yields an empty set.\nLeft type = {Int->this/Element}\nRight type = {Int} Warning Line 30 column 20 in /Users/moh/Downloads/repos/repair-sw-spec/the specification:\nSubset operator is redundant, because the right subexpression is always empty.\nLeft type = {Int}\nRight type = {none}"
+}

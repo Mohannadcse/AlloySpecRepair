@@ -1,0 +1,1 @@
+pred inv14_OK { all s : Person, c : Class | some s.(c.Groups) implies some Teacher & Teaches.c } assert inv14_Repaired { inv14[] iff inv14_OK[] }

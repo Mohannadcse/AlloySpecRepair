@@ -1,0 +1,1 @@
+pred repair_pred_1{ all s:State, s1:State | s.trans.State = s1.trans.State }

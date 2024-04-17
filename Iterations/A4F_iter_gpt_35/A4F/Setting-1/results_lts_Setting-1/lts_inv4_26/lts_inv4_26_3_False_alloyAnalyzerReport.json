@@ -1,0 +1,47 @@
+{
+  "counterexamples": [
+    {
+      "cntr_cmd": "Check inv1_Repaired expect 0",
+      "counterexample": "no",
+      "counterexample_msg": "Counterexample not found which means that Check inv1_Repaired expect 0 is valid"
+    },
+    {
+      "cntr_cmd": "Check inv2_Repaired expect 0",
+      "counterexample": "no",
+      "counterexample_msg": "Counterexample not found which means that Check inv2_Repaired expect 0 is valid"
+    },
+    {
+      "cntr_cmd": "Check inv3_Repaired expect 0",
+      "counterexample": "no",
+      "counterexample_msg": "Counterexample not found which means that Check inv3_Repaired expect 0 is valid"
+    },
+    {
+      "cntr_cmd": "Check inv4_Repaired expect 0",
+      "counterexample": "no",
+      "counterexample_msg": "Counterexample not found which means that Check inv4_Repaired expect 0 is valid"
+    },
+    {
+      "cntr_cmd": "Check inv5_Repaired expect 0",
+      "counterexample": "no",
+      "counterexample_msg": "Counterexample not found which means that Check inv5_Repaired expect 0 is valid"
+    },
+    {
+      "cntr_cmd": "Check inv7_Repaired expect 0",
+      "counterexample": "no",
+      "counterexample_msg": "Counterexample not found which means that Check inv7_Repaired expect 0 is valid"
+    },
+    {
+      "cntr_cmd": "Check repair_assert_1",
+      "counterexample": "no",
+      "counterexample_msg": "Counterexample not found which means that Check repair_assert_1 is valid"
+    }
+  ],
+  "instances": [
+    {
+      "instance_cmd": "Run repair_pred_1",
+      "instances": "Yes",
+      "instance_msg": "Instance found which means that the specification is consistent"
+    }
+  ],
+  "error": "Warning Line 1 column 239 in /Users/admin0513-27/Downloads/automated_spec_repair-main-7/the specification:\nThe join operation here always yields an empty set.\nLeft type = {this/Event}\nRight type = {this/State->this/Event->this/State} Warning Line 1 column 232 in /Users/admin0513-27/Downloads/automated_spec_repair-main-7/the specification:\n^ this/Event . (this/State <: trans) is redundant since its domain and range are disjoint: {none->none} Warning Line 1 column 231 in /Users/admin0513-27/Downloads/automated_spec_repair-main-7/the specification:\nThe join operation here always yields an empty set.\nLeft type = {this/State}\nRight type = {none->none} Warning Line 1 column 224 in /Users/admin0513-27/Downloads/automated_spec_repair-main-7/the specification:\nSubset operator is redundant, because the right subexpression is always empty.\nLeft type = {this/State}\nRight type = {none} Warning Line 1 column 874 in /Users/admin0513-27/Downloads/automated_spec_repair-main-7/the specification:\nThe join operation here always yields an empty set.\nLeft type = {this/Event}\nRight type = {this/State->this/Event->this/State} Warning Line 1 column 867 in /Users/admin0513-27/Downloads/automated_spec_repair-main-7/the specification:\n^ this/Event . (this/State <: trans) is redundant since its domain and range are disjoint: {none->none} Warning Line 1 column 866 in /Users/admin0513-27/Downloads/automated_spec_repair-main-7/the specification:\nThe join operation here always yields an empty set.\nLeft type = {this/State}\nRight type = {none->none} Warning Line 1 column 859 in /Users/admin0513-27/Downloads/automated_spec_repair-main-7/the specification:\nSubset operator is redundant, because the right subexpression is always empty.\nLeft type = {this/State}\nRight type = {none} Warning Line 1 column 789 in /Users/admin0513-27/Downloads/automated_spec_repair-main-7/the specification:\nThis variable is unused."
+}

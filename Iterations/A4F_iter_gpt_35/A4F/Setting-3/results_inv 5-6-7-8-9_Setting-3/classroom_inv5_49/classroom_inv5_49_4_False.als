@@ -1,0 +1,1 @@
+pred inv5_OK { some Teacher.Teaches }

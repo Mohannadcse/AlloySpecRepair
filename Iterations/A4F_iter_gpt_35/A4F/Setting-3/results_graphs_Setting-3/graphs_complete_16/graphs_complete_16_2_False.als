@@ -1,0 +1,1 @@
+sig Node { adj : set Node } pred complete { all n : Node | Node - n in n.adj } pred repair_pred_1{complete[] iff all n:Node | n in n.adj } assert repair_assert_1{complete[] iff all n:Node | n in n.adj }

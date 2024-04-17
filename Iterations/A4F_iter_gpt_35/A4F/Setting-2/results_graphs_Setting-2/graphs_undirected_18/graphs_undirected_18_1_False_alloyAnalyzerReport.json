@@ -1,0 +1,46 @@
+{
+  "counterexamples": [
+    {
+      "cntr_cmd": "Check undirectedRepaired expect 0",
+      "counterexample": "Yes",
+      "counterexample_msg": "Counterexample found which means that Check undirectedRepaired expect 0 assertion is invalid\nthis/Node={Node$0, Node$1}\nthis/Node.adj={Node$1->Node$0}\n"
+    },
+    {
+      "cntr_cmd": "Check orientedRepaired expect 0",
+      "counterexample": "no",
+      "counterexample_msg": "Counterexample not found which means that Check orientedRepaired expect 0 is valid"
+    },
+    {
+      "cntr_cmd": "Check acyclicRepaired expect 0",
+      "counterexample": "no",
+      "counterexample_msg": "Counterexample not found which means that Check acyclicRepaired expect 0 is valid"
+    },
+    {
+      "cntr_cmd": "Check completeRepaired expect 0",
+      "counterexample": "no",
+      "counterexample_msg": "Counterexample not found which means that Check completeRepaired expect 0 is valid"
+    },
+    {
+      "cntr_cmd": "Check noLoopsRepaired expect 0",
+      "counterexample": "no",
+      "counterexample_msg": "Counterexample not found which means that Check noLoopsRepaired expect 0 is valid"
+    },
+    {
+      "cntr_cmd": "Check weaklyConnectedRepaired expect 0",
+      "counterexample": "no",
+      "counterexample_msg": "Counterexample not found which means that Check weaklyConnectedRepaired expect 0 is valid"
+    },
+    {
+      "cntr_cmd": "Check stonglyConnectedRepaired expect 0",
+      "counterexample": "no",
+      "counterexample_msg": "Counterexample not found which means that Check stonglyConnectedRepaired expect 0 is valid"
+    },
+    {
+      "cntr_cmd": "Check transitiveRepaired expect 0",
+      "counterexample": "no",
+      "counterexample_msg": "Counterexample not found which means that Check transitiveRepaired expect 0 is valid"
+    }
+  ],
+  "instances": [],
+  "error": ""
+}

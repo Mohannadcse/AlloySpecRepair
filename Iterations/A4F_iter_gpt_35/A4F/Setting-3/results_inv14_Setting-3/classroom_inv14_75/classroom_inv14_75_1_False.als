@@ -1,0 +1,1 @@
+assert inv14_Repaired { inv14_OK[] }

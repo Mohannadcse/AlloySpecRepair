@@ -1,0 +1,1 @@
+sig Node { adj : set Node } pred complete { adj = *adj } pred completeOK { all n:Node | Node in n.adj } pred repair_pred_1{complete[] iff completeOK[] }

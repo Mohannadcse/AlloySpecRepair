@@ -1,0 +1,1 @@
+sig Person {} sig Group {} sig Class { Groups: Person -> Group } sig Teacher extends Person {} sig Student extends Person {} fact { no Teacher no Student & Teacher all t: Teacher | lone t.Teaches all c: Class | lone Teaches.c & Teacher } pred inv11 { all c : Class | (some c.Groups) implies some Teacher & Teaches.c }

@@ -1,0 +1,1 @@
+sig Node { adj: set Node } pred noLoops { adj = Node->Node - iden } pred noLoopsOK { no (iden & adj) } pred repair_pred_1 { noLoops[] iff noLoopsOK[] }

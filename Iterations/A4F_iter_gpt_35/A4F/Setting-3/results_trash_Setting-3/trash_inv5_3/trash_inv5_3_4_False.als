@@ -1,0 +1,1 @@
+pred inv10 { all f: Trash | f.link in Trash implies f in Trash }

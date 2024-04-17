@@ -1,0 +1,5 @@
+{
+  "counterexamples": [],
+  "instances": [],
+  "error": "Warning Line 1 column 248 in /Users/admin0513-27/Downloads/automated_spec_repair-main-7/the specification:\n& is irrelevant because the two subexpressions are always disjoint.\nLeft type = {this/Student}\nRight type = {this/Teacher} Warning Line 1 column 482 in /Users/admin0513-27/Downloads/automated_spec_repair-main-7/the specification:\nThe join operation here always yields an empty set.\nLeft type = {this/Class}\nRight type = {this/Person->this/Class} Warning Line 1 column 491 in /Users/admin0513-27/Downloads/automated_spec_repair-main-7/the specification:\n& is irrelevant because the two subexpressions are always disjoint.\nLeft type = {none}\nRight type = {this/Teacher}"
+}

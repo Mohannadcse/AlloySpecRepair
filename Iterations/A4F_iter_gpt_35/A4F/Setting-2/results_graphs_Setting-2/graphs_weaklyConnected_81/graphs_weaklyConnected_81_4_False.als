@@ -1,0 +1,1 @@
+pred weaklyConnectedOK { all n:Node | some n.*(n->(n.*adj + n.^~adj)) } assert weaklyConnectedRepaired { weaklyConnected[] iff weaklyConnectedOK[] }

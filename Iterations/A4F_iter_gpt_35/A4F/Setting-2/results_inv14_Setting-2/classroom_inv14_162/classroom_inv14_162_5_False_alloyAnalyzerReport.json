@@ -1,0 +1,5 @@
+{
+  "counterexamples": [],
+  "instances": [],
+  "error": "Syntax error in /Users/admin0513-27/Downloads/automated_spec_repair-main-7/results_inv14_Setting-2/classroom_inv14_162/classroom_inv14_162_5_False.als at line 1 column 1:\nThe signature name \"Person\" cannot be found.\n\tat edu.mit.csail.sdg.alloy4compiler.parser.CompModule.resolveParams(CompModule.java:917)\n\tat edu.mit.csail.sdg.alloy4compiler.parser.CompModule.resolveAll(CompModule.java:1453)\n\tat edu.mit.csail.sdg.alloy4compiler.parser.CompUtil.parseEverything_fromFile(CompUtil.java:225)\n\tat alloyrepair.App.callAlloyEngine(App.java:133)\n\tat alloyrepair.App.main(App.java:102)\n"
+}

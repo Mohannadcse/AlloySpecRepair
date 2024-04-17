@@ -1,0 +1,1 @@
+sig Node { adj : set Node } pred weaklyConnected { all x, y : Node | (x->y in adj) or (y->x in adj) or (x in y.^adj) }

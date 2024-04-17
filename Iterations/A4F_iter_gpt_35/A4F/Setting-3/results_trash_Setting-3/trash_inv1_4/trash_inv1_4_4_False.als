@@ -1,0 +1,1 @@
+sig File { link: set File } sig Trash extends File {} sig Protected extends File {} pred inv1 { all f:File | f in Trash } pred inv1_OK { no Trash } assert inv1_Repaired { inv1[] iff inv1_OK[] } pred repair_pred_1 { inv1[] iff inv1_OK[] }

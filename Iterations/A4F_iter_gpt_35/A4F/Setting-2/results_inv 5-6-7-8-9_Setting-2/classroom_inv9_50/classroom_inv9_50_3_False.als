@@ -1,0 +1,1 @@
+/* Your fixed Alloy specifications here */

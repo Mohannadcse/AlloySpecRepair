@@ -1,0 +1,17 @@
+{
+  "counterexamples": [
+    {
+      "cntr_cmd": "Check repair_assert_1 for exactly 1 Address, exactly 2 Name, exactly 1 Book",
+      "counterexample": "Yes",
+      "counterexample_msg": "Counterexample found which means that Check repair_assert_1 for exactly 1 Address, exactly 2 Name, exactly 1 Book assertion is invalid\nthis/Address={Address$0}\nthis/Name={Name$0, Name$1}\nthis/Listing={Address$0, Name$0, Name$1}\nthis/Book={Book$0}\nthis/Book.entry={Book$0->Name$1}\nthis/Book.listed={Book$0->Name$0->Address$0}\n"
+    }
+  ],
+  "instances": [
+    {
+      "instance_cmd": "Run repair_pred_1 for exactly 1 Address, exactly 2 Name, exactly 1 Book",
+      "instances": "Yes",
+      "instance_msg": "Instance found which means that the specification is consistent"
+    }
+  ],
+  "error": ""
+}

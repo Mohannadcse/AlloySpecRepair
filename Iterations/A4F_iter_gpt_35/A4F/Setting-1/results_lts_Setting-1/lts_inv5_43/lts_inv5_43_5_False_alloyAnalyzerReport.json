@@ -1,0 +1,5 @@
+{
+  "counterexamples": [],
+  "instances": [],
+  "error": "Warning Line 1 column 805 in /Users/admin0513-27/Downloads/automated_spec_repair-main-7/the specification:\n== is redundant, because the left and right expressions are always disjoint.\nLeft type = {this/Event}\nRight type = {this/State}"
+}

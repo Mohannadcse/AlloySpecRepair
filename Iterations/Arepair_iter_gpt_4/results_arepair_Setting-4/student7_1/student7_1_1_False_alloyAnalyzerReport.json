@@ -1,0 +1,17 @@
+{
+  "counterexamples": [
+    {
+      "cntr_cmd": "Check repair_assert_1",
+      "counterexample": "no",
+      "counterexample_msg": "Counterexample not found which means that Check repair_assert_1 is valid"
+    }
+  ],
+  "instances": [
+    {
+      "instance_cmd": "Run repair_pred_1",
+      "instances": "Yes",
+      "instance_msg": "Instance found which means that the specification is consistent"
+    }
+  ],
+  "error": "Warning Line 48 column 40 in /Users/moh/Downloads/repos/repair-sw-spec/the specification:\n& is irrelevant because the two subexpressions are always disjoint.\nLeft type = {this/Node}\nRight type = {Int} Warning Line 56 column 34 in /Users/moh/Downloads/repos/repair-sw-spec/the specification:\n& is irrelevant because the two subexpressions are always disjoint.\nLeft type = {this/Node}\nRight type = {Int}"
+}

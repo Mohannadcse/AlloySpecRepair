@@ -1,0 +1,1 @@
+sig Init in State {}

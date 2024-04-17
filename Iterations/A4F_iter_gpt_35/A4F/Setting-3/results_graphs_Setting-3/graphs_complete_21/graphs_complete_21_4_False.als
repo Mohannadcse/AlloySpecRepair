@@ -1,0 +1,1 @@
+sig Node { adj : set Node } pred stronglyConnected { all n:Node | Node in n.*(adj+~adj) }

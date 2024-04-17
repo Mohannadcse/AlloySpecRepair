@@ -1,0 +1,17 @@
+{
+  "counterexamples": [
+    {
+      "cntr_cmd": "Check repair_assert_1",
+      "counterexample": "no",
+      "counterexample_msg": "Counterexample not found which means that Check repair_assert_1 is valid"
+    }
+  ],
+  "instances": [
+    {
+      "instance_cmd": "Run repair_pred_1",
+      "instances": "Yes",
+      "instance_msg": "Instance found which means that the specification is consistent"
+    }
+  ],
+  "error": "Warning Line 24 column 94 in /Users/moh/Downloads/repos/repair-sw-spec/the specification:\nThe join operation here always yields an empty set.\nLeft type = {this/Student}\nRight type = {this/Assignment->this/Class} Warning Line 24 column 110 in /Users/moh/Downloads/repos/repair-sw-spec/the specification:\nThe join operation here always yields an empty set.\nLeft type = {none}\nRight type = {this/Class->this/Student} Warning Line 24 column 78 in /Users/moh/Downloads/repos/repair-sw-spec/the specification:\nSubset operator is redundant, because the right subexpression is always empty.\nLeft type = {this/Person}\nRight type = {none} Warning Line 18 column 94 in /Users/moh/Downloads/repos/repair-sw-spec/the specification:\nThe join operation here always yields an empty set.\nLeft type = {this/Student}\nRight type = {this/Assignment->this/Class} Warning Line 18 column 110 in /Users/moh/Downloads/repos/repair-sw-spec/the specification:\nThe join operation here always yields an empty set.\nLeft type = {none}\nRight type = {this/Class->this/Student} Warning Line 18 column 78 in /Users/moh/Downloads/repos/repair-sw-spec/the specification:\nSubset operator is redundant, because the right subexpression is always empty.\nLeft type = {this/Person}\nRight type = {none}"
+}

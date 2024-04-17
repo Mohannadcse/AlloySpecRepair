@@ -1,0 +1,1 @@
+sig State { trans : Event -> State } sig Init in State {} sig Event {} pred inv5 { all s:State, e:Event | some (s.trans).e } assert inv5_Repaired { inv5[] }

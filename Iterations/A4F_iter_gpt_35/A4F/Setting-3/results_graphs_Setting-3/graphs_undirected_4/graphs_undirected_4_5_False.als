@@ -1,0 +1,1 @@
+pred repair_pred_1{undirected[] iff undirectedOK[] and all n:Node | n.adj = n.adj.~adj}

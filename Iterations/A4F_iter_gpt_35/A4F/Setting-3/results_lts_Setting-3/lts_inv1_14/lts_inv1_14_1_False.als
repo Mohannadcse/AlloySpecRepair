@@ -1,0 +1,1 @@
+pred repair_pred_1{inv1[] <=> inv1_OK[] }

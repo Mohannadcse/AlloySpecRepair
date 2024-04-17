@@ -1,0 +1,11 @@
+{
+  "counterexamples": [
+    {
+      "cntr_cmd": "Check orientedRepaired for 5",
+      "counterexample": "Yes",
+      "counterexample_msg": "Counterexample found which means that Check orientedRepaired for 5 assertion is invalid\nthis/Node={Node$0}\nthis/Node.adj={Node$0->Node$0}\n"
+    }
+  ],
+  "instances": [],
+  "error": ""
+}

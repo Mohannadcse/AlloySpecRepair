@@ -1,0 +1,1 @@
+pred repair_pred_1{all s: State, e: Event | lone e.(s.trans) }

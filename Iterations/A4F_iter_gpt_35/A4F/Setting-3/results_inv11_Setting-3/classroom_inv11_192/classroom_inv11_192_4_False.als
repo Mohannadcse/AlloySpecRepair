@@ -1,0 +1,1 @@
+pred inv11 { all c : Class | (some Teacher & Teaches.c) implies some c.Groups } assert repair_assert_1 { inv11[] iff inv11_OK[] }

@@ -1,0 +1,1 @@
+sig Node { adj : set Node } pred weaklyConnectedOK { all n:Node | n in n.*(adj+~adj) } pred repair_pred_1 { all n:Node | n in n.*(adj+~adj) }

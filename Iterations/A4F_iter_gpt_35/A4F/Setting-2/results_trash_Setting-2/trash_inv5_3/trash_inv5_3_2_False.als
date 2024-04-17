@@ -1,0 +1,1 @@
+/* Fixed specifications with the compilation error resolved */

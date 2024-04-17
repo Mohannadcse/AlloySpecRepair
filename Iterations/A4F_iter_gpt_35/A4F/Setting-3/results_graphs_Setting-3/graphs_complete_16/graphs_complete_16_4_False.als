@@ -1,0 +1,1 @@
+sig Node { adj : set Node } pred completeOK { all n:Node | Node in n.adj } pred complete { all n:Node | Node - n in n.adj }

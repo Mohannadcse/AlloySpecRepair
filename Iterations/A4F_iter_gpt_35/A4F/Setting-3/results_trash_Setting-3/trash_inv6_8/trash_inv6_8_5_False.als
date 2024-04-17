@@ -1,0 +1,1 @@
+pred inv6_OK { all f : File | #f.link <= 1 }

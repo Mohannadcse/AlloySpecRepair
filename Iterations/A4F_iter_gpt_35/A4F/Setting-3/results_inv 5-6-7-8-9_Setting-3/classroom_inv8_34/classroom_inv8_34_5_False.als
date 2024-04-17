@@ -1,0 +1,1 @@
+pred inv8_OK { all t:Teacher | lone t.Teaches } assert repair_assert_1 { inv8[] iff inv8_OK[] }

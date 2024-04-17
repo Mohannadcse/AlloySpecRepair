@@ -1,0 +1,1 @@
+sig Tutors {} sig Person { Tutors: set Tutors } sig Teacher extends Person {} sig Student extends Person {} pred inv13_OK { Tutors.Person in Teacher and Person.Tutors in Student }

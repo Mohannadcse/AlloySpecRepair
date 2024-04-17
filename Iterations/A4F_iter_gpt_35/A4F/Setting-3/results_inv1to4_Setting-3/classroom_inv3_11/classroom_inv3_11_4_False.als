@@ -1,0 +1,1 @@
+pred repair_pred_1{all p: Person | p in Student or p in Teacher} run repair_pred_1

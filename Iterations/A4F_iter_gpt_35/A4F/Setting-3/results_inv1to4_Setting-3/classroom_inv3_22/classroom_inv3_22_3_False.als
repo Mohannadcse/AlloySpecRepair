@@ -1,0 +1,1 @@
+pred inv3_OK { no Student & Teacher }

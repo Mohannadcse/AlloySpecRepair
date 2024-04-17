@@ -1,0 +1,1 @@
+sig File { link: set File } sig Trash extends File {} sig Protected extends File {} pred inv4 { no Protected & Trash } pred inv6_OK { ~link.link in iden }

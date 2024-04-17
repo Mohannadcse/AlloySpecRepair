@@ -1,0 +1,22 @@
+{
+  "counterexamples": [
+    {
+      "cntr_cmd": "Check inv2_Repaired expect 0",
+      "counterexample": "no",
+      "counterexample_msg": "Counterexample not found which means that Check inv2_Repaired expect 0 is valid"
+    },
+    {
+      "cntr_cmd": "Check repair_assert_1",
+      "counterexample": "no",
+      "counterexample_msg": "Counterexample not found which means that Check repair_assert_1 is valid"
+    }
+  ],
+  "instances": [
+    {
+      "instance_cmd": "Run repair_pred_1",
+      "instances": "Yes",
+      "instance_msg": "Instance found which means that the specification is consistent"
+    }
+  ],
+  "error": ""
+}

@@ -1,0 +1,1 @@
+sig Node { adj : set Node } pred weaklyConnectedOK { all n:Node | all m:Node | some n.*(adj + ~adj).m }

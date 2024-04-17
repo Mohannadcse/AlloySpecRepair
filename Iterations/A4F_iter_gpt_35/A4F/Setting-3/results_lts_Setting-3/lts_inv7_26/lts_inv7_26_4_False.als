@@ -1,0 +1,1 @@
+sig State { trans : Event -> State } sig Init in State {} sig Event {} pred inv7_OK { let tr = { s1, s2 : State | some e : Event | s1->e->s2 in trans } | all x : State, y : Init, z : Event | y in one -> one tr and tr in one -> one x and x != y }

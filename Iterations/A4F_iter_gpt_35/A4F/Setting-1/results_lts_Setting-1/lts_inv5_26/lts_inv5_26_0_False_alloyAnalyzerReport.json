@@ -1,0 +1,11 @@
+{
+  "counterexamples": [
+    {
+      "cntr_cmd": "Check inv5_Repaired expect 0",
+      "counterexample": "Yes",
+      "counterexample_msg": "Counterexample found which means that Check inv5_Repaired expect 0 assertion is invalid\nthis/State={State$0, State$1}\nthis/State.trans={State$1->Event$0->State$0, State$1->Event$1->State$0}\nthis/Event={Event$0, Event$1}\nthis/Init={}\n"
+    }
+  ],
+  "instances": [],
+  "error": "Warning Line 1 column 338 in /Users/admin0513-27/Downloads/automated_spec_repair-main-7/the specification:\nThe join operation here always yields an empty set.\nLeft type = {this/Event->this/State}\nRight type = {this/Event} Warning Line 1 column 328 in /Users/admin0513-27/Downloads/automated_spec_repair-main-7/the specification:\nSubset operator is redundant, because the right subexpression is always empty.\nLeft type = {this/Event}\nRight type = {none} Warning Line 1 column 592 in /Users/admin0513-27/Downloads/automated_spec_repair-main-7/the specification:\nThe join operation here always yields an empty set.\nLeft type = {this/Event->this/State}\nRight type = {this/Event} Warning Line 1 column 609 in /Users/admin0513-27/Downloads/automated_spec_repair-main-7/the specification:\nThe join operation here always yields an empty set.\nLeft type = {this/Event->this/State}\nRight type = {this/Event}"
+}

@@ -1,0 +1,1 @@
+sig Node { adj: set Node } pred noLoops { all x, y: Node | x->y in adj implies not y->x in adj } run repair_assert_1

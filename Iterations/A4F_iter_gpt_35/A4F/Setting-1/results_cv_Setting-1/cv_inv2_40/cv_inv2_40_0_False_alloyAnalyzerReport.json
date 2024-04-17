@@ -1,0 +1,21 @@
+{
+  "counterexamples": [
+    {
+      "cntr_cmd": "Check inv1_Repaired expect 0",
+      "counterexample": "no",
+      "counterexample_msg": "Counterexample not found which means that Check inv1_Repaired expect 0 is valid"
+    },
+    {
+      "cntr_cmd": "Check inv2_Repaired expect 0",
+      "counterexample": "Yes",
+      "counterexample_msg": "Counterexample found which means that Check inv2_Repaired expect 0 assertion is invalid\nthis/User={User$0, User$1}\nthis/User.profile={}\nthis/User.visible={User$1->Work$0}\nthis/Institution={}\nthis/Source={User$0, User$1}\nthis/Id={Id$0, Id$1, Id$2}\nthis/Work={Work$0}\nthis/Work.ids={Work$0->Id$0, Work$0->Id$1, Work$0->Id$2}\nthis/Work.source={Work$0->User$0}\n"
+    },
+    {
+      "cntr_cmd": "Check inv3_Repaired expect 0",
+      "counterexample": "no",
+      "counterexample_msg": "Counterexample not found which means that Check inv3_Repaired expect 0 is valid"
+    }
+  ],
+  "instances": [],
+  "error": ""
+}

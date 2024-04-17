@@ -1,0 +1,1 @@
+pred inv15_OK { all s : Person | some Teacher & ^Tutors.s } assert inv15_Repaired { inv15[] iff inv15_OK[] } check inv15_Repaired expect 0 pred repair_pred_1{inv15[] iff inv15_OK[] } run repair_pred_1 assert repair_assert_1{inv15[] iff inv15_OK[] } check repair_assert_1

@@ -1,0 +1,1 @@
+sig Person {} sig Group {} sig Class { Groups: Person -> Group } sig Teacher extends Person {} sig Student extends Person {} pred inv15_fixed { all s : Person | some Teacher & ^Tutors.s }

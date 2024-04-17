@@ -1,0 +1,1 @@
+sig Node { adj: set Node } pred transitive { adj.adj in adj } pred transitiveOK { adj.adj in adj } assert transitiveRepaired { transitive[] iff transitiveOK[] } check transitiveRepaired for 3

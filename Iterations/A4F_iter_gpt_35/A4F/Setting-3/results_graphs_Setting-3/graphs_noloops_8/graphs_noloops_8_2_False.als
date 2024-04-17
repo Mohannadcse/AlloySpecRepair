@@ -1,0 +1,1 @@
+sig Node { adj : set Node } pred noLoopsOK { no (iden & adj + ~adj) } assert noLoopsRepaired { noLoops[] iff noLoopsOK[] }

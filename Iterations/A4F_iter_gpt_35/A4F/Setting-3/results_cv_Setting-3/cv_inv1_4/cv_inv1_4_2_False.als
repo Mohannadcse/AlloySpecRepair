@@ -1,0 +1,1 @@
+pred repair_pred_1{all u:User | u.visible in u.profile} 

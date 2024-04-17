@@ -1,0 +1,1 @@
+/*The fixed specification as shown above*/

@@ -1,0 +1,2 @@
+Number of fixed entries,Number of entries that reached max iteration,Average number of iterations for fixed entries,Min number of iterations to fix,Max number of iterations to fix,Number of entries where fst_iter_repeated_init_spec is True
+17,21,1.7058823529411764,1,6,3

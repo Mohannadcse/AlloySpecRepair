@@ -1,0 +1,1 @@
+sig Node { adj: set Node } pred complete { all n:Node | n.adj = Node } pred transitive { adj = adj.^adj }

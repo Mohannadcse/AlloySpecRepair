@@ -1,0 +1,1 @@
+sig Node { adj : set Node } pred complete { *adj in Node set -> set Node }

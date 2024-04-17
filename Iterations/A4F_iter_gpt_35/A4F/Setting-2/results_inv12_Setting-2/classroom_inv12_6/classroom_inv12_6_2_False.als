@@ -1,0 +1,1 @@
+sig Person {} sig Group {} sig Class { Groups: Person -> Group } sig Teacher extends Person {} sig Student extends Person {} fact { no Teacher no Student & Teacher all t: Teacher | lone t.Teaches all c: Class | lone Teaches.c & Teacher } pred inv12_OK { all t : Teacher | some (t.Teaches).Groups } assert inv12_Repaired { inv12[] iff inv12_OK[] } check inv12_Repaired for 5

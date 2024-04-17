@@ -1,0 +1,1 @@
+pred inv5_OK { some Teacher.Teaches } assert repair_assert_1 { inv5[] iff inv5_OK[] }

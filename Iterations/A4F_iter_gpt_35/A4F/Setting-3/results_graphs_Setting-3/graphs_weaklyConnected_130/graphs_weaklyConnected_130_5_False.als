@@ -1,0 +1,1 @@
+sig Node { adj: set Node } pred undirected { adj = ~adj } pred oriented { no adj & ~adj } pred acyclic { all a: Node | a not in a.^adj } pred complete { all n, m: Node | n in m.adj } pred noLoops { no (iden & adj) } pred weaklyConnected { all x, y: Node | some x<:^adj & y<:^adj } pred stronglyConnected { all n: Node | all m: Node | some n->m } pred transitive { adj.adj in adj }

@@ -1,0 +1,1 @@
+pred repair_pred_1 { all n:Node | some n.*(adj + ~adj) }

@@ -1,0 +1,1 @@
+pred inv13_OK { Tutors.Person in Teacher and Tutors.Person in Student } assert repair_assert_1{inv13[] iff inv13_OK[] }

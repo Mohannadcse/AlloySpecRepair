@@ -1,0 +1,1 @@
+sig State { trans : Event -> State } sig Init in State {} sig Event {} pred inv5_OK { all x : State | x.trans.Event in Event } assert inv5_Repaired { inv5[] iff inv5_OK[] } pred repair_pred_1 { inv5[] iff inv5_OK[] } run repair_pred_1 assert repair_assert_1 { inv5[] iff inv5_OK[] } check repair_assert_1

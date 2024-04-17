@@ -1,0 +1,1 @@
+sig Node { adj : set Node } pred weaklyConnected { all n:Node | some n->n.*(adj+~adj) } pred weaklyConnectedOK { all n:Node | some n->n.*(adj+~adj) } assert weaklyConnectedRepaired { weaklyConnected[] iff weaklyConnectedOK[] }

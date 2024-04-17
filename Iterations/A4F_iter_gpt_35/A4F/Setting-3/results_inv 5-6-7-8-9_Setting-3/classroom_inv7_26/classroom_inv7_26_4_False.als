@@ -1,0 +1,1 @@
+pred inv7 { all c:Class | some Teaches.c & Teacher }

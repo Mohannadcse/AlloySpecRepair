@@ -1,0 +1,1 @@
+pred inv10 { all c:Class, s:Student | (some c.Groups) implies some Teacher & Teaches.c }

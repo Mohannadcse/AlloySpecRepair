@@ -1,0 +1,1 @@
+pred repair_pred_1{Teacher in Teaches.Class }

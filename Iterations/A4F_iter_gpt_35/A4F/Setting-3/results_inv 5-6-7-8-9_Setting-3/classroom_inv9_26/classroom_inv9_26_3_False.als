@@ -1,0 +1,1 @@
+pred repair_pred_1{all c:Class,p:Person | lone Teaches->c and lone p->Groups }

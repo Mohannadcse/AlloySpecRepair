@@ -1,0 +1,1 @@
+sig Node { adj : set Node } pred undirected {} pred undirectedOK {} pred undirectedRepaired { undirected[] iff undirectedOK[] }

@@ -1,0 +1,11 @@
+{
+  "counterexamples": [],
+  "instances": [
+    {
+      "instance_cmd": "Run repair_pred_1",
+      "instances": "Yes",
+      "instance_msg": "Instance found which means that the specification is consistent"
+    }
+  ],
+  "error": "Warning Line 1 column 547 in /Users/moh/Downloads/repos/repair-sw-spec/the specification:\nSubset operator is redundant, because the left and right subexpressions are always disjoint.\nLeft type = {this/Node}\nRight type = {Int} Warning Line 1 column 427 in /Users/moh/Downloads/repos/repair-sw-spec/the specification:\nSubset operator is redundant, because the left and right subexpressions are always disjoint.\nLeft type = {this/Node}\nRight type = {Int}"
+}

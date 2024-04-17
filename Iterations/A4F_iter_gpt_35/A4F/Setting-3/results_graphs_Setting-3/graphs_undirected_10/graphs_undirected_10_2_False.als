@@ -1,0 +1,1 @@
+sig Node { adj : set Node } pred undirected { no adj & ~adj } pred undirectedOK { adj = ~adj } pred repair_pred_1 { all n: Node | all m: Node | (n in m.adj) <=> (m in n.adj) } assert repair_assert_1 { undirected[] iff undirectedOK[] }

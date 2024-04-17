@@ -1,0 +1,32 @@
+{
+  "counterexamples": [
+    {
+      "cntr_cmd": "Check inv1_Repaired expect 0",
+      "counterexample": "no",
+      "counterexample_msg": "Counterexample not found which means that Check inv1_Repaired expect 0 is valid"
+    },
+    {
+      "cntr_cmd": "Check inv2_Repaired expect 0",
+      "counterexample": "no",
+      "counterexample_msg": "Counterexample not found which means that Check inv2_Repaired expect 0 is valid"
+    },
+    {
+      "cntr_cmd": "Check inv3_Repaired expect 0",
+      "counterexample": "no",
+      "counterexample_msg": "Counterexample not found which means that Check inv3_Repaired expect 0 is valid"
+    },
+    {
+      "cntr_cmd": "Check repair_assert_1",
+      "counterexample": "no",
+      "counterexample_msg": "Counterexample not found which means that Check repair_assert_1 is valid"
+    }
+  ],
+  "instances": [
+    {
+      "instance_cmd": "Run repair_pred_1",
+      "instances": "Yes",
+      "instance_msg": "Instance found which means that the specification is consistent"
+    }
+  ],
+  "error": "Warning Line 7 column 162 in /Users/admin0513-27/Downloads/automated_spec_repair-main-7/the specification:\nThe join operation here always yields an empty set.\nLeft type = {this/User}\nRight type = {this/Work->this/Source} Warning Line 7 column 170 in /Users/admin0513-27/Downloads/automated_spec_repair-main-7/the specification:\nSubset operator is redundant, because the left subexpression is always empty.\nLeft type = {none}\nRight type = {this/User} Warning Line 7 column 182 in /Users/admin0513-27/Downloads/automated_spec_repair-main-7/the specification:\nThe join operation here always yields an empty set.\nLeft type = {this/User}\nRight type = {this/Work->this/Source} Warning Line 7 column 190 in /Users/admin0513-27/Downloads/automated_spec_repair-main-7/the specification:\nSubset operator is redundant, because the left subexpression is always empty.\nLeft type = {none}\nRight type = {this/Institution}"
+}

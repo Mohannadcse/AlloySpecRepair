@@ -1,0 +1,1 @@
+sig Person { Tutors: set Person, Teaches: set Class } sig Group {} sig Class { Groups: Person -> Group } sig Teacher extends Person {} sig Student extends Person {} pred inv3 { no Student & Teacher } pred inv4 { Person in (Student + Teacher) } pred inv13 { all t: Teacher, s: Student, c: Class | t->c in Teaches implies t->s in Tutors }

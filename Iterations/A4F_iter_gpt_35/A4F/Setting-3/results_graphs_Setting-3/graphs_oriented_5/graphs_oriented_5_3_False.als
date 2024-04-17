@@ -1,0 +1,1 @@
+sig Node { adj : set Node } pred orientedOK { all n:Node | n.adj = none } assert orientedRepaired { oriented[] iff orientedOK[] }
