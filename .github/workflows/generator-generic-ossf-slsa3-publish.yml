@@ -42,18 +42,10 @@ jobs:
           # Generate the subjects (base64 encoded).
           echo "hashes=$(sha256sum $files | base64 -w0)" >> "${GITHUB_OUTPUT}"
 
-  provenance:
-    needs: [build]
-    permissions:
-      actions: read   # To read the workflow path.
-      id-token: write # To sign the provenance.
-      contents: write # To add assets to a release.
+  tuf_update:
+    runs-on: ubuntu-latest
+    needs: build
     steps:
-      - name: Set up environment
-        run: |
-          # Optional: Set any necessary environment variables here.
-          echo "Setting up environment..."
-
       - name: Fetch Rekor public keys
         run: |
           # Fetch and display the Rekor public keys
@@ -62,14 +54,18 @@ jobs:
           cat rekor.pub
           echo "Public key fetched and displayed."
 
-      - name: Run SLSA verification
+      - name: Run TUF client update
         run: |
           # Perform TUF client update with verbose logging
           tuf-client update --verbose || echo "TUF client update failed."
-          
-          # Run SLSA verifier with fetched Rekor public key
-          slsa-verifier verify --rekor-key rekor.pub || echo "SLSA verification failed."
 
+  provenance:
+    needs: [tuf_update]
+    runs-on: ubuntu-latest
+    permissions:
+      actions: read   # To read the workflow path.
+      id-token: write # To sign the provenance.
+      contents: write # To add assets to a release.
     uses: slsa-framework/slsa-github-generator/.github/workflows/generator_generic_slsa3.yml@v1.4.0
     with:
       base64-subjects: "${{ needs.build.outputs.digests }}"
