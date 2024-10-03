@@ -33,16 +33,19 @@ def determine_setting(feedback: FeedbackOption, model: ModelOption) -> str:
     if feedback == FeedbackOption.NO_FEEDBACK and model in (
         ModelOption.GPT3_5_TURBO,
         ModelOption.GPT4_32K,
+        ModelOption.GPT4O  ,
     ):
         return "Setting-1"
     elif feedback == FeedbackOption.GENERIC_FEEDBACK and model in (
         ModelOption.GPT3_5_TURBO,
         ModelOption.GPT4_32K,
+        ModelOption.GPT4O  ,
     ):
         return "Setting-2"
     elif feedback == FeedbackOption.AUTO_FEEDBACK and model in (
         ModelOption.GPT3_5_TURBO,
         ModelOption.GPT4_32K,
+        ModelOption.GPT4O  ,
     ):
         return "Setting-3"
     elif feedback == FeedbackOption.NO_FEEDBACK and model == ModelOption.GPT4_TURBO:
@@ -53,6 +56,14 @@ def determine_setting(feedback: FeedbackOption, model: ModelOption) -> str:
         return "Setting-5"
     elif feedback == FeedbackOption.AUTO_FEEDBACK and model == ModelOption.GPT4_TURBO:
         return "Setting-6"
+    elif feedback == FeedbackOption.NO_FEEDBACK and model == ModelOption.GPT4O  :
+        return "Setting-7"
+    elif (
+        feedback == FeedbackOption.GENERIC_FEEDBACK and model == ModelOption.GPT4O
+    ):
+        return "Setting-8"
+    elif feedback == FeedbackOption.AUTO_FEEDBACK and model == ModelOption.GPT4O  :
+        return "Setting-9"
     else:
         return None
 
@@ -80,6 +91,10 @@ def chat(opts: CLIOptions) -> None:
         llm_config.deployment_name = "GPT4_Turbo"
         llm_config.model_name = "gpt-4"
         llm_config.chat_model = OpenAIChatModel.GPT4_TURBO
+    elif opts.model == ModelOption.GPT4O  :
+        llm_config.deployment_name = "gpt-4o"
+        llm_config.model_name = "gpt-4o"
+        llm_config.chat_model = OpenAIChatModel.GPT4O
 
     opts.result_path = f"results_{os.path.basename(opts.dataset_path)}" + f"_{setting}"
 
@@ -196,7 +211,8 @@ def main(
         help="""Select the model option:
              GPT-4-32-k - Use the GPT-4 model with 32k tokenizer.
              GPT-4-Turbo - Use the GPT-4 Turbo model.
-             GPT-3.5-Turbo - Use the GPT-3.5 Turbo model.""",
+             GPT-3.5-Turbo - Use the GPT-3.5 Turbo model.
+             GPT-4O - Use the GPT-4o model.""",
     ),
     bug_rep_hist: bool = typer.Option(
         False, "--bug_hist", "-bg", help="send bug/repair history"

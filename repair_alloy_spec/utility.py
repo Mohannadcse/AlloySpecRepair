@@ -5,7 +5,8 @@ import logging
 import difflib
 from typing import List
 from enum import Enum
-from pydantic import BaseSettings
+from pydantic_settings import BaseSettings
+
 
 
 def check_result_dir(directory_path):
@@ -36,13 +37,18 @@ class ModelOption(Enum):
     GPT4_32K = "GPT-4-32-k"
     GPT4_TURBO = "GPT-4-Turbo"
     GPT3_5_TURBO = "GPT-3.5-Turbo"
+    GPT4O = "GPT-4o"  # Added GPT-4o model option
 
+
+
+
+from typing import ClassVar
 
 class CLIOptions(BaseSettings):
     dataset_path: str = ""
     result_path: str = ""
     report: bool = False
-    bug_rep_hist = False
+    bug_rep_hist: bool = False  # Add type annotation
     fn_api: bool = False
     max_iter: int = 5
     model: ModelOption = ModelOption.GPT3_5_TURBO
@@ -51,6 +57,21 @@ class CLIOptions(BaseSettings):
     class Config:
         extra = "forbid"
         env_prefix = ""
+
+#
+# class CLIOptions(BaseSettings):
+#     dataset_path: str = ""
+#     result_path: str = ""
+#     report: bool = False
+#     bug_rep_hist = False
+#     fn_api: bool = False
+#     max_iter: int = 5
+#     model: ModelOption = ModelOption.GPT3_5_TURBO
+#     feedback: FeedbackOption = FeedbackOption.NO_FEEDBACK
+#
+#     class Config:
+#         extra = "forbid"
+#         env_prefix = ""
 
 
 # Create a custom logger
