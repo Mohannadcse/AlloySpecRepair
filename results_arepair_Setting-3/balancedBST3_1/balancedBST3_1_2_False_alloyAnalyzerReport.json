@@ -1,0 +1,5 @@
+{
+  "counterexamples": [],
+  "instances": [],
+  "error": "Syntax error in /Users/admin0513-27/Downloads/AlloySpecRepair-main-4/results_arepair_Setting-3/balancedBST3_1/balancedBST3_1_2_False.als at line 54 column 61:\nThere are 1 possible tokens that can appear here:\n) \n\tat edu.mit.csail.sdg.alloy4compiler.parser.CompParser.syntax_error(CompParser.java:2218)\n\tat edu.mit.csail.sdg.alloy4compiler.parser.CompParser.parse(CompParser.java:2079)\n\tat edu.mit.csail.sdg.alloy4compiler.parser.CompParser.alloy_parseStream(CompParser.java:2258)\n\tat edu.mit.csail.sdg.alloy4compiler.parser.CompUtil.parseRecursively(CompUtil.java:121)\n\tat edu.mit.csail.sdg.alloy4compiler.parser.CompUtil.parseEverything_fromFile(CompUtil.java:223)\n\tat alloyrepair.App.callAlloyEngine(App.java:133)\n\tat alloyrepair.App.main(App.java:102)\n"
+}

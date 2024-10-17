@@ -1,5 +1,5 @@
 ## Overview
-- This repo provides a repair pipline for Alloy models using pre-trained LLMs. This pipeline comprises 2-agents and leverages [Langroid](https://github.com/langroid/langroid/tree/main).
+- This repo provides a repair pipline for Alloy models using pre-trained LLMs. This pipeline comprises 2-agents and leverages [Azure OpenAI]([https://github.com/langroid/langroid/tree/main](https://github.com/retkowsky/Azure-OpenAI-demos/blob/main/GPT-4o/GPT-4o%20model%20with%20Azure%20OpenAI.ipynb ).
 
 - The tool implemented as a python class and is called `AlloyAnalzerAgent`. It does several tasks like running the proposed Alloy specification, send back the feedback to `GPT`, recording bug/fix pairs, etc...
 
@@ -28,58 +28,40 @@ poetry install
 ```
 
 ## Prerequesits
-- The current implementation leverages Azure OpenAI. 
-```python
-llm_config = AzureConfig(
-        chat_model=OpenAIChatModel.GPT4, timeout=50, stream=True, temperature=0.2
-    )
-```
 
-To change to OpenAI, just enable the line 
-```python
-llm_config = OpenAIGPTConfig(chat_model=OpenAIChatModel.GPT4, stream=True)
-```
 
-- You need to make sure you have the required settings and API keys listed in `.env-template` for either Azure or OpenAI.  Here are the instructions to setup these keys:
-
-In the root of the repo, copy the `.env-template` file to a new file `.env`: 
-```bash
-cp .env-template .env
-```
-Then insert your OpenAI API Key. 
-Your `.env` file should look like this:
-```bash
-OPENAI_API_KEY=your-key-here-without-quotes
-````
 
 <summary><b>Setup instructions for Microsoft Azure OpenAI</b></summary> 
 
 When using Azure OpenAI, additional environment variables are required in the 
-`.env` file.
+`/repair_alloy_spec/Alloy_Repair.py` file.
 This page [Microsoft Azure OpenAI](https://learn.microsoft.com/en-us/azure/ai-services/openai/chatgpt-quickstart?tabs=command-line&pivots=programming-language-python#environment-variables)
 provides more information, and you can set each environment variable as follows:
 
 - `AZURE_OPENAI_API_KEY`, from the value of `API_KEY`
 - `AZURE_OPENAI_API_BASE` from the value of `ENDPOINT`, typically looks like `https://your.domain.azure.com`.
-- For `AZURE_OPENAI_API_VERSION`, you can use the default value in `.env-template`, and latest version can be found [here](https://learn.microsoft.com/en-us/azure/ai-services/openai/whats-new#azure-openai-chat-completion-general-availability-ga)
+- `AZURE_OPENAI_MODEL_NAME` is the name of the deployed model, which is defined by the user during the model setup. 
 - `AZURE_OPENAI_DEPLOYMENT_NAME` is the name of the deployed model, which is defined by the user during the model setup 
-- `AZURE_OPENAI_MODEL_NAME` GPT-3.5-Turbo or GPT-4 model names that you chose when you setup your Azure OpenAI account.
+- `AZURE_OPENAI_API_VERSION` Current version of the Azure API, suppose "2024-05-01-preview"
+
 
 
 ## Run
 For example:
 ```bash
-python3 repair_alloy_spec/repair_chat.py -db="/path/to/Alloy_dataset 
-    -fb <feedback-level> -mo <model-name>
+
+python3 repair_alloy_spec/Alloy_Repair.py --dataset_path "<Location of the Dataset>" --feedback <feedback_type> --max [maximum_number_of_iterations]
 ```
 
 Add the flags:
-- `db`: path to defective Alloy models
-- `-fb`: feedback level `No-Feedback|Generic-Feedback|Auto-Feedback`.
-- `mo`: pre-trained LLM `GPT-4-32-k|GPT-4-Turbo|GPT-3.5-Turbo`
+- `--dataset_path`: path to defective Alloy models
+- `--feedback`: feedback level `No-Feedback|Generic-Feedback|Auto-Feedback`.
+- `--max`: iteration number `we are considering 5 iterations`
 
 ## Output 
-- A folder `results_<datasetName_SettingNumber>` will be created in the root directory. This folder will mantain a CSV file called `summary.csv`, which records the status of each Alloy file in the dataset. 
+- A folder `results_<datasetName_SettingNumber>` will be created in the root directory. This folder will mantain a CSV file called `summary.csv`, which records the status of each Alloy file in the dataset.
+
+- A file named `interaction_log.txt` contains all the real time interaction with LLM and output inside each results folder. 
 
 Following is a description of the columns in the CSV file:
 
