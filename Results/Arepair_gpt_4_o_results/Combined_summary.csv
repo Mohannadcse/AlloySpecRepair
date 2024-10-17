@@ -1,0 +1,5 @@
+,Benchmark: Arepair,,,
+,Fixed,Not Fixed,Syntax Error,Type Error
+No Feedback,24,7,7,0
+Generic Feedback,29,6,1,2
+Auto Feedback,27,3,8,0

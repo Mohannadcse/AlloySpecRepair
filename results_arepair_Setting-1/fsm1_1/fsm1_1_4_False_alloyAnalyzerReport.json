@@ -1,0 +1,17 @@
+{
+  "counterexamples": [
+    {
+      "cntr_cmd": "Check repair_assert_1 for 5 but 3 State",
+      "counterexample": "Yes",
+      "counterexample_msg": "Counterexample found which means that Check repair_assert_1 for 5 but 3 State assertion is invalid\nthis/FSM={FSM$0}\nthis/FSM.start={FSM$0->State$1}\nthis/FSM.stop={FSM$0->State$0}\nthis/State={State$0, State$1}\nthis/State.transition={State$0->State$0, State$1->State$0}\n"
+    }
+  ],
+  "instances": [
+    {
+      "instance_cmd": "Run repair_pred_1 for 5 but 3 State",
+      "instances": "Yes",
+      "instance_msg": "Instance found which means that the specification is consistent"
+    }
+  ],
+  "error": ""
+}

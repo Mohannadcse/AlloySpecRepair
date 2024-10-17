@@ -1,0 +1,456 @@
+fileName,iterations,status,repeated_fixes,repeated_init_spec,fst_iter_repeated_init_spec,wrong_format_msg,total_tokens,total_cost,running_time,Error_msg
+bempl1,1,NOT_FIXED,0,0,FALSE,0,561,0.02178,2.69,
+bempl1,2,NOT_FIXED,0,0,FALSE,0,1512,0.05523,5.49,
+bempl1,3,NOT_FIXED,0,0,FALSE,0,2854,0.10044,8.22,
+bempl1,4,NOT_FIXED,0,0,FALSE,0,4620,0.15936,12.75,
+bempl1,5,TYPE_ERROR,0,0,FALSE,0,6840,0.2328,15.67,"Type error in /Users/admin0513-27/Downloads/AlloySpecRepair-main-4/results_arepair_Setting-2/bempl1/bempl1_4_False.als at line 34 column 41:
+= can be used only between 2 expressions of the same arity, or between 2 integer expressions.
+Left type = {PrimitiveBoolean}
+Right type = {this/secure_lab}
+	at edu.mit.csail.sdg.alloy4compiler.ast.ExprBinary.error(ExprBinary.java:92)
+	at edu.mit.csail.sdg.alloy4compiler.ast.ExprBinary.access$000(ExprBinary.java:45)
+	at edu.mit.csail.sdg.alloy4compiler.ast.ExprBinary$Op.make(ExprBinary.java:287)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:368)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:181)
+	at edu.mit.csail.sdg.alloy4compiler.ast.ExprBinary.accept(ExprBinary.java:514)
+	at edu.mit.csail.sdg.alloy4compiler.ast.VisitReturn.visitThis(VisitReturn.java:29)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:441)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:181)
+	at edu.mit.csail.sdg.alloy4compiler.ast.ExprQt.accept(ExprQt.java:266)
+	at edu.mit.csail.sdg.alloy4compiler.ast.VisitReturn.visitThis(VisitReturn.java:29)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:455)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:181)
+	at edu.mit.csail.sdg.alloy4compiler.ast.ExprUnary.accept(ExprUnary.java:341)
+	at edu.mit.csail.sdg.alloy4compiler.ast.VisitReturn.visitThis(VisitReturn.java:29)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:455)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:181)
+	at edu.mit.csail.sdg.alloy4compiler.ast.ExprUnary.accept(ExprUnary.java:341)
+	at edu.mit.csail.sdg.alloy4compiler.ast.VisitReturn.visitThis(VisitReturn.java:29)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.check(CompModule.java:275)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule.resolveFacts(CompModule.java:1220)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule.resolveAll(CompModule.java:1479)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompUtil.parseEverything_fromFile(CompUtil.java:225)
+	at alloyrepair.App.callAlloyEngine(App.java:133)
+	at alloyrepair.App.main(App.java:102)"
+bempl1.als,6,Exception,0,0,FALSE,0,6840,0.2328,NA,AlloyAnalyzerAgent._write_summary_csv() missing 1 required positional argument: 'row'
+balancedBST3_1,1,SYNTAX_ERROR,0,0,FALSE,0,1335,0.0579,5.91,"Syntax error in /Users/admin0513-27/Downloads/AlloySpecRepair-main-4/results_arepair_Setting-2/balancedBST3_1/balancedBST3_1_0_False.als at line 60 column 20:
+There are 31 possible tokens that can appear here:
+! # ( * @ Int NAME NUMBER STRING String ^ all disj fun iden int let lone no none one pred seq set some sum this univ { } ~ 
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompParser.syntax_error(CompParser.java:2218)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompParser.parse(CompParser.java:2079)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompParser.alloy_parseStream(CompParser.java:2258)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompUtil.parseRecursively(CompUtil.java:121)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompUtil.parseEverything_fromFile(CompUtil.java:223)
+	at alloyrepair.App.callAlloyEngine(App.java:133)
+	at alloyrepair.App.main(App.java:102)"
+balancedBST3_1,2,SYNTAX_ERROR,0,0,FALSE,0,3519,0.14127,14.32,"Syntax error in /Users/admin0513-27/Downloads/AlloySpecRepair-main-4/results_arepair_Setting-2/balancedBST3_1/balancedBST3_1_1_False.als at line 60 column 20:
+There are 31 possible tokens that can appear here:
+! # ( * @ Int NAME NUMBER STRING String ^ all disj fun iden int let lone no none one pred seq set some sum this univ { } ~ 
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompParser.syntax_error(CompParser.java:2218)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompParser.parse(CompParser.java:2079)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompParser.alloy_parseStream(CompParser.java:2258)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompUtil.parseRecursively(CompUtil.java:121)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompUtil.parseEverything_fromFile(CompUtil.java:223)
+	at alloyrepair.App.callAlloyEngine(App.java:133)
+	at alloyrepair.App.main(App.java:102)"
+balancedBST3_1,3,SYNTAX_ERROR,0,0,FALSE,0,6552,0.25011,20.86,"Syntax error in /Users/admin0513-27/Downloads/AlloySpecRepair-main-4/results_arepair_Setting-2/balancedBST3_1/balancedBST3_1_2_False.als at line 60 column 20:
+There are 31 possible tokens that can appear here:
+! # ( * @ Int NAME NUMBER STRING String ^ all disj fun iden int let lone no none one pred seq set some sum this univ { } ~ 
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompParser.syntax_error(CompParser.java:2218)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompParser.parse(CompParser.java:2079)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompParser.alloy_parseStream(CompParser.java:2258)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompUtil.parseRecursively(CompUtil.java:121)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompUtil.parseEverything_fromFile(CompUtil.java:223)
+	at alloyrepair.App.callAlloyEngine(App.java:133)
+	at alloyrepair.App.main(App.java:102)"
+balancedBST3_1,4,SYNTAX_ERROR,0,0,FALSE,0,10434,0.38442,26.6,"Syntax error in /Users/admin0513-27/Downloads/AlloySpecRepair-main-4/results_arepair_Setting-2/balancedBST3_1/balancedBST3_1_3_False.als at line 60 column 20:
+There are 31 possible tokens that can appear here:
+! # ( * @ Int NAME NUMBER STRING String ^ all disj fun iden int let lone no none one pred seq set some sum this univ { } ~ 
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompParser.syntax_error(CompParser.java:2218)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompParser.parse(CompParser.java:2079)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompParser.alloy_parseStream(CompParser.java:2258)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompUtil.parseRecursively(CompUtil.java:121)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompUtil.parseEverything_fromFile(CompUtil.java:223)
+	at alloyrepair.App.callAlloyEngine(App.java:133)
+	at alloyrepair.App.main(App.java:102)"
+balancedBST3_1,5,SYNTAX_ERROR,0,0,FALSE,0,15165,0.5442,33.04,"Syntax error in /Users/admin0513-27/Downloads/AlloySpecRepair-main-4/results_arepair_Setting-2/balancedBST3_1/balancedBST3_1_4_False.als at line 55 column 89:
+There are 1 possible tokens that can appear here:
+] 
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompParser.syntax_error(CompParser.java:2218)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompParser.parse(CompParser.java:2079)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompParser.alloy_parseStream(CompParser.java:2258)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompUtil.parseRecursively(CompUtil.java:121)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompUtil.parseEverything_fromFile(CompUtil.java:223)
+	at alloyrepair.App.callAlloyEngine(App.java:133)
+	at alloyrepair.App.main(App.java:102)"
+balancedBST3_1.als,6,Exception,0,0,FALSE,0,15165,0.5442,NA,AlloyAnalyzerAgent._write_summary_csv() missing 1 required positional argument: 'row'
+student17_1,1,NOT_FIXED,0,0,FALSE,0,902,0.03768,4.46,
+student17_1,2,NOT_FIXED,0,0,FALSE,0,2344,0.09171,8.16,
+student17_1,3,NOT_FIXED,0,0,FALSE,0,4326,0.16194,12.27,
+student17_1,4,NOT_FIXED,0,0,FALSE,0,6850,0.24843,16.88,
+student17_1,5,NOT_FIXED,0,0,FALSE,0,9914,0.35112,22.75,
+student17_1.als,6,Exception,0,0,FALSE,0,9914,0.35112,NA,AlloyAnalyzerAgent._write_summary_csv() missing 1 required positional argument: 'row'
+dll3_1,1,FIXED,0,0,FALSE,0,890,0.03663,3.62,
+dll3_1.als,1,Exception,0,0,FALSE,0,890,0.03663,NA,AlloyAnalyzerAgent._write_summary_csv() missing 1 required positional argument: 'row'
+dll1_1,1,FIXED,0,0,FALSE,0,961,0.04005,4.55,
+dll1_1.als,1,Exception,0,0,FALSE,0,961,0.04005,NA,AlloyAnalyzerAgent._write_summary_csv() missing 1 required positional argument: 'row'
+student16,1,TYPE_ERROR,0,0,FALSE,0,808,0.03438,3.62,"Type error in /Users/admin0513-27/Downloads/AlloySpecRepair-main-4/results_arepair_Setting-2/student16/student16_0_False.als at line 41 column 43:
+This cannot be a legal relational join where
+left hand side is this/Node . (this/Node <: elem) (type = {Int})
+right hand side is x (type = {Int})
+
+	at edu.mit.csail.sdg.alloy4compiler.ast.ExprBadJoin.make(ExprBadJoin.java:81)
+	at edu.mit.csail.sdg.alloy4compiler.ast.ExprBinary$Op.make(ExprBinary.java:298)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:350)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:181)
+	at edu.mit.csail.sdg.alloy4compiler.ast.ExprBadJoin.accept(ExprBadJoin.java:96)
+	at edu.mit.csail.sdg.alloy4compiler.ast.VisitReturn.visitThis(VisitReturn.java:29)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:357)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:181)
+	at edu.mit.csail.sdg.alloy4compiler.ast.ExprBinary.accept(ExprBinary.java:514)
+	at edu.mit.csail.sdg.alloy4compiler.ast.VisitReturn.visitThis(VisitReturn.java:29)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:455)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:181)
+	at edu.mit.csail.sdg.alloy4compiler.ast.ExprUnary.accept(ExprUnary.java:341)
+	at edu.mit.csail.sdg.alloy4compiler.ast.VisitReturn.visitThis(VisitReturn.java:29)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:357)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:181)
+	at edu.mit.csail.sdg.alloy4compiler.ast.ExprBinary.accept(ExprBinary.java:514)
+	at edu.mit.csail.sdg.alloy4compiler.ast.VisitReturn.visitThis(VisitReturn.java:29)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:328)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:181)
+	at edu.mit.csail.sdg.alloy4compiler.ast.ExprList.accept(ExprList.java:231)
+	at edu.mit.csail.sdg.alloy4compiler.ast.VisitReturn.visitThis(VisitReturn.java:29)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:455)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:181)
+	at edu.mit.csail.sdg.alloy4compiler.ast.ExprUnary.accept(ExprUnary.java:341)
+	at edu.mit.csail.sdg.alloy4compiler.ast.VisitReturn.visitThis(VisitReturn.java:29)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.check(CompModule.java:275)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule.resolveFuncBody(CompModule.java:1137)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule.resolveAll(CompModule.java:1477)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompUtil.parseEverything_fromFile(CompUtil.java:225)
+	at alloyrepair.App.callAlloyEngine(App.java:133)
+	at alloyrepair.App.main(App.java:102)"
+student16,2,TYPE_ERROR,0,0,FALSE,0,2048,0.08175,10.93,"Type error in /Users/admin0513-27/Downloads/AlloySpecRepair-main-4/results_arepair_Setting-2/student16/student16_1_False.als at line 41 column 43:
+This cannot be a legal relational join where
+left hand side is this/Node . (this/Node <: elem) (type = {Int})
+right hand side is x (type = {Int})
+
+	at edu.mit.csail.sdg.alloy4compiler.ast.ExprBadJoin.make(ExprBadJoin.java:81)
+	at edu.mit.csail.sdg.alloy4compiler.ast.ExprBinary$Op.make(ExprBinary.java:298)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:350)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:181)
+	at edu.mit.csail.sdg.alloy4compiler.ast.ExprBadJoin.accept(ExprBadJoin.java:96)
+	at edu.mit.csail.sdg.alloy4compiler.ast.VisitReturn.visitThis(VisitReturn.java:29)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:357)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:181)
+	at edu.mit.csail.sdg.alloy4compiler.ast.ExprBinary.accept(ExprBinary.java:514)
+	at edu.mit.csail.sdg.alloy4compiler.ast.VisitReturn.visitThis(VisitReturn.java:29)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:455)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:181)
+	at edu.mit.csail.sdg.alloy4compiler.ast.ExprUnary.accept(ExprUnary.java:341)
+	at edu.mit.csail.sdg.alloy4compiler.ast.VisitReturn.visitThis(VisitReturn.java:29)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:357)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:181)
+	at edu.mit.csail.sdg.alloy4compiler.ast.ExprBinary.accept(ExprBinary.java:514)
+	at edu.mit.csail.sdg.alloy4compiler.ast.VisitReturn.visitThis(VisitReturn.java:29)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:328)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:181)
+	at edu.mit.csail.sdg.alloy4compiler.ast.ExprList.accept(ExprList.java:231)
+	at edu.mit.csail.sdg.alloy4compiler.ast.VisitReturn.visitThis(VisitReturn.java:29)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:455)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:181)
+	at edu.mit.csail.sdg.alloy4compiler.ast.ExprUnary.accept(ExprUnary.java:341)
+	at edu.mit.csail.sdg.alloy4compiler.ast.VisitReturn.visitThis(VisitReturn.java:29)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.check(CompModule.java:275)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule.resolveFuncBody(CompModule.java:1137)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule.resolveAll(CompModule.java:1477)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompUtil.parseEverything_fromFile(CompUtil.java:225)
+	at alloyrepair.App.callAlloyEngine(App.java:133)
+	at alloyrepair.App.main(App.java:102)"
+student16,3,TYPE_ERROR,0,0,FALSE,0,3722,0.1422,14.49,"Type error in /Users/admin0513-27/Downloads/AlloySpecRepair-main-4/results_arepair_Setting-2/student16/student16_2_False.als at line 49 column 10:
+= can be used only between 2 expressions of the same arity, or between 2 integer expressions.
+Left type = {this/Boolean}
+Right type = {PrimitiveBoolean}
+	at edu.mit.csail.sdg.alloy4compiler.ast.ExprBinary.error(ExprBinary.java:92)
+	at edu.mit.csail.sdg.alloy4compiler.ast.ExprBinary.access$000(ExprBinary.java:45)
+	at edu.mit.csail.sdg.alloy4compiler.ast.ExprBinary$Op.make(ExprBinary.java:287)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:368)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:181)
+	at edu.mit.csail.sdg.alloy4compiler.ast.ExprBinary.accept(ExprBinary.java:514)
+	at edu.mit.csail.sdg.alloy4compiler.ast.VisitReturn.visitThis(VisitReturn.java:29)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:334)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:181)
+	at edu.mit.csail.sdg.alloy4compiler.ast.ExprITE.accept(ExprITE.java:159)
+	at edu.mit.csail.sdg.alloy4compiler.ast.VisitReturn.visitThis(VisitReturn.java:29)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:328)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:181)
+	at edu.mit.csail.sdg.alloy4compiler.ast.ExprList.accept(ExprList.java:231)
+	at edu.mit.csail.sdg.alloy4compiler.ast.VisitReturn.visitThis(VisitReturn.java:29)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:455)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:181)
+	at edu.mit.csail.sdg.alloy4compiler.ast.ExprUnary.accept(ExprUnary.java:341)
+	at edu.mit.csail.sdg.alloy4compiler.ast.VisitReturn.visitThis(VisitReturn.java:29)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.check(CompModule.java:275)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule.resolveFuncBody(CompModule.java:1137)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule.resolveAll(CompModule.java:1477)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompUtil.parseEverything_fromFile(CompUtil.java:225)
+	at alloyrepair.App.callAlloyEngine(App.java:133)
+	at alloyrepair.App.main(App.java:102)"
+student16,4,TYPE_ERROR,0,0,FALSE,0,5830,0.21576,18.61,"Type error in /Users/admin0513-27/Downloads/AlloySpecRepair-main-4/results_arepair_Setting-2/student16/student16_3_False.als at line 49 column 10:
+= can be used only between 2 expressions of the same arity, or between 2 integer expressions.
+Left type = {this/Boolean}
+Right type = {PrimitiveBoolean}
+	at edu.mit.csail.sdg.alloy4compiler.ast.ExprBinary.error(ExprBinary.java:92)
+	at edu.mit.csail.sdg.alloy4compiler.ast.ExprBinary.access$000(ExprBinary.java:45)
+	at edu.mit.csail.sdg.alloy4compiler.ast.ExprBinary$Op.make(ExprBinary.java:287)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:368)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:181)
+	at edu.mit.csail.sdg.alloy4compiler.ast.ExprBinary.accept(ExprBinary.java:514)
+	at edu.mit.csail.sdg.alloy4compiler.ast.VisitReturn.visitThis(VisitReturn.java:29)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:334)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:181)
+	at edu.mit.csail.sdg.alloy4compiler.ast.ExprITE.accept(ExprITE.java:159)
+	at edu.mit.csail.sdg.alloy4compiler.ast.VisitReturn.visitThis(VisitReturn.java:29)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:328)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:181)
+	at edu.mit.csail.sdg.alloy4compiler.ast.ExprList.accept(ExprList.java:231)
+	at edu.mit.csail.sdg.alloy4compiler.ast.VisitReturn.visitThis(VisitReturn.java:29)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:455)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:181)
+	at edu.mit.csail.sdg.alloy4compiler.ast.ExprUnary.accept(ExprUnary.java:341)
+	at edu.mit.csail.sdg.alloy4compiler.ast.VisitReturn.visitThis(VisitReturn.java:29)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.check(CompModule.java:275)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule.resolveFuncBody(CompModule.java:1137)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule.resolveAll(CompModule.java:1477)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompUtil.parseEverything_fromFile(CompUtil.java:225)
+	at alloyrepair.App.callAlloyEngine(App.java:133)
+	at alloyrepair.App.main(App.java:102)"
+student16,5,TYPE_ERROR,0,0,FALSE,0,8376,0.30258,22.46,"Type error in /Users/admin0513-27/Downloads/AlloySpecRepair-main-4/results_arepair_Setting-2/student16/student16_4_False.als at line 49 column 10:
+= can be used only between 2 expressions of the same arity, or between 2 integer expressions.
+Left type = {this/Boolean}
+Right type = {PrimitiveBoolean}
+	at edu.mit.csail.sdg.alloy4compiler.ast.ExprBinary.error(ExprBinary.java:92)
+	at edu.mit.csail.sdg.alloy4compiler.ast.ExprBinary.access$000(ExprBinary.java:45)
+	at edu.mit.csail.sdg.alloy4compiler.ast.ExprBinary$Op.make(ExprBinary.java:287)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:368)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:181)
+	at edu.mit.csail.sdg.alloy4compiler.ast.ExprBinary.accept(ExprBinary.java:514)
+	at edu.mit.csail.sdg.alloy4compiler.ast.VisitReturn.visitThis(VisitReturn.java:29)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:334)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:181)
+	at edu.mit.csail.sdg.alloy4compiler.ast.ExprITE.accept(ExprITE.java:159)
+	at edu.mit.csail.sdg.alloy4compiler.ast.VisitReturn.visitThis(VisitReturn.java:29)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:328)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:181)
+	at edu.mit.csail.sdg.alloy4compiler.ast.ExprList.accept(ExprList.java:231)
+	at edu.mit.csail.sdg.alloy4compiler.ast.VisitReturn.visitThis(VisitReturn.java:29)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:455)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:181)
+	at edu.mit.csail.sdg.alloy4compiler.ast.ExprUnary.accept(ExprUnary.java:341)
+	at edu.mit.csail.sdg.alloy4compiler.ast.VisitReturn.visitThis(VisitReturn.java:29)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.check(CompModule.java:275)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule.resolveFuncBody(CompModule.java:1137)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule.resolveAll(CompModule.java:1477)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompUtil.parseEverything_fromFile(CompUtil.java:225)
+	at alloyrepair.App.callAlloyEngine(App.java:133)
+	at alloyrepair.App.main(App.java:102)"
+student16.als,6,Exception,0,0,FALSE,0,8376,0.30258,NA,AlloyAnalyzerAgent._write_summary_csv() missing 1 required positional argument: 'row'
+balancedBST2_1,1,SYNTAX_ERROR,0,0,FALSE,0,1273,0.0552,6.24,"Syntax error in /Users/admin0513-27/Downloads/AlloySpecRepair-main-4/results_arepair_Setting-2/balancedBST2_1/balancedBST2_1_0_False.als at line 33 column 5:
+The ""all x"" construct is no longer supported. If you know the range of possible values of x, consider rewriting it as ""x == set_of_all_possible_values"".
+	at edu.mit.csail.sdg.alloy4compiler.parser.CUP$CompParser$actions.CUP$CompParser$do_action(CompParser.java:4118)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompParser.do_action(CompParser.java:2025)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompParser.parse(CompParser.java:2069)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompParser.alloy_parseStream(CompParser.java:2258)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompUtil.parseRecursively(CompUtil.java:121)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompUtil.parseEverything_fromFile(CompUtil.java:223)
+	at alloyrepair.App.callAlloyEngine(App.java:133)
+	at alloyrepair.App.main(App.java:102)"
+balancedBST2_1,2,FIXED,0,0,FALSE,0,3392,0.13584,13.93,
+balancedBST2_1.als,2,Exception,0,0,FALSE,0,3392,0.13584,NA,AlloyAnalyzerAgent._write_summary_csv() missing 1 required positional argument: 'row'
+student12_1,1,FIXED,0,0,FALSE,0,945,0.03891,4.78,
+student12_1.als,1,Exception,0,0,FALSE,0,945,0.03891,NA,AlloyAnalyzerAgent._write_summary_csv() missing 1 required positional argument: 'row'
+ctree1,1,TYPE_ERROR,0,0,FALSE,0,570,0.02274,4.25,"Type error in /Users/admin0513-27/Downloads/AlloySpecRepair-main-4/results_arepair_Setting-2/ctree1/ctree1_0_False.als at line 32 column 32:
+& can be used only between 2 expressions of the same arity.
+Left type = {this/Node}
+Right type = {univ->univ}
+	at edu.mit.csail.sdg.alloy4compiler.ast.ExprBinary.error(ExprBinary.java:92)
+	at edu.mit.csail.sdg.alloy4compiler.ast.ExprBinary.access$000(ExprBinary.java:45)
+	at edu.mit.csail.sdg.alloy4compiler.ast.ExprBinary$Op.make(ExprBinary.java:312)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:368)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:181)
+	at edu.mit.csail.sdg.alloy4compiler.ast.ExprBinary.accept(ExprBinary.java:514)
+	at edu.mit.csail.sdg.alloy4compiler.ast.VisitReturn.visitThis(VisitReturn.java:29)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:455)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:181)
+	at edu.mit.csail.sdg.alloy4compiler.ast.ExprUnary.accept(ExprUnary.java:341)
+	at edu.mit.csail.sdg.alloy4compiler.ast.VisitReturn.visitThis(VisitReturn.java:29)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:441)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:181)
+	at edu.mit.csail.sdg.alloy4compiler.ast.ExprQt.accept(ExprQt.java:266)
+	at edu.mit.csail.sdg.alloy4compiler.ast.VisitReturn.visitThis(VisitReturn.java:29)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:455)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:181)
+	at edu.mit.csail.sdg.alloy4compiler.ast.ExprUnary.accept(ExprUnary.java:341)
+	at edu.mit.csail.sdg.alloy4compiler.ast.VisitReturn.visitThis(VisitReturn.java:29)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.check(CompModule.java:275)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule.resolveFuncBody(CompModule.java:1137)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule.resolveAll(CompModule.java:1477)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompUtil.parseEverything_fromFile(CompUtil.java:225)
+	at alloyrepair.App.callAlloyEngine(App.java:133)
+	at alloyrepair.App.main(App.java:102)"
+ctree1,2,NOT_FIXED,0,0,FALSE,0,1400,0.05286,6.96,
+ctree1,3,FIXED,0,0,FALSE,0,2622,0.09567,10.04,
+ctree1.als,3,Exception,0,0,FALSE,0,2622,0.09567,NA,AlloyAnalyzerAgent._write_summary_csv() missing 1 required positional argument: 'row'
+student15,1,NOT_FIXED,0,0,FALSE,0,928,0.03894,4.73,
+student15,2,NOT_FIXED,0,0,FALSE,0,2417,0.09483,8.87,
+student15,3,NOT_FIXED,0,0,FALSE,0,4458,0.16719,14.13,
+student15,4,FIXED,0,0,FALSE,0,7052,0.25614,19.06,
+student15.als,4,Exception,0,0,FALSE,0,7052,0.25614,NA,AlloyAnalyzerAgent._write_summary_csv() missing 1 required positional argument: 'row'
+fsm1_1,1,NOT_FIXED,0,0,FALSE,0,770,0.03114,3.45,
+fsm1_1,2,NOT_FIXED,0,0,FALSE,0,1965,0.07503,7.65,
+fsm1_1,3,NOT_FIXED,0,0,FALSE,0,3585,0.13167,12.95,
+fsm1_1,4,NOT_FIXED,0,0,FALSE,0,5630,0.20106,16.36,
+fsm1_1,5,NOT_FIXED,0,0,FALSE,0,8100,0.2832,20.23,
+fsm1_1.als,6,Exception,0,0,FALSE,0,8100,0.2832,NA,AlloyAnalyzerAgent._write_summary_csv() missing 1 required positional argument: 'row'
+balancedBST1,1,NOT_FIXED,0,0,FALSE,0,773,0.02334,0.73,
+balancedBST1,2,SYNTAX_ERROR,0,0,FALSE,0,2107,0.07914,7.12,"Syntax error in /Users/admin0513-27/Downloads/AlloySpecRepair-main-4/results_arepair_Setting-2/balancedBST1/balancedBST1_1_False.als at line 58 column 6:
+The name ""abs"" cannot be found.
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule.hint(CompModule.java:621)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.resolve(CompModule.java:271)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:449)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:181)
+	at edu.mit.csail.sdg.alloy4compiler.ast.ExprVar.accept(ExprVar.java:68)
+	at edu.mit.csail.sdg.alloy4compiler.ast.VisitReturn.visitThis(VisitReturn.java:29)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:343)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:181)
+	at edu.mit.csail.sdg.alloy4compiler.ast.ExprBadJoin.accept(ExprBadJoin.java:96)
+	at edu.mit.csail.sdg.alloy4compiler.ast.VisitReturn.visitThis(VisitReturn.java:29)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:356)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:181)
+	at edu.mit.csail.sdg.alloy4compiler.ast.ExprBinary.accept(ExprBinary.java:514)
+	at edu.mit.csail.sdg.alloy4compiler.ast.VisitReturn.visitThis(VisitReturn.java:29)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:357)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:181)
+	at edu.mit.csail.sdg.alloy4compiler.ast.ExprBinary.accept(ExprBinary.java:514)
+	at edu.mit.csail.sdg.alloy4compiler.ast.VisitReturn.visitThis(VisitReturn.java:29)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:455)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:181)
+	at edu.mit.csail.sdg.alloy4compiler.ast.ExprUnary.accept(ExprUnary.java:341)
+	at edu.mit.csail.sdg.alloy4compiler.ast.VisitReturn.visitThis(VisitReturn.java:29)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:441)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:181)
+	at edu.mit.csail.sdg.alloy4compiler.ast.ExprQt.accept(ExprQt.java:266)
+	at edu.mit.csail.sdg.alloy4compiler.ast.VisitReturn.visitThis(VisitReturn.java:29)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:455)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.visit(CompModule.java:181)
+	at edu.mit.csail.sdg.alloy4compiler.ast.ExprUnary.accept(ExprUnary.java:341)
+	at edu.mit.csail.sdg.alloy4compiler.ast.VisitReturn.visitThis(VisitReturn.java:29)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule$Context.check(CompModule.java:275)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule.resolveFuncBody(CompModule.java:1137)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompModule.resolveAll(CompModule.java:1477)
+	at edu.mit.csail.sdg.alloy4compiler.parser.CompUtil.parseEverything_fromFile(CompUtil.java:225)
+	at alloyrepair.App.callAlloyEngine(App.java:133)
+	at alloyrepair.App.main(App.java:102)"
+balancedBST1,3,NOT_FIXED,0,0,FALSE,0,4382,0.14754,10.64,
+balancedBST1,4,FIXED,0,0,FALSE,0,7229,0.24906,18.76,
+balancedBST1.als,4,Exception,0,0,FALSE,0,7229,0.24906,NA,AlloyAnalyzerAgent._write_summary_csv() missing 1 required positional argument: 'row'
+student9,1,FIXED,0,0,FALSE,0,1009,0.04266,5.68,
+student9.als,1,Exception,0,0,FALSE,0,1009,0.04266,NA,AlloyAnalyzerAgent._write_summary_csv() missing 1 required positional argument: 'row'
+student10,1,FIXED,0,0,FALSE,0,902,0.03756,6.07,
+student10.als,1,Exception,0,0,FALSE,0,902,0.03756,NA,AlloyAnalyzerAgent._write_summary_csv() missing 1 required positional argument: 'row'
+student11,1,NOT_FIXED,0,0,FALSE,0,942,0.03933,4.05,
+student11,2,FIXED,0,0,FALSE,0,2437,0.09525,8.21,
+student11.als,2,Exception,0,0,FALSE,0,2437,0.09525,NA,AlloyAnalyzerAgent._write_summary_csv() missing 1 required positional argument: 'row'
+student14_1,1,NOT_FIXED,0,0,FALSE,0,876,0.03609,4.44,
+student14_1,2,FIXED,0,0,FALSE,0,2266,0.0876,9.01,
+student14_1.als,2,Exception,0,0,FALSE,0,2266,0.0876,NA,AlloyAnalyzerAgent._write_summary_csv() missing 1 required positional argument: 'row'
+student8,1,FIXED,0,0,FALSE,0,924,0.03855,4.81,
+student8.als,1,Exception,0,0,FALSE,0,924,0.03855,NA,AlloyAnalyzerAgent._write_summary_csv() missing 1 required positional argument: 'row'
+arr2,1,NOT_FIXED,0,0,FALSE,0,820,0.03396,4.3,"Warning Line 18 column 30 in /Users/admin0513-27/Downloads/AlloySpecRepair-main-4/the specification:
+The join operation here always yields an empty set.
+Left type = {Int->this/Element}
+Right type = {Int} Warning Line 18 column 18 in /Users/admin0513-27/Downloads/AlloySpecRepair-main-4/the specification:
+Subset operator is redundant, because the right subexpression is always empty.
+Left type = {Int}
+Right type = {none} Warning Line 42 column 32 in /Users/admin0513-27/Downloads/AlloySpecRepair-main-4/the specification:
+The join operation here always yields an empty set.
+Left type = {Int->this/Element}
+Right type = {Int} Warning Line 42 column 20 in /Users/admin0513-27/Downloads/AlloySpecRepair-main-4/the specification:
+Subset operator is redundant, because the right subexpression is always empty.
+Left type = {Int}
+Right type = {none} Warning Line 34 column 32 in /Users/admin0513-27/Downloads/AlloySpecRepair-main-4/the specification:
+The join operation here always yields an empty set.
+Left type = {Int->this/Element}
+Right type = {Int} Warning Line 34 column 20 in /Users/admin0513-27/Downloads/AlloySpecRepair-main-4/the specification:
+Subset operator is redundant, because the right subexpression is always empty.
+Left type = {Int}
+Right type = {none}"
+arr2,2,NOT_FIXED,0,0,FALSE,0,2439,0.09189,7.62,
+arr2,3,FIXED,0,0,FALSE,0,4506,0.16326,11.26,
+arr2.als,3,Exception,0,0,FALSE,0,4506,0.16326,NA,AlloyAnalyzerAgent._write_summary_csv() missing 1 required positional argument: 'row'
+student13,1,NOT_FIXED,0,0,FALSE,0,958,0.03987,4.51,
+student13,2,FIXED,0,0,FALSE,0,2465,0.09612,9.53,
+student13.als,2,Exception,0,0,FALSE,0,2465,0.09612,NA,AlloyAnalyzerAgent._write_summary_csv() missing 1 required positional argument: 'row'
+dll2_1,1,FIXED,0,0,FALSE,0,929,0.03924,8.48,
+dll2_1.als,1,Exception,0,0,FALSE,0,929,0.03924,NA,AlloyAnalyzerAgent._write_summary_csv() missing 1 required positional argument: 'row'
+arr1,1,NOT_FIXED,0,0,FALSE,0,699,0.02772,3.11,
+arr1,2,NOT_FIXED,0,0,FALSE,0,1761,0.06633,6.5,
+arr1,3,NOT_FIXED,0,0,FALSE,0,3188,0.11595,11.51,
+arr1,4,NOT_FIXED,0,0,FALSE,0,4977,0.17634,14.88,
+arr1,5,NOT_FIXED,0,0,FALSE,0,7136,0.24807,17.56,
+arr1.als,6,Exception,0,0,FALSE,0,7136,0.24807,NA,AlloyAnalyzerAgent._write_summary_csv() missing 1 required positional argument: 'row'
+cd2,1,FIXED,0,0,FALSE,0,587,0.02349,3.19,
+cd2.als,1,Exception,0,0,FALSE,0,587,0.02349,NA,AlloyAnalyzerAgent._write_summary_csv() missing 1 required positional argument: 'row'
+student6_1,1,FIXED,0,0,FALSE,0,855,0.03489,4.13,
+student6_1.als,1,Exception,0,0,FALSE,0,855,0.03489,NA,AlloyAnalyzerAgent._write_summary_csv() missing 1 required positional argument: 'row'
+student18_1,1,NOT_FIXED,0,0,FALSE,0,929,0.03834,3.74,
+student18_1,2,NOT_FIXED,0,0,FALSE,0,2389,0.09261,7.83,
+student18_1,3,NOT_FIXED,0,0,FALSE,0,4380,0.16281,12.06,
+student18_1,4,NOT_FIXED,0,0,FALSE,0,6902,0.24894,17.69,
+student18_1,5,NOT_FIXED,0,0,FALSE,0,9940,0.35055,22.58,
+student18_1.als,6,Exception,0,0,FALSE,0,9940,0.35055,NA,AlloyAnalyzerAgent._write_summary_csv() missing 1 required positional argument: 'row'
+student5,1,NOT_FIXED,0,0,FALSE,0,984,0.04143,4.81,
+student5,2,NOT_FIXED,0,0,FALSE,0,2553,0.10056,10.03,
+student5,3,NOT_FIXED,0,0,FALSE,0,4710,0.17739,16.42,
+student5,4,NOT_FIXED,0,0,FALSE,0,7458,0.27195,20.8,
+student5,5,NOT_FIXED,0,0,FALSE,0,10797,0.38424,27.77,
+student5.als,6,Exception,0,0,FALSE,0,10797,0.38424,NA,AlloyAnalyzerAgent._write_summary_csv() missing 1 required positional argument: 'row'
+student4,1,NOT_FIXED,0,0,FALSE,0,900,0.03762,4.59,
+student4,2,NOT_FIXED,0,0,FALSE,0,2345,0.09183,9.28,
+student4,3,FIXED,0,0,FALSE,0,4328,0.16203,16.12,
+student4.als,3,Exception,0,0,FALSE,0,4328,0.16203,NA,AlloyAnalyzerAgent._write_summary_csv() missing 1 required positional argument: 'row'
+dll4,1,FIXED,0,0,FALSE,0,913,0.03846,5.13,
+dll4.als,1,Exception,0,0,FALSE,0,913,0.03846,NA,AlloyAnalyzerAgent._write_summary_csv() missing 1 required positional argument: 'row'
+student1,1,FIXED,0,0,FALSE,0,942,0.03942,7.57,
+student1.als,1,Exception,0,0,FALSE,0,942,0.03942,NA,AlloyAnalyzerAgent._write_summary_csv() missing 1 required positional argument: 'row'
+student2_1,1,FIXED,0,0,FALSE,0,929,0.03897,4.2,
+student2_1.als,1,Exception,0,0,FALSE,0,929,0.03897,NA,AlloyAnalyzerAgent._write_summary_csv() missing 1 required positional argument: 'row'
+grade1,1,NOT_FIXED,0,0,FALSE,0,572,0.02277,5.16,
+grade1,2,NOT_FIXED,0,0,FALSE,0,1599,0.05922,7.77,
+grade1,3,NOT_FIXED,0,0,FALSE,0,3080,0.10926,10.69,
+grade1,4,NOT_FIXED,0,0,FALSE,0,5027,0.17364,14.89,
+grade1,5,NOT_FIXED,0,0,FALSE,0,7462,0.25266,18.07,
+grade1.als,6,Exception,0,0,FALSE,0,7462,0.25266,NA,AlloyAnalyzerAgent._write_summary_csv() missing 1 required positional argument: 'row'
+fsm2,1,FIXED,0,0,FALSE,0,718,0.02964,4.26,
+fsm2.als,1,Exception,0,0,FALSE,0,718,0.02964,NA,AlloyAnalyzerAgent._write_summary_csv() missing 1 required positional argument: 'row'
+cd1_1,1,FIXED,0,0,FALSE,0,627,0.0252,5.22,
+cd1_1.als,1,Exception,0,0,FALSE,0,627,0.0252,NA,AlloyAnalyzerAgent._write_summary_csv() missing 1 required positional argument: 'row'
+student19_1,1,NOT_FIXED,0,0,FALSE,0,948,0.03957,5.43,
+student19_1,2,FIXED,0,0,FALSE,0,2454,0.09588,12.46,
+student19_1.als,2,Exception,0,0,FALSE,0,2454,0.09588,NA,AlloyAnalyzerAgent._write_summary_csv() missing 1 required positional argument: 'row'
+addr1,1,NOT_FIXED,0,0,FALSE,0,950,0.03972,4.15,
+addr1,2,NOT_FIXED,0,0,FALSE,0,2516,0.09897,12.01,
+addr1,3,FIXED,0,0,FALSE,0,4749,0.17931,18.06,
+addr1.als,3,Exception,0,0,FALSE,0,4749,0.17931,NA,AlloyAnalyzerAgent._write_summary_csv() missing 1 required positional argument: 'row'
+farmer1,1,FIXED,0,0,FALSE,0,1176,0.04428,3.9,
+farmer1.als,1,Exception,0,0,FALSE,0,1176,0.04428,NA,AlloyAnalyzerAgent._write_summary_csv() missing 1 required positional argument: 'row'
+student7_1,1,FIXED,0,0,FALSE,0,988,0.04014,5.33,
+student7_1.als,1,Exception,0,0,FALSE,0,988,0.04014,NA,AlloyAnalyzerAgent._write_summary_csv() missing 1 required positional argument: 'row'
+other1,1,FIXED,0,0,FALSE,0,601,0.024,2.64,
+other1.als,1,Exception,0,0,FALSE,0,601,0.024,NA,AlloyAnalyzerAgent._write_summary_csv() missing 1 required positional argument: 'row'
+student3_1,1,NOT_FIXED,0,0,FALSE,0,1051,0.04323,7.38,
+student3_1,2,NOT_FIXED,0,0,FALSE,0,2675,0.10371,11.54,
+student3_1,3,NOT_FIXED,0,0,FALSE,0,4879,0.18153,16.26,
+student3_1,4,FIXED,0,0,FALSE,0,7660,0.27666,27.63,
+student3_1.als,4,Exception,0,0,FALSE,0,7660,0.27666,NA,AlloyAnalyzerAgent._write_summary_csv() missing 1 required positional argument: 'row'
