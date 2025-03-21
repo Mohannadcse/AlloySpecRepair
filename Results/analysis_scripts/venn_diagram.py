@@ -314,7 +314,7 @@ setting_names = [
     "Setting-6",
 ]
 
-default_fontsize = 16  # Increase this value as needed
+default_fontsize = 20  # Increase this value as needed
 
 # print(f"Length of Arepair: {len(a_repair)}")
 # print(f"Length of ICEBAR: {len(icebar)}")
