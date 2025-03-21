@@ -33,9 +33,15 @@ class FeedbackOption(Enum):
 
 
 class ModelOption(Enum):
-    GPT4_32K = "GPT-4-32-k"
-    GPT4_TURBO = "GPT-4-Turbo"
-    GPT3_5_TURBO = "GPT-3.5-Turbo"
+    GPT4_32K = "gpt-4-32-k"
+    GPT4_TURBO = "gpt-4-Turbo"
+    GPT3_5_TURBO = "gpt-3.5-Turbo"
+    GPT4o = "gpt-4o"
+
+
+class ModelSource(Enum):
+    OPENAI = "OpenAI"
+    AZURE = "Azure"
 
 
 class CLIOptions(BaseSettings):
@@ -46,6 +52,7 @@ class CLIOptions(BaseSettings):
     fn_api: bool = False
     max_iter: int = 5
     model: ModelOption = ModelOption.GPT3_5_TURBO
+    source: ModelSource = ModelSource.OPENAI
     feedback: FeedbackOption = FeedbackOption.NO_FEEDBACK
 
     class Config:

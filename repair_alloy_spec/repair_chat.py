@@ -15,10 +15,12 @@ from utility import (
     CustomLogger,
     ModelOption,
     FeedbackOption,
+    ModelSource,
 )
 
 from langroid.agent.chat_agent import ChatAgentConfig
 from langroid.language_models.azure_openai import AzureConfig
+from langroid.language_models.openai_gpt import OpenAIGPTConfig
 from langroid.agent.task import Task
 from langroid.utils.configuration import Settings, set_global
 from langroid.utils.logging import setup_colored_logging
@@ -53,6 +55,12 @@ def determine_setting(feedback: FeedbackOption, model: ModelOption) -> str:
         return "Setting-5"
     elif feedback == FeedbackOption.AUTO_FEEDBACK and model == ModelOption.GPT4_TURBO:
         return "Setting-6"
+    elif feedback == FeedbackOption.NO_FEEDBACK and model == ModelOption.GPT4o:
+        return "Setting-7"
+    elif feedback == FeedbackOption.GENERIC_FEEDBACK and model == ModelOption.GPT4o:
+        return "Setting-8"
+    elif feedback == FeedbackOption.AUTO_FEEDBACK and model == ModelOption.GPT4o:
+        return "Setting-9"
     else:
         return None
 
@@ -69,17 +77,22 @@ def chat(opts: CLIOptions) -> None:
     print("[blue] Welcome to the Specification Repair chatbot!\n")
     load_dotenv()
 
-    llm_config = AzureConfig(
-        timeout=50,
-        stream=True,
-        temperature=0.2,
-        max_output_tokens=4000,
-    )
-
-    if opts.model == ModelOption.GPT4_TURBO:
-        llm_config.deployment_name = "GPT4_Turbo"
-        llm_config.model_name = "gpt-4"
-        llm_config.chat_model = OpenAIChatModel.GPT4_TURBO
+    llm_config = None
+    if opts.source == ModelSource.OPENAI:
+        llm_config = OpenAIGPTConfig(
+            chat_model=opts.model.value,
+            timeout=50,
+            stream=True,
+            temperature=0.2,
+            max_output_tokens=4000,
+        )
+    elif opts.source == ModelSource.AZURE:
+        llm_config = AzureConfig(
+            timeout=50,
+            stream=True,
+            temperature=0.2,
+            max_output_tokens=4000,
+        )
 
     opts.result_path = f"results_{os.path.basename(opts.dataset_path)}" + f"_{setting}"
 
@@ -189,6 +202,15 @@ def main(
              Generic-Feedback - Send generic feedback.
              Auto-Feedback - Automatically generate and send feedback.""",
     ),
+    source: ModelSource = typer.Option(
+        ModelSource.OPENAI,
+        "--source",
+        "-s",
+        help="""Specify the model source:
+             OpenAI - Use the OpenAI model.
+             Azure - Use the Azure model
+             """,
+    ),
     model: ModelOption = typer.Option(
         ModelOption.GPT4_32K,
         "--model",
@@ -196,7 +218,8 @@ def main(
         help="""Select the model option:
              GPT-4-32-k - Use the GPT-4 model with 32k tokenizer.
              GPT-4-Turbo - Use the GPT-4 Turbo model.
-             GPT-3.5-Turbo - Use the GPT-3.5 Turbo model.""",
+             GPT-3.5-Turbo - Use the GPT-3.5 Turbo model.
+             GPT4o - Use the gpt-4o model.""",
     ),
     bug_rep_hist: bool = typer.Option(
         False, "--bug_hist", "-bg", help="send bug/repair history"
@@ -224,6 +247,7 @@ def main(
         max_iter=max_iter,
         feedback=feedback,
         model=model,
+        source=source,
     )
 
     chat(opts)

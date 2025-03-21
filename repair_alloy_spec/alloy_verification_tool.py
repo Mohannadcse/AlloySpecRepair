@@ -13,7 +13,7 @@ from utility import (
     repeated_spec,
     _replace_newlines_except_specific_statement,
     _modify_string,
-    FeedbackOption
+    FeedbackOption,
 )
 from langroid.parsing.parse_json import extract_top_level_json
 from langroid.mytypes import Entity
@@ -214,7 +214,10 @@ class AlloyAnalzerAgent(ChatAgent):
                 else:
                     msg_to_llm = "This is a repeated bug/fix pair. DON'T send it again."
 
-            elif self.opts.feedback == FeedbackOption.GENERIC_FEEDBACK  and json_data is not None:
+            elif (
+                self.opts.feedback == FeedbackOption.GENERIC_FEEDBACK
+                and json_data is not None
+            ):
                 alloy_msg = (
                     "Below are the results from the Alloy Analyzer."
                     "Fix all Errors and Counterexamples before sending me the next "
@@ -226,11 +229,12 @@ class AlloyAnalzerAgent(ChatAgent):
 
                 msg_to_llm = f"{alloy_msg} {formatted_report_msg}"
                 if self.opts.feedback == FeedbackOption.AUTO_FEEDBACK:
-                    llm_config = AzureConfig(
-                        timeout=50, stream=True, temperature=0.2, max_output_tokens=3000
-                    )
+                    # llm_config = AzureConfig(
+                    #     timeout=50, stream=True, temperature=0.2, max_output_tokens=3000
+                    # )
+                    # llm_config = self.llm
 
-                    prompt_agent_cfg = ChatAgentConfig(llm=llm_config)
+                    prompt_agent_cfg = ChatAgentConfig(llm=self.config.llm)
                     prompt_agent = ChatAgent(prompt_agent_cfg)
                     response = prompt_agent.llm_response(
                         "You are Expert in Analyzing Alloy Analyzer reports."

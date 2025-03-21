@@ -76,7 +76,8 @@ python3 repair_alloy_spec/repair_chat.py -db="/path/to/Alloy_dataset
 Add the flags:
 - `db`: path to defective Alloy models
 - `-fb`: feedback level `No-Feedback|Generic-Feedback|Auto-Feedback`.
-- `mo`: pre-trained LLM `GPT-4-32-k|GPT-4-Turbo|GPT-3.5-Turbo`
+- `-mo`: pre-trained LLM `gpt-4-32-k|gpt-4-Turbo|gpt-3.5-Turbo|gpt-4o`
+- `-s`: indicate the model is `OpenAI` or `Azure`
 
 ## Output 
 - A folder `results_<datasetName_SettingNumber>` will be created in the root directory. This folder will mantain a CSV file called `summary.csv`, which records the status of each Alloy file in the dataset. 
