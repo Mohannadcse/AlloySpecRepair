@@ -213,22 +213,27 @@ class AlloyAnalzerAgent(ChatAgent):
                         {self._print_history_bug_fix(self.history_bug_fix)}"""
                 else:
                     msg_to_llm = "This is a repeated bug/fix pair. DON'T send it again."
-
+            
+            elif self.opts.feedback == FeedbackOption.NO_FEEDBACK:
+                msg_to_llm = "The proposed specification DID NOT fix the bug."
+            
             elif (
-                self.opts.feedback == FeedbackOption.GENERIC_FEEDBACK
-                and json_data is not None
+                json_data is not None
             ):
-                alloy_msg = (
-                    "Below are the results from the Alloy Analyzer."
-                    "Fix all Errors and Counterexamples before sending me the next "
-                    "<FIXED_SPECIFICATIONS>."
-                )
                 report_msg = process_Alloy_json_report(json_data)
                 formatted_report_msg = [line.strip() for line in report_msg]
                 formatted_report_msg = "\n".join(formatted_report_msg)
+                if self.opts.feedback == FeedbackOption.GENERIC_FEEDBACK:
+                    alloy_msg = (
+                        "Below are the results from the Alloy Analyzer."
+                        "Fix all Errors and Counterexamples before sending me the next "
+                        "<FIXED_SPECIFICATIONS>."
+                    )
 
-                msg_to_llm = f"{alloy_msg} {formatted_report_msg}"
-                if self.opts.feedback == FeedbackOption.AUTO_FEEDBACK:
+                    msg_to_llm = f"{alloy_msg} {formatted_report_msg}"
+                elif (
+                    self.opts.feedback == FeedbackOption.AUTO_FEEDBACK
+                ):
                     # llm_config = AzureConfig(
                     #     timeout=50, stream=True, temperature=0.2, max_output_tokens=3000
                     # )
@@ -243,9 +248,7 @@ class AlloyAnalzerAgent(ChatAgent):
                         + f"based on this report from Alloy Analyzer: {formatted_report_msg}?"
                         + f"After running this Alloy Model is: {self.proposed_spec}"
                     )
-                    tokens, cost = self._extract_tokens_cost(
-                        prompt_agent.token_stats_str
-                    )
+                    tokens, cost = self._extract_tokens_cost(prompt_agent.token_stats_str)
                     self.prompt_agent_tokens += tokens
                     self.prompt_agent_cost = cost
                     msg_to_llm = f"\n\n{response.content}"
@@ -256,8 +259,8 @@ class AlloyAnalzerAgent(ChatAgent):
                     + "You either forgot to use it, or you used it with the WRONG format."
                     + "Make sure all fields are filled out."
                 )
-            else:
-                return "The proposed specification DID NOT fix the bug."
+            # else:
+            #     return "The proposed specification DID NOT fix the bug."
 
             return msg_to_llm
 
@@ -270,7 +273,7 @@ class AlloyAnalzerAgent(ChatAgent):
         self.analyzer_agent_tokens += token
         self.analyzer_agent_cost = cost
 
-        alloy_analyzer_path = "./repair_sw_spec/AlloyGPTverifier.jar"
+        alloy_analyzer_path = "repair_alloy_spec/AlloyGPTverifier.jar"
 
         self.proposed_spec = msg.specification
         repeated_init_spec = repeated_spec(self.proposed_spec, self.orig_spec_content)
