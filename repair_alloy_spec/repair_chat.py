@@ -25,7 +25,6 @@ from langroid.agent.task import Task
 from langroid.utils.configuration import Settings, set_global
 from langroid.utils.logging import setup_colored_logging
 from alloy_verification_tool import AlloyAnalzerAgent, VerifierMessage
-from langroid.language_models.openai_gpt import OpenAIChatModel
 
 app = typer.Typer()
 setup_colored_logging()
@@ -111,7 +110,15 @@ def chat(opts: CLIOptions) -> None:
             try:
                 with open(spec_file, "r") as file:
                     spec = file.read()
-                    lines = spec.splitlines()
+                    oracle_marker = "/*======== IFF PERFECT ORACLE ===============*/"
+                    oracle_block = ""
+                    if oracle_marker in spec:
+                        pre, post = spec.split(oracle_marker, 1)
+                        oracle_block = oracle_marker + post
+                        spec_core = pre
+                    else:
+                        spec_core = spec
+                    lines = spec_core.splitlines()
                     cleaned_lines = [line.replace("\t", "").strip() for line in lines]
                     cleaned_spec = "\n".join(cleaned_lines)
 
@@ -134,6 +141,8 @@ def chat(opts: CLIOptions) -> None:
                     os.path.basename(agent.orig_spec_file)
                 )[0]
                 agent.opts = opts
+                # Store oracle section (if present) for re-attachment later
+                agent.oracle_block = oracle_block
                 agent.start_time = time.time()
                 task = Task(
                     agent,

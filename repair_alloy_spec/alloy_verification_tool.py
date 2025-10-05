@@ -20,7 +20,6 @@ from langroid.mytypes import Entity
 from langroid.agent.chat_agent import ChatAgent, ChatAgentConfig
 from langroid.agent.tool_message import ToolMessage
 from langroid.agent.chat_document import ChatDocument
-from langroid.language_models.azure_openai import AzureConfig
 
 
 class VerifierMessage(ToolMessage):
@@ -77,6 +76,7 @@ class AlloyAnalzerAgent(ChatAgent):
     analyzer_agent_tokens: int = 0
     analyzer_agent_cost: float = 0.0
     start_time: float = 0.0
+    oracle_block: str | None = None
 
     sys_instructions = (
         "You are an expert in repairing Alloy declarative specifications.\n"
@@ -302,7 +302,12 @@ class AlloyAnalzerAgent(ChatAgent):
             proposed_spec_file = proposed_spec_file_no_ext + ".als"
 
             with open(proposed_spec_file, "w") as f:
-                f.write(self.proposed_spec)
+                content_to_write = self.proposed_spec
+                if self.oracle_block:
+                    content_to_write = (
+                        content_to_write.rstrip() + "\n\n" + self.oracle_block.lstrip()
+                    )
+                f.write(content_to_write)
 
             command = [
                 "java",
