@@ -234,11 +234,6 @@ class AlloyAnalzerAgent(ChatAgent):
                 elif (
                     self.opts.feedback == FeedbackOption.AUTO_FEEDBACK
                 ):
-                    # llm_config = AzureConfig(
-                    #     timeout=50, stream=True, temperature=0.2, max_output_tokens=3000
-                    # )
-                    # llm_config = self.llm
-
                     prompt_agent_cfg = ChatAgentConfig(llm=self.config.llm)
                     prompt_agent = ChatAgent(prompt_agent_cfg)
                     response = prompt_agent.llm_response(
