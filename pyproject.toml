@@ -9,6 +9,7 @@ packages = [{include = "repair_alloy_spec"}]
 [tool.poetry.dependencies]
 python = ">=3.10,<3.12"
 langroid = "0.1.244"
+click = "<8.2.0"
 
 
 [build-system]
